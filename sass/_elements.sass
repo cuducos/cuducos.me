@@ -19,9 +19,13 @@ section.social
       display: none
     i
       background-color: #ce1e79
-      border-radius: 1.5rem
+      border-radius: 50%
       color: $link_social_fg
-      font-size: 1.62rem
-      line-height: 3rem
+      font-size: 1rem
+      line-height: 2rem
       vertical-align: middle
-      width: 3rem
+      width: 2rem
+      @include media($desktop)
+        font-size: 1.38rem
+        line-height: 2.5rem
+        width: 2.5rem

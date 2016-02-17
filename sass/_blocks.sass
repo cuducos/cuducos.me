@@ -13,10 +13,14 @@ header
   position: relative
   z-index: 1
   .inner
-    height: 4rem
+    height: 2rem
     margin: 0
+    @include media($desktop)
+      height: 4rem
   .outer:before 
-    @include trapezium(60%, $header_bg)
+    @include trapezium(50%, $header_bg)
+    @include media($desktop)
+      @include trapezium(60%, $header_bg)
 
 main
   .outer
@@ -52,19 +56,25 @@ section.social
   text-align: center
   li
     display: inline
-    margin-left: 1.68rem
+    margin-left: .68rem
     &:first-child
       margin-left: 0
   @include media($desktop)
     @include span-columns(3)
     @include shift(3)
+    li
+      margin-left: 1.68rem
 
 footer
   background-color: $footer_bg
   margin-top: 4rem
   position: relative
   .inner
-    height: 4rem
+    height: 2rem
     margin-bottom: 0
+    @include media($desktop)
+      height: 4rem
   .outer:before
-    @include trapezium(-40%, $footer_bg)
+    @include trapezium(-50%, $footer_bg)
+    @include media($desktop)
+      @include trapezium(-40%, $footer_bg)
