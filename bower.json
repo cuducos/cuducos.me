@@ -1,0 +1,17 @@
+{
+  "name": "cuducos.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor"
+  ],
+  "dependencies": {
+    "bitters": "~1.2.0",
+    "bourbon": "~4.2.6",
+    "components-font-awesome": "~4.5.0",
+    "neat": "~1.7.2"
+  }
+}

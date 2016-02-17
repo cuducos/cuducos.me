@@ -1,0 +1,70 @@
+html, body
+  background-color: $main_bg
+  font-family: Bariol
+  margin: 0
+  padding: 0
+
+.outer
+  @include outer-container
+  @include clearfix
+
+header
+  background-color: $header_bg
+  position: relative
+  z-index: 1
+  .inner
+    height: 4rem
+    margin: 0
+  .outer:before 
+    @include trapezium(60%, $header_bg)
+
+main
+  .outer
+    padding: 0 1rem
+  @include media($desktop)
+    padding: 2rem 0
+
+section
+  margin-top: 2rem
+
+section.avatar
+  @include span-columns(6)
+  text-align: center
+  margin-top: 4rem
+  h1
+    margin-top: 2rem
+    span
+      display: block
+  img
+    width: 38%
+  @include media($desktop)
+    @include span-columns(3)
+
+section.about
+  @include span-columns(6)
+  @include media($desktop)
+    @include span-columns(3)
+    @include omega(2n)
+    margin-top: 4rem
+
+section.social
+  @include span-columns(6)
+  text-align: center
+  li
+    display: inline
+    margin-left: 2rem
+    &:first-child
+      margin-left: 0
+  @include media($desktop)
+    @include span-columns(3)
+    @include shift(3)
+
+footer
+  background-color: $footer_bg
+  margin-top: 4rem
+  position: relative
+  .inner
+    height: 4rem
+    margin-bottom: 0
+  .outer:before
+    @include trapezium(-40%, $footer_bg)

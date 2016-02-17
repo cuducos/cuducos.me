@@ -1,0 +1,13 @@
+@mixin trapezium($pos, $color)
+  @include prefixer(transform, skewY(-2deg), webkit moz ms o)
+  background: $color
+  bottom: 0
+  content: ''
+  height: 3rem
+  left: 0
+  overflow: visible
+  position: absolute
+  top: $pos
+  width: 100%
+  z-index: 0
+  -webkit-backface-visibility: hidden
