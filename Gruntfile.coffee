@@ -17,7 +17,7 @@ module.exports = (grunt) ->
           layout: '.grunt-tmp/base.html'
         files: [
           expand: true
-          src: ['*.md']
+          src: ['*.md', '!README.md']
           dest: 'public_html'
           ext: '.html'
         ]
