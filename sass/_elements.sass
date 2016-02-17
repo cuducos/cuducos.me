@@ -3,7 +3,9 @@ a
 
 section.avatar
   img
+    @include prefixer(box-shadow, 0 0 .1rem .1rem $drop_shadow_bg, webkit moz spec)
     border-radius: 50%
+    opacity: .85
   h1
     font-family: 'Bariol', $helvetica
     font-size: 1.68rem
