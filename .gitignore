@@ -1,3 +1,5 @@
-node_modules/
+.grunt-tmp/
+.sass-cache/
 bower_components/
+node_modules/
 public_html/
