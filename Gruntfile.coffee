@@ -6,6 +6,9 @@ module.exports = (grunt) ->
 
     jade:
       compile:
+        options:
+          data:
+            env: grunt.option('env') || 'developemnt'
         files:
           '.grunt-tmp/base.html': 'templates/base.jade'
     md2html:
@@ -106,5 +109,4 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-sass'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-watch'
-  grunt.loadNpmTasks 'grunt-env'
   grunt.loadNpmTasks 'grunt-md2html'
