@@ -52,11 +52,14 @@ module.exports = (grunt) ->
         files:
           'public_html/assets/app.min.js': '.grunt-tmp/app.js'
 
-    # images & fonts
+    # images, favicon & fonts
 
     copy:
       images:
-        src: 'imgs/*'
+        src: 'imgs/**'
+        dest: 'public_html/'
+      favicon:
+        src: '*.ico'
         dest: 'public_html/'
       fonts:
         expand: true
