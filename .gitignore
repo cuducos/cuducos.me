@@ -1,5 +1,15 @@
-.grunt-tmp/
-.sass-cache/
-bower_components/
-node_modules/
-public_html/
+# OS
+.DS_Store
+
+# Ruby, Jekyll & preprocessors
+.jekyll-metadata
+.ruby-version
+.sass-cache
+_site/
+
+# External libraries
+_sass/base/
+_sass/bourbon/
+_sass/neat/
+assets/fonts/font-awesome/
+

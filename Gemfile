@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+ruby '2.3.0'
+
+gem 'bitters'
+gem 'bourbon'
+gem 'font-awesome-sass'
+gem 'jekyll'
+gem 'jekyll-coffeescript'
+gem 'jekyll-jsminify'
+gem 'neat'

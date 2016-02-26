@@ -1,0 +1,15 @@
+title: Eduardo Cuducos
+description: Sociologist, geek, bread baker, and sports fan.
+url: "http://cuducos.me"
+baseurl: ""
+
+exclude: 
+  - contrib/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+gems:
+  - jekyll-coffeescript
+  - jekyll-jsminify
+sass:
+  style: compressed
