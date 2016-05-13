@@ -4,6 +4,9 @@
 
 ## Build instructions
 
+
+### Requirements & dependencies
+
 First install the required [Ruby](http://ruby-lang.org) gems:
 
 ```console
@@ -11,16 +14,17 @@ $ gem install bundler
 $ bundle install
 ```
 
-Then move [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io) & [Bitter](http://bitters.bourbon.io/) to the `css` folder, and [Font Awesome](http://fortawesome.github.io/Font-Awesome/) to the `fonts` folder:
-
-```console
-$ bourbon install && mv bourbon/ _sass/bourbon/
-$ neat install && mv neat/ _sass/neat/
-$ bitters install && mv base/ _sass/base/
-$ sh contrib/install-font-awesome.sh
-```
+### Settings
 
 Change the site URL at `_config.yml` if needed.
+
+Then prepare [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io) & [Bitter](http://bitters.bourbon.io/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/) to be found by Jekyll SASS processor and to be accessible in the `assets` directory:
+
+```console
+$ ./contrib/assets.sh
+```
+
+### Building
 
 And finally build the site:
 
@@ -33,6 +37,8 @@ Optionally use set `ENV` variable to build the site with the _production_ server
 ```console
 $ JEKYLL_ENV=production jekyll b
 ```
+
+### Accessing
 
 To view the site after building it just open `_site/index.html` with your favorite browser.
 
