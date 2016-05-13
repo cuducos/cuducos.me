@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: home
+class_name: home
 ---
 
 I love hacking our culture and lifestyle. I'm a geek interested in society, culture and politics. I focus on autonomy and on how change can emerge from micro-social spheres.
