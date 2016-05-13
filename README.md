@@ -1,6 +1,6 @@
 # Eduardo Cuducos
 
-[Jekyll](http://jekyllrb.com) source files for [my personal website](http://cuducos.me).
+[Jekyll](http://jekyllrb.com) source files for [my personal blog](http://cuducos.me).
 
 ## Build instructions
 

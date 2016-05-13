@@ -2,6 +2,10 @@ a
   color: $link_fg
 
 section.avatar
+  a
+    color: $text_fg
+    h1
+      margin-top: .5rem
   img
     @include prefixer(box-shadow, 0 0 .1rem .1rem $drop_shadow_bg, webkit moz spec)
     border-radius: 50%
@@ -30,3 +34,65 @@ section.social
         font-size: 1.38rem
         line-height: 2.5rem
         width: 2.5rem
+
+section.posts
+  a
+    color: $post_link_fg
+    span.date
+      color: $tag_link_fg
+      display: block
+      font-size: .8rem
+
+.blog 
+  sidebar
+    text-align: center
+  h1
+    font-size: 1.62rem
+    font-weight: normal
+    margin: 1.6rem 0
+    text-transform: uppercase
+    +media($desktop)
+      font-size: 2.62rem
+      margin: 2rem 0
+  h2
+    font-size: 1.3rem
+    font-weight: normal
+    margin: 1.6rem 0
+    text-transform: uppercase
+    +media($desktop)
+      font-size: 1.62rem
+      margin: 2rem 0
+  h3
+    font-size: 1.1rem
+    font-weight: normal
+    margin: 1.1rem 0
+    text-transform: uppercase
+    +media($desktop)
+      font-size: 1.38rem
+      margin: 1.38rem 0
+  h4, h5, h6
+    font-size: .8rem
+    font-weight: normal
+    margin: .8rem 0
+    text-transform: uppercase
+    +media($desktop)
+      font-size: 1rem
+      margin: 1rem 0
+  blockquote
+    opacity: .75
+    line-height: 1
+    padding: .8rem 2rem
+    margin: .8rem 0
+    border-left: .5rem solid $light_gray
+    +media($desktop)
+      line-height: 1.2
+      padding: 1rem 3rem
+      margin: 1rem 0
+  &.home
+    article
+      h1, ol
+        text-align: center
+        +media($desktop)
+          text-align: left
+    small
+      color: $tag_link_fg

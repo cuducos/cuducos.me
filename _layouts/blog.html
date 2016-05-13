@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<sidebar>
+  <section class="avatar">
+    <a href="/">
+      <img alt="Eduardo Cuducos" src="/assets/img/cuducos.jpg">
+      <h1>Eduardo Cuducos</h1>
+    </a>
+  </section>
+  <section class="social">{% include social.html %}</section>
+  <section class="posts">{% include posts.html %}</section>
+</sidebar>
+
+<article>
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</article>

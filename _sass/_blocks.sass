@@ -80,3 +80,48 @@ footer
     +trapezium(-50%, $footer_bg)
     +media($desktop)
       +trapezium(-40%, $footer_bg)
+
+.blog
+  section
+    margin: 0
+    width: 100%
+    float: none
+    &.avatar
+      margin: 0
+      width: 100%
+    &.posts
+      display: none
+      +media($desktop)
+        display: block
+  sidebar, section.posts
+    margin-top: 4.5rem
+  sidebar
+    +span-columns(6)
+    +media($desktop)
+      +span-columns(2)
+  article
+    +span-columns(6)
+    +media($desktop)
+      +span-columns(4)
+    margin-top: 1.5rem
+  &.home
+    article
+      margin-top: 4.5rem
+    section.posts
+      display: none
+    small
+      display: block
+    li
+      margin-top: 1rem
+      &:first-child
+        margin-top: 0
+
+.pagination
+  +clearfix
+  margin: 3rem 0
+  a
+    font-size: 2.62rem
+    &.previous
+      float: left
+    &.next
+      float: right

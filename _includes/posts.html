@@ -1,0 +1,9 @@
+{% for post in site.posts offset: 0 limit: 7 %}
+<div class="post">
+  <a href="{{ post.url }}">
+    <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+    {{ post.title }}
+  </a>
+</div><!-- end div.post -->
+{% endfor %}
+<div class="post"><a href="/blog/">Todos os posts</a></div>
