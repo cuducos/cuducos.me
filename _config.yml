@@ -9,8 +9,6 @@ exclude:
   - Gemfile.lock
   - README.md
 gems:
-  - jekyll-coffeescript
-  - jekyll-jsminify
   - jekyll-sitemap
 sass:
   style: compressed
