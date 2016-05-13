@@ -93,6 +93,10 @@ footer
       display: none
       +media($desktop)
         display: block
+      .post
+        margin-top: 1.5rem
+        &:first-child
+          margin-top: 0
   sidebar, section.posts
     margin-top: 4.5rem
   sidebar
@@ -107,12 +111,17 @@ footer
   &.home
     article
       margin-top: 4.5rem
+      text-align: center
+      +media($desktop)
+        text-align: left
     section.posts
       display: none
     small
       display: block
+      +media($desktop)
+        display: inline
     li
-      margin-top: 1rem
+      margin-top: 3rem
       &:first-child
         margin-top: 0
 

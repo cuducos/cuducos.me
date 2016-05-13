@@ -6,6 +6,8 @@ section.about, .blog article
   a:hover
     color: $link_fg
     background: $link_hover_bg
+  p.center a:hover
+    background: transparent
 
 section.social
   a:hover
@@ -25,7 +27,13 @@ section.social
           line-height: 2rem
           width: 2rem
   &.home
-    ol, ul, li
+    ol, ul
       margin: 0
+    li
+      list-style-type: none
+      margin: 1rem 0 0 0
+      +media($desktop)
+        margin: 0
       &:before
         display: none
+        content: ''

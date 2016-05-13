@@ -109,6 +109,14 @@ section.posts
     ul li:before
       font-family: FontAwesome
       content: '\f0da'
+    iframe
+      margin-left: 50%
+      +transform(translateX(-50%))
+    p.center
+      text-align: center
+      iframe
+        margin: auto
+        +transform(translateX(0%))
     &.home
       article
         h1, ol
