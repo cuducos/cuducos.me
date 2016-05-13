@@ -89,3 +89,31 @@ section.posts
         line-height: 1.2
         margin: 1rem 0
         padding: 1rem 3rem
+    ol, ul
+      margin-bottom: 1rem
+      li
+        list-style-type: none
+        margin-left: 2.5rem
+        &:before
+          display: inline-block
+          font-weight: bold
+          margin-right: .5rem
+          text-align: right
+          width: 2rem
+    ol
+      conter-reset: item
+      li
+        counter-increment: item
+        &:before
+          content: counter(item) '.'
+    ul li:before
+      font-family: FontAwesome
+      content: '\f0da'
+    &.home
+      article
+        h1, ol
+          text-align: center
+          +media($desktop)
+            text-align: left
+      small
+        color: $tag_link_fg
