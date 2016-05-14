@@ -45,6 +45,15 @@ To view the site after building it just open `_site/index.html` with your favori
 ```console
 $ open _site/index.html
 ```
+
+### Deploy
+
+To deploy via `rsync`, set the environment vairbale `CUDUCOSME` with the SSH path to the server and directory where you want to deploy (e.g.: `user:secret@server.org:/users/user/www/`). Then run:
+
+```console
+$ ./contrib/deploy.sh
+```
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
