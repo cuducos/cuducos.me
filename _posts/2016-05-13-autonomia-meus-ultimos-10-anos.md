@@ -17,11 +17,11 @@ Em um segundo momento, resolvi ir aos poucos. E esse textão são essas reflexõ
 
 Para começar a falar de autonomia é importante falar de você. Se você quer ser autônomo, é você que vai tomar todas as decisões importantes da tua vida. Desde a hora de dormir e acordar, até qual pijama vestir — se é que vai vestir algum. Se vai trabalhar ou procrastinar, guardar ou gastar, ficar em casa, ir no café ou cruzar o Atlântico. Ser autônomo é ser você. Então comecemos por aí mesmo: quem é você?
 
-Em uma conversa que tive mês passado com o [Cabral](https://twitter.com/felipebcabral), a gente falaca sobre esse assunto, sobre se conhecer. E ele me disse a seguinte frase:
+Em uma conversa que tive mês passado com o [Cabral](https://twitter.com/felipebcabral), a gente falava sobre esse assunto, sobre se conhecer. E ele me disse a seguinte frase:
 
 > Você tem que se conhecer, e se definir, senão os outros vem e te arrancam pedaço.
 
-Claro que nesse sentido o _se definir_ não é algo duro ou imutável, mas é importante saber o que você quer da vida. Se não souber, os _outros_ vão vir e… tirar pedaço — ou seja, você não pode acabar não fazendo o que você queria fazer. Não vai ser autônomo, vai acabar sendo o que os outros querem que você seja.
+Claro que nesse sentido o _se definir_ não é algo duro ou imutável, mas é importante saber o que você quer da vida. Se não souber, os _outros_ vão vir e… tirar pedaço — ou seja, você pode acabar não fazendo o que você queria fazer. Não vai ser autônomo, vai acabar sendo o que os outros querem que você seja.
 
 Então talvez seja melhor parar tudo e ir atrás daquele sonho, daquele projeto legal, fazer aquelas coisas que estão há anos guardadas em um canto do nosso coração (mas que nunca tivemos condições de abraça-las). Ser autônomo deve ser isso!
 
@@ -53,7 +53,7 @@ O ponto aqui é que se preocupar com perguntas como _do que preciso para fazer x
 
 ## Começar e se encontrar
 
-Muitas vezes vejo pessoas que já consequem esboçar algo sobre o que querem _começar_, mas logo se paralizam com a pergunta:
+Muitas vezes vejo pessoas que já conseguem esboçar algo sobre o que querem _começar_, mas logo se paralizam com a pergunta:
 
 > Onde conseguir os primeiros trabalhos? 
 
@@ -61,7 +61,7 @@ E, claro, essa pergunta faz muito sentido. É quase impensável, utópico demais
 
 Mas, sendo pentelho, tem uma coisa muito errada nessa pergunta. Os trabalhos não são coisas que estão aí, jogados ao léu pela mãe natureza, misteriosos, escondidos, discutidos em seitas secretas que pedem, para te aceitar, _x_, _y_ e _z_ no teu [GitHub](https://github.com) ou [LinkedIn](https://linkedin.com). 
 
-Para quem é autônomo, os trabalhos são coisas que as pessoas mesmos criam. Então, se por trás dessa pergunta tem uma vontade de _encontrar_ oportunidades em projetos fodas, colaboraticos, na gringa, trabalhando remotamente, fazendo o bem (seja lá o que for isso) e tudo mais _hype_ possível, a única resposta seria: ache problemas que você possa resolver, resolva-os ou ofereça-se para resolve-los.
+Para quem é autônomo, os trabalhos são coisas que as pessoas mesmos criam. Então, se por trás dessa pergunta tem uma vontade de _encontrar_ oportunidades em projetos fodas, colaborativos, na gringa, trabalhando remotamente, fazendo o bem (seja lá o que for isso) e tudo mais _hype_ possível, a única resposta seria: ache problemas que você possa resolver, resolva-os ou ofereça-se para resolve-los.
 
 Comece, simples assim: comece. Faça e refaça o que você sabe fazer, quantas vezes puder — é como um [_kata_](https://pt.wikipedia.org/wiki/Kata_(artes_marciais): vai te fazer melhor, te ajudar a apriomorar tuas próprias habilidades, sejam elas quais forem. Isso vai fazer você resolver melhor ainda os problemas que você já resolve bem.
 
