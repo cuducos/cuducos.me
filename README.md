@@ -1,13 +1,13 @@
 # Eduardo Cuducos
 
-[Jekyll](http://jekyllrb.com) source files for [my personal blog](http://cuducos.me).
+[Jekyll](http://jekyllrb.com) source files for [my personal page & blog](http://cuducos.me).
 
 ## Build instructions
 
 
 ### Requirements & dependencies
 
-First install the required [Ruby](http://ruby-lang.org) gems:
+First install [Bundler](http://bundler.io) and then the  required [Ruby](http://ruby-lang.org) gems:
 
 ```console
 $ gem install bundler
@@ -18,7 +18,7 @@ $ bundle install
 
 Change the site URL at `_config.yml` if needed.
 
-Then prepare [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io) & [Bitter](http://bitters.bourbon.io/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/) to be found by Jekyll SASS processor and to be accessible in the `assets` directory:
+Then prepare [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io), [Bitter](http://bitters.bourbon.io/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/) to be found by Jekyll SASS processor, an the lastest to be accessible in the `assets` directory:
 
 ```console
 $ ./contrib/assets.sh
@@ -40,7 +40,7 @@ $ JEKYLL_ENV=production jekyll b
 
 ### Accessing
 
-To view the site after building it just open `_site/index.html` with your favorite browser.
+Following [Jekyll](http://jekyllrb.com) default, to view the site just open `_site/index.html` with your favorite browser:
 
 ```console
 $ open _site/index.html
@@ -48,7 +48,7 @@ $ open _site/index.html
 
 ### Deploy
 
-To deploy via `rsync`, set the environment vairbale `CUDUCOSME` with the SSH path to the server and directory where you want to deploy (e.g.: `user:secret@server.org:/users/user/www/`). Then run:
+To deploy via `rsync`, set the environment variable `CUDUCOSME` with the SSH path to the server and directory where you want to deploy (e.g.: `user:secret@server.org:/users/user/www/`). Then run:
 
 ```console
 $ ./contrib/deploy.sh
