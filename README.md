@@ -4,29 +4,38 @@
 
 ## Build instructions
 
+Basic requirements:
 
-### Requirements & dependencies
+* [Ruby](http://ruby-lang.org) 2.3.1 with `gem`
+* [NodeJS](http://nodejs.org) with `npm`
 
-First install [Bundler](http://bundler.io) and then the  required [Ruby](http://ruby-lang.org) gems:
+### Dependencies
+
+Install [Bundler](http://bundler.io) gem, then the other   required [Ruby](http://ruby-lang.org) gems:
 
 ```console
 $ gem install bundler
 $ bundle install
+```
+To build the front-end some NodeJS and [Bower](http://bower.io) packages are required:
+
+```console
+# npm install
+```
+Then prepare the front-end assets:
+
+```console
+$ npm run js
+$ npm run fonts
 ```
 
 ### Settings
 
 Change the site URL at `_config.yml` if needed.
 
-Then prepare [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io), [Bitter](http://bitters.bourbon.io/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/) to be found by Jekyll SASS processor, an the lastest to be accessible in the `assets` directory:
-
-```console
-$ ./contrib/assets.sh
-```
-
 ### Building
 
-And finally build the site:
+And finally build the site into `_site/`:
 
 ```console
 $ jekyll b
@@ -36,14 +45,6 @@ Optionally use set `ENV` variable to build the site with the _production_ server
 
 ```console
 $ JEKYLL_ENV=production jekyll b
-```
-
-### Accessing
-
-Following [Jekyll](http://jekyllrb.com) default, to view the site just open `_site/index.html` with your favorite browser:
-
-```console
-$ open _site/index.html
 ```
 
 ### Deploy

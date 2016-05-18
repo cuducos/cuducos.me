@@ -7,9 +7,9 @@
 .sass-cache
 _site/
 
-# External libraries
-_sass/base/
-_sass/bourbon/
-_sass/neat/
+# External libraries & processed files
 assets/fonts/font-awesome/
+assets/js/app.min.js
+bower_components/
+node_modules/
 

@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cuducos/cuducos.me.git"
+  },
+  "scripts": {
+    "js": "uglifyjs assets/js/app.js > assets/js/app.min.js",
+    "fonts": "cp -r bower_components/font-awesome/fonts assets/fonts/font-awesome",
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "uglify-js": "^2.6.2"
+  }
+}

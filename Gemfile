@@ -1,10 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'bitters', '~> 1.2.0'
-gem 'bourbon', '~> 4.2.7'
-gem 'font-awesome-sass', '~> 4.6.2'
 gem 'jekyll', '~> 3.1.3'
 gem 'jekyll-paginate', '~> 1.1.0'
 gem 'jekyll-sitemap', '~> 0.10.0'
-gem 'neat', '~> 1.7.4'

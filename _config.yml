@@ -6,9 +6,14 @@ paginate: 25
 paginate_path: "/blog/:num/"
 
 exclude: 
+  - assets/js/app.js
+  - bower.json
+  - bower_components/
   - contrib/
   - Gemfile
   - Gemfile.lock
+  - node_modules/
+  - package.json
   - README.md
 gems:
   - jekyll-paginate
