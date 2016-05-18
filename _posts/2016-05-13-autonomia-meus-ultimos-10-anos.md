@@ -112,7 +112,7 @@ Se tem algo que eu acrescentaria é que não precisei _largar tudo_. Fiz isso se
 
 ## Mas e a grana?
 
-Contei uma história gigante, mas ainda não chegou o dinheiro. E sem o dinheiro, ninguém consegue chegar a lugra nenhum.
+Contei uma história gigante, mas ainda não chegou o dinheiro. E sem o dinheiro, ninguém consegue chegar a lugar nenhum.
 
 O [Henrique Bastos](http://henriquebastos.net) sempre sabe ir direto ao ponto quando o assunto é grana e autonomia. Segundo ele, muita gente fica naquela ciclo eterno de querer fazer _outras_ coisas, o emprego não deixar tempo livre para tal, mas a pessoa não consegue se livrar do emprego pois precisa da grana, do salário… e volta à estaca zero. Mas ele diz que isso só é um ciclo infinito se falarmos do assunto sem falar dos números:
 
@@ -126,7 +126,7 @@ O [Henrique Bastos](http://henriquebastos.net) sempre sabe ir direto ao ponto qu
 
 É crucial enfrentar o problema da dependência do salário. Saber quanto entra, para onde vai, priorizar, cortar, classificar. Se falta tempo, tens que dizer _não_ para algumas coisas, por isso comecei com essa resposta quando me deparei com a pergunta! Mas só conseguiremos dizer não sabendo que podemos, como podemos, quanto podemos e quando podemos. Então, ao invés de um qualitativo _dependo do meu salário_ tente explorar também o lado quantitativo de _quanto dependo do meu salário_.
 
-Eu sempre digo, quando me perguntam das minhas intermeitências profissinais: existem duas formas de ser rico, uma é ganhando muito dinheiro, outra é gastando pouco.
+Eu sempre digo, quando me perguntam das minhas intermitências profissinais: existem duas formas de ser rico, uma é ganhando muito dinheiro, outra é gastando pouco.
 
 Quando o problema for dinheiro, traga os números. Não é só o Henrique que fala isso. O [Larusso](http://larusso.com.br) tem um texto com [10 dicas para “largar tudo” sem largar tudo](http://www.larusso.com.br/blog/2016/1/13/como-largar-tudo-sem-largar-tudo). Uma delas é, justamente, _faça as contas_.
 
@@ -140,7 +140,7 @@ E como faz isso? Sim, começando.
 
 ### Self-jabá de exemplo II, o retorno
 
-Lá vou eu para mais uma digressão pessoal. A ideia é ir um pouco mais fundo, não na minha história com o _InternetSeLimites_, mas no que andei fazendo nos últimos anos.
+Lá vou eu para mais uma digressão pessoal. A ideia é ir um pouco mais fundo, não na minha história com o _InternetSemLimites_, mas no que andei fazendo nos últimos anos.
 
 Voltemos a 2012. Eu, que até então ganhava a vida como desenvolvedor havia parado de programar já há uns 5 anos. Decidi que fazer sitezinho da padaria da esquina não ia me levar a nada… e fui estudar sociologia (eu era formado em design, mas ganhava a vida programando em PHP e linguagens de front-end basicamente).
 
@@ -148,15 +148,15 @@ Na sociologia acabei fazendo um mestrado sobre _hacktivism_, hackers que usam te
 
 Hoje sei que não quero fazer o sitezinho da padaria da esquina. Mas sei que faria se faltasse grana no final do mês. Meu foco são projetos que acho que dão mais voz política a certos grupos ou causas, ou projetos que empoderam desenvolvedores (ou que simplesmente fazem a vida de desenvolvedores mais fácil).
 
-Não ganho a vida com programação, ainda vivo no conforto da minha bolsa de doutorado (que termino nos próximos meses) — e isso dá um viés enorme em tudo que falo. Mas já fiz coisas na área que me abriram portas boas para um futuro próximo, para me dar uma certeza que continuarei ganhando grana sendo eu mesmo. Já fiz coisas que me possibilitaram o _mostrar o que ofereço_, e ver quais espaços podem me acolher, onde posso ser remiunerado, por quem etc.
+Não ganho a vida com programação, ainda vivo no conforto da minha bolsa de doutorado (que termino nos próximos meses) — e isso dá um viés enorme em tudo que falo. Mas já fiz coisas na área que me abriram portas boas para um futuro próximo, para me dar uma certeza que continuarei ganhando grana sendo eu mesmo. Já fiz coisas que me possibilitaram o _mostrar o que ofereço_, e ver quais espaços podem me acolher, onde posso ser remunerado, por quem etc.
 
 Enfim, tudo isso para dizer que não sou um _programador_. Sou mais um político que usa programação para chegar onde quer. E saber disso me ajuda _muito_ nas decisões mais pragmáticas do dia a dia.
 
-Se eu quisesse simplesmente programar para ganhar dinheiro, ia sonhar com aquela startup milionária que me permitiria trabalhar remotamente, para eu ficar programando de chinelo em uma praia da Tailândia enquanto os dólares (ou Bitcoins) iam caindo incessante na minha conta. Se esse fosse meu foco, eu não ia aprender nem [Python](https://www.python.org), nem [Flask](http://flask.pocoo.org), nem [Django](https://www.djangoproject.com) (para citar alguns exemplos do que aprendendi nos últimos anos). Eu iria aprender [Ruby](http://www.ruby-lang.org/) e [Rails](http://rubyonrails.org); ou — melhor! — [NodeJS](https://nodejs.org), [AngularJS](https://angularjs.org), [ReactJS](http://reactjs.com) e qualquercoisa-diei-és.
+Se eu quisesse simplesmente programar para ganhar dinheiro, ia sonhar com aquela startup milionária que me permitiria trabalhar remotamente, para eu ficar programando de chinelo em uma praia da Tailândia enquanto os dólares (ou Bitcoins) iam caindo incessantemente na minha conta. Se esse fosse meu foco, eu não ia aprender nem [Python](https://www.python.org), nem [Flask](http://flask.pocoo.org), nem [Django](https://www.djangoproject.com) (para citar alguns exemplos do que aprendi nos últimos anos). Eu iria aprender [Ruby](http://www.ruby-lang.org/) e [Rails](http://rubyonrails.org); ou — melhor! — [NodeJS](https://nodejs.org), [AngularJS](https://angularjs.org), [ReactJS](http://reactjs.com) e qualquercoisa-diei-és.
 
 Em outras palavras, como programador, não fui atrás das linguagens e tecnologias que estão entre as mais requisitadas no mercado. Dei uma olhada nelas e só. Fui atrás, de verdade, das que mais me empoderavam para fazer o que eu queria: executar projetos de maneitra ágil para soltar minha voz, para apoiar causas nas quais acredito. E, para fazer política com tecnologia, o que e sei está resolvendo.
 
-Então, ao invés de me preocupar com o que andam pedindo nas entrevistas, estou estudando [Elm](http://elm-lang.org) (que acho que me faz mais produtivo, e que acho mil vezez mais legal do que _JavaScript_) ao invés de ReactJS. Estou estudando [block chain](https://en.wikipedia.org/wiki/Block_chain_(database) ao invés de [Cassandra](https://cassandra.apache.org) (não são exatamente intercambiáveis, mas acho que serve a comparação).
+Então, ao invés de me preocupar com o que andam pedindo nas entrevistas, estou estudando [Elm](http://elm-lang.org) (que acho que me faz mais produtivo, e que acho mil vezes mais legal do que _JavaScript_) ao invés de ReactJS. Estou estudando [block chain](https://en.wikipedia.org/wiki/Block_chain_(database)) ao invés de [Cassandra](https://cassandra.apache.org) (não são exatamente intercambiáveis, mas acho que serve a comparação).
 
 Como sociólogo, sou o chato que ao invés de textão (que faço vez ou outra, como esse aqui, oras!) faz coisas igualmente chatas como o [Cunha Já Caiu?](http://www.cunhajacaiu.com.br/), [InternetSemLimites](https://github.com/InternetSemLimites/PublicAPI), [UOLEsportesSexista](https://github.com/cuducos/UOLEsportesSexista) ou [MeDontLikeFB](https://github.com/cuducos/MeDontLikeFB) — e curto muito isso. Contribuo (com código) para projetos  mais estruturados como [Nós.vc](https://github.com/engageis/nos.vc), [Unlock](https://github.com/danielweinmann/unlock) e o sumido [Sistêmico](https://github.com/danielweinmann/sistemico) quando acho uma brecha que consigo suprir. Ou tento resolver um ou outro problema menor de desenvolvedores com coisas como o [GetGist](https://github.com/cuducos/getgist), [AlchemyDumps](https://github.com/cuducos/alchemydumps), [jQueryPriceFormat](https://github.com/flaviosilveira/Jquery-Price-Format), ou com contribuições para [jQuery Form Validator](https://github.com/victorjonsson/jQuery-Form-Validator) ou [Python Twitter](https://github.com/bear/python-twitter/).
 
