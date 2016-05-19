@@ -9,7 +9,7 @@ _Nesse post faço a insanidade de listar nomes. Isso é uma merda. Certeza que n
 
 Eu tive alguns bons comentários sobre o meu [post da última semana]({% post_url 2016-05-13-autonomia-meus-ultimos-10-anos %}), mas dois deles me chamaram mais a atenção.  
 
-Fiquei muito feliz especialmente ao ver que essas duas pessoas gostaram do texto. São duas pessoas sensacionais. Nunca fomos muito próximos, admito, mas desde que as conheci sempre as adimirei pela pro-atividade, pelo _chegar chegando_, pela força de não ter medo de por as próprias ideias na mesa.
+Fiquei muito feliz especialmente ao ver que essas duas pessoas, o [Ítalo](http://twitter.com/italomen) e a [Helena](http://twitter.com/helenabello), gostaram do texto. São dois amigos sensacionais. Nunca fomos muito próximos, admito, mas desde que as conheci sempre as adimirei pela pro-atividade, pelo _chegar chegando_, pela força de não ter medo de por as próprias ideias na mesa.
 
 O que me chamou a atenção nos comentários deles é que ambos sentem falta de um espaço para _a gente_ falar de autonomia — obviamente _a gente_ não se limita a nós três, mas sim a um sem número de pessoas interessadas nesse, digamos, estilo de vida. Ambos sugeriram criar algum espaço digital para isso, um grupo na rede social do Mark, um Slack, grupo de emails ou coisa assim.
 
