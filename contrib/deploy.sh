@@ -1,7 +1,7 @@
 if [ -n "$CUDUCOSME" ]; then
 
     echo '\n==> Cleaning system created files'
-    find . -iname '.DS_Store' -exec rm {} \;
+    find . -iname '.DS_Store' -delete
 
     echo '\n==> Cleaning _site/'
     bundle exec jekyll clean
