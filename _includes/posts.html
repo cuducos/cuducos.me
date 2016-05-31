@@ -1,8 +1,8 @@
 {% for post in site.posts offset: 0 limit: 7 %}
-<div class="post">
-  <a href="{{ post.url }}">
-    <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
-    {{ post.title }}
+<div itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post">
+  <a itemprop="url" href="{{ post.url }}">
+    <span itemprop="datePublished" class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+    <span itemprop="name">{{ post.title }}</span>
   </a>
 </div><!-- end div.post -->
 {% endfor %}

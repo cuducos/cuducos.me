@@ -3,17 +3,26 @@ layout: base
 ---
 
 <sidebar>
-  <section class="avatar">
-    <a href="/">
-      <img alt="Eduardo Cuducos" src="/assets/img/cuducos.jpg">
-      <h1>Eduardo Cuducos</h1>
-    </a>
+  <div itemscope itemtype="http://schema.org/Person">
+    <section class="avatar">
+      <a itemprop="url" href="{{ site.url }}">
+        <img itemprop="image" alt="Eduardo Cuducos" src="/assets/img/cuducos.jpg">
+        <h1 itemprop="name">
+          <span itemprop="givenName">Eduardo</span>
+          <span itemprop="familyName">Cuducos</span>
+        </h1>
+      </a>
+    </section>
+    <section class="social">{% include social.html %}</section>
+  </div>
+  <section itemscope itemtype="http://schema.org/Blog" class="posts">
+    {% include posts.html %}
   </section>
-  <section class="social">{% include social.html %}</section>
-  <section class="posts">{% include posts.html %}</section>
+  {% include schema.html %}
 </sidebar>
 
-<article>
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 itemprop="name">{{ page.title }}</h1>
+  <div itemprop="articleBody">{{ content }}</div>
+  <meta itemprop="url" content="{{ page.url|prepend: site.url }}">
 </article>

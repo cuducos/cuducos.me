@@ -2,13 +2,21 @@
 layout: base
 ---
 
-<section class="avatar">
-  <img alt="Eduardo Cuducos" src="/assets/img/cuducos.jpg">
-  <h1>
-    <span>Hello! I'm</span>
-    Eduardo Cuducos
-  </h1>
-</section>
+<div itemscope itemtype="http://schema.org/Person">
 
-<section class="about">{{ content }}</section>
-<section class="social">{% include social.html %}</section>
+  <section class="avatar">
+    <img itemprop="image" alt="Eduardo Cuducos" src="/assets/img/cuducos.jpg">
+    <h1>
+      <small>Hello! I'm</small>
+      <span itemprop="name">
+        <span itemprop="givenName">Eduardo</span>
+        <span itemprop="familyName">Cuducos</span>
+      </span>
+    </h1>
+  </section>
+
+  <section itemprop="description" class="about">{{ content }}</section>
+  <section class="social">{% include social.html %}</section>
+  {% include schema.html %}
+
+</div>
