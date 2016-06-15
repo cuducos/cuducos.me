@@ -110,9 +110,13 @@ nav.posts
       font-family: FontAwesome
       content: '\f0da'
     iframe
-      margin-left: 50%
+      margin: 2rem 0
       width: 100%
-      +transform(translateX(-50%))
+      &.instagram-media, &[id*=twitter-widget-]
+        +transform(translateX(-50%))
+        margin-left: 50%
+        width: auto
+
     p
       font-size: 1.1rem
       &.center
