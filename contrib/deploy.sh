@@ -15,6 +15,9 @@ if [ -n "$CUDUCOSME" ]; then
     echo '\n==> Copying Font-Awesome files to assets/'
     npm run fonts
 
+    echo '\n==> Creating SCSS of Prsim CSS files'
+    npm run prism
+
     echo '\n==> Generating the site at _site/'
     JEKYLL_ENV=production bundle exec jekyll build
 

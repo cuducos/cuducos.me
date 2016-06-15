@@ -27,6 +27,7 @@ Then prepare the front-end assets:
 ```console
 $ npm run js
 $ npm run fonts
+$ npm run prism
 ```
 
 ### Settings

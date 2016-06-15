@@ -5,8 +5,9 @@
     "url": "git://github.com/cuducos/cuducos.me.git"
   },
   "scripts": {
-    "js": "uglifyjs assets/js/app.js > assets/js/app.min.js",
+    "js": "uglifyjs bower_components/prism/prism.js bower_components/prism/components/prism-python.js assets/js/app.js > assets/js/app.min.js",
     "fonts": "cp -r bower_components/font-awesome/fonts assets/fonts/font-awesome",
+    "prism": "find bower_components/prism -iname '*.css' -exec cp {} {}.scss \\;",
     "postinstall": "bower install"
   },
   "dependencies": {

@@ -11,6 +11,7 @@
     "bitters": "1.2.0",
     "bourbon": "^4.2.7",
     "font-awesome": "4.6.3",
-    "neat": "1.7.4"
+    "neat": "1.7.4",
+    "prism": "^1.5.1"
   }
 }
