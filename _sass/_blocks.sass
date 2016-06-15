@@ -29,7 +29,7 @@ header
     +media($desktop)
       +trapezium(60%, $header_bg)
 
-section
+section, nav
 
   &.avatar
     +span-columns(6)
@@ -82,7 +82,7 @@ footer
       +trapezium(-40%, $footer_bg)
 
 .blog
-  section
+  section, nav
     margin: 0
     width: 100%
     float: none
@@ -97,7 +97,7 @@ footer
         margin-top: 1.5rem
         &:first-child
           margin-top: 0
-  sidebar, section.posts
+  sidebar, nav.posts
     margin-top: 4.5rem
   sidebar
     +span-columns(6)
@@ -114,7 +114,7 @@ footer
       text-align: center
       +media($desktop)
         text-align: left
-    section.posts
+    nav.posts
       display: none
     small
       display: block
@@ -126,6 +126,13 @@ footer
         margin-top: 0
   .share
     margin: 1.5rem 0
+  .highlight
+    margin-bottom: 1rem
+
+.blog article nav.posts
+  display: block
+  +media($desktop)
+    display: none
 
 .pagination
   +clearfix

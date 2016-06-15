@@ -13,11 +13,11 @@ layout: base
         </h1>
       </a>
     </section>
-    <section class="social">{% include social.html %}</section>
+    <nav class="social">{% include social.html %}</nav>
   </div>
-  <section itemscope itemtype="http://schema.org/Blog" class="posts">
+  <nav itemscope itemtype="http://schema.org/Blog" class="posts">
     {% include posts.html %}
-  </section>
+  </nav>
   {% include schema.html %}
 </sidebar>
 
@@ -26,4 +26,7 @@ layout: base
   <div itemprop="articleBody">{{ content }}</div>
   <meta itemprop="url" content="{{ page.url|prepend: site.url }}">
   {% if page.class_name != 'blog home' %}{% include share.html %}{% endif %}
+  <nav itemscope itemtype="http://schema.org/Blog" class="posts">
+    {% include posts.html %}
+  </nav>
 </article>
