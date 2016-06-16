@@ -61,7 +61,7 @@ Enfim, se se interessam por Elm, além dos links que coloquei no texto, sugiro m
 
 ## Webassets & webassets-elm
 
-Para quem não conhece, o [webassets](http://webassets.readthedocs.io/) é pacote muito utilizado no mundo Python para compilar, dar um _minify_ e comprimir CSS, JS etc. Por exemplo ele tem filtros que transfromam o todos os [SASS](http://sass-lang.com) em CSS e, depois, junta tudo em um único `.css` bem compacto.
+Para quem não conhece, o [webassets](http://webassets.readthedocs.io/) é pacote muito utilizado no mundo Python para compilar, dar um _minify_ e comprimir CSS, JS etc. Por exemplo ele tem filtros que transformam o todos os [SASS](http://sass-lang.com) em CSS e, depois, junta tudo em um único `.css` bem compacto.
 
 A integração com [Flask](http://flask.pocoo.org) ou [Django](http://djangoproject.com) é super fácil e útil com o [flask-assets](http://flask-assets.readthedocs.io/) ou [django-assets](http://django-assets.readthedocs.org/). Com isso sua própria aplicação gera, no servidor, seus _assets_. Em ambiente de desenvolvimento e produção a geração dos _assets_ passa a ocorrer automaticamente (sem necessidade de _watchers_ ou de rodar manualmente `sass`, `coffee`, `browserify`, `webpack`, `grunt`, `gulp` etc.).
 
@@ -100,7 +100,7 @@ Em outras palavras, se o `source_path` for `/home/johndoe/42.sass`, é como se d
 
 Mas o `elm-make` não funciona assim. Ele gera uma arquivo. Se chamarmos `elm-make hello.elm` ele gera um `index.html` (com o JavaScript compilado dentro). Podemos gerar apenas um JavaScript usando o argumento `--output`. Por exemplo, podemos usar `elm-make hello.elm --output hello.js` e teríamos apenas o JavaScript compilado no arquivo `hello.js`.
 
-Por esse motivo o _wemassets-elm_ precisou de [uma gambiarra](https://github.com/cuducos/webassets-elm/blob/master/webassets_elm/__init__.py#L25-L43). Primeiro ele chama o `elm-make` gravando um arquivo temporário:
+Por esse motivo o _webassets-elm_ precisou de [uma gambiarra](https://github.com/cuducos/webassets-elm/blob/master/webassets_elm/__init__.py#L25-L43). Primeiro ele chama o `elm-make` gravando um arquivo temporário:
 
 ```python
 tmp = mkstemp(suffix='.js')
