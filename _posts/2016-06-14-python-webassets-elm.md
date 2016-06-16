@@ -30,6 +30,7 @@ print(c)  # 42
 a = 11
 print(c) # 42
 ```
+
 Se esse bloco fosse reativo, ao mudar o valor de `a`, a alteração deveria também mudar o valor de `c` — ou seja, o segundo `print(c)` deveria resultar em `13`, não em `42`.
 
 Isso é muito útil quando gerenciamos interfaces complexas no _front-end_: ao invés de gerenciarmos vários `div`, `span` com suas classes e conteúdos, definimos uma estrutura de dados e as _regras_ para renderização desses dados em HTML. Alterando os dados, o HTML é atualizado automaticamente.
