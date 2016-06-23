@@ -1,7 +1,10 @@
 {% for post in site.posts offset: 0 limit: 7 %}
 <div itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post">
   <a itemprop="url" href="{{ post.url }}">
-    <span itemprop="datePublished" class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+    <span class="date">
+      {{ post.date | date: "%d/%m/%Y" }}
+      <meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">
+    </span>
     <span itemprop="name">{{ post.title }}</span>
   </a>
 </div><!-- end div.post -->
