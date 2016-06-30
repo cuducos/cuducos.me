@@ -5,6 +5,11 @@ baseurl: ""
 paginate: 25
 paginate_path: "/blog/:num/"
 
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-srcset-tag
+    
 exclude: 
   - assets/js/app.js
   - bower.json
@@ -15,8 +20,13 @@ exclude:
   - node_modules/
   - package.json
   - README.md
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
+
+keep_files:
+  - media
+
 sass:
   style: compressed
+
+srcset:
+  source: _media
+  output: media
