@@ -1,18 +1,21 @@
-{% srcset {{ include.src }} ppi:1,2,3 alt='{{ include.alt }}' class='media' %}
-  {% srcset_source size: '90vw' %}
-  {% srcset_source width: 240 %}
-  {% srcset_source width: 360 %}
-  {% srcset_source width: 480 %}
-  {% srcset_source width: 640 %}
-  {% srcset_source width: 800 %}
-  {% srcset_source width: 960 %}
-  {% srcset_source width: 1024 %}
-  {% srcset_source width: 1152 %}
-  {% srcset_source width: 1280 %}
-  {% srcset_source width: 1366 %}
-  {% srcset_source width: 1440 %}
-  {% srcset_source width: 1600 %}
-  {% srcset_source width: 1920 %}
-  {% srcset_source width: 2048 %}
-  {% srcset_source width: 2560 %}
-{% endsrcset %}
+<figure class="polaroid">
+  {% srcset {{ include.src }} ppi:1,2,3 alt='{{ include.alt }}' %}
+    {% srcset_source size: '90vw' %}
+    {% srcset_source width: 240 %}
+    {% srcset_source width: 360 %}
+    {% srcset_source width: 480 %}
+    {% srcset_source width: 640 %}
+    {% srcset_source width: 800 %}
+    {% srcset_source width: 960 %}
+    {% srcset_source width: 1024 %}
+    {% srcset_source width: 1152 %}
+    {% srcset_source width: 1280 %}
+    {% srcset_source width: 1366 %}
+    {% srcset_source width: 1440 %}
+    {% srcset_source width: 1600 %}
+    {% srcset_source width: 1920 %}
+    {% srcset_source width: 2048 %}
+    {% srcset_source width: 2560 %}
+  {% endsrcset %}
+  <figcaption>{{ include.alt }}</figcaption>
+</figure>

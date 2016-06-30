@@ -37,28 +37,6 @@ var getAnchor = function (element) {
 };
 
 //
-// Add images' `alt` as figcaption
-//
-
-var addFigCaption = function () {
-  var images = document.querySelectorAll('img.media');
-  Array.prototype.slice.call(images, 0).map(function (img) {
-
-    // create figure and figcaption
-    var figure = document.createElement('figure');
-    var caption = document.createElement('figcaption');
-    caption.innerHTML = img.getAttribute('alt');
-
-    // reorganize the DOM
-    figure.appendChild(caption);
-    img.parentNode.appendChild(figure);
-    figure.insertBefore(img.parentNode.removeChild(img), caption);
-
-  });
-
-};
-
-//
 // Decode email link after a few seconds
 //
 
@@ -87,7 +65,6 @@ var includeEmailLinkTimer = function () {
 
 // Everthing that has to be run when DOM is loaded
 var init = function () {
-  addFigCaption();
   includeEmailLinkTimer();
   attachTrackOutboundLink();
 };
