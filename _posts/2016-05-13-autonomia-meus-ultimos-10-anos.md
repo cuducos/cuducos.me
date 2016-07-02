@@ -63,7 +63,7 @@ Mas, sendo pentelho, tem uma coisa muito errada nessa pergunta. Os trabalhos nã
 
 Para quem é autônomo, os trabalhos são coisas que as pessoas mesmos criam. Então, se por trás dessa pergunta tem uma vontade de _encontrar_ oportunidades em projetos fodas, colaborativos, na gringa, trabalhando remotamente, fazendo o bem (seja lá o que for isso) e tudo mais _hype_ possível, a única resposta seria: ache problemas que você possa resolver, resolva-os ou ofereça-se para resolve-los.
 
-Comece, simples assim: comece. Faça e refaça o que você sabe fazer, quantas vezes puder — é como um [_kata_](https://pt.wikipedia.org/wiki/Kata_(artes_marciais): vai te fazer melhor, te ajudar a apriomorar tuas próprias habilidades, sejam elas quais forem. Isso vai fazer você resolver melhor ainda os problemas que você já resolve bem.
+Comece, simples assim: comece. Faça e refaça o que você sabe fazer, quantas vezes puder — é como um [_kata_](https://pt.wikipedia.org/wiki/Kata_(artes_marciais)): vai te fazer melhor, te ajudar a apriomorar tuas próprias habilidades, sejam elas quais forem. Isso vai fazer você resolver melhor ainda os problemas que você já resolve bem.
 
 Mas faça isso e mostre que fez, tuíte, poste no Facebook, mostre para a mãe e para o papagaio, comente com os amigos, faça um blog e conte tuas experiências. Viva tuas habilidades, e mostre-as sem pudor. Isso é tremendamente importante.
 
