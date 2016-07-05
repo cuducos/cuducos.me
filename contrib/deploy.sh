@@ -7,13 +7,10 @@ if [ -n "$CUDUCOSME" ]; then
     bundle exec jekyll clean
 
     echo '\n==> Instaling NodeJS and Bower dependencies'
-    npm install
+    npm i
 
     echo '\n==> Generating JavaScript'
     npm run js
-
-    echo '\n==> Copying Font-Awesome files to assets/'
-    npm run fonts
 
     echo '\n==> Creating SCSS of Prsim CSS files'
     npm run prism
