@@ -1,6 +1,7 @@
 ---
 layout: home
 class_name: home
+lang: en
 ---
 
 Autonomy is what I treasure the most. A world with more autonomous individuals is a better world for all of us. In my pursue for empowerment I have been learning from and sharing with awesome people. And in this journey, while hacking cultures and lifestyles, I had technology, sociology and design as my super powers.

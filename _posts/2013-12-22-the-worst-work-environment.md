@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: The worst work environment?
+lang: en
 ---
 
 #### Calling some heritage into questioning

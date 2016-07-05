@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Click to give them money, call to a landline to stop doing so
+lang: en
 ---
 
 #### A not-so-online universe, a not-so-digital subscription
