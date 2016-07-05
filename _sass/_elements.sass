@@ -34,6 +34,21 @@ nav.social
         font-size: 1.38rem
         line-height: 2.5rem
         width: 2.5rem
+    .social-icon
+      +size(2rem)
+      background-color: $link_social_bg
+      border-radius: 50%
+      display: inline-block
+      +media($desktop)
+        +size(2.5rem)
+    svg
+      +size(1rem)
+      fill: $link_social_fg
+      margin-top: .2rem
+      transform: translateY(.4rem)
+      +media($desktop)
+        transform: translateY(.6rem)
+        +size(1.38rem)
 
 nav.posts
   a
