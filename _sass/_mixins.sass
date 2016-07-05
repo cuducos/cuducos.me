@@ -11,6 +11,12 @@
   width: 100%
   z-index: 0
   -webkit-backface-visibility: hidden
+  +media($desktop)
+    top: $pos - 5
+    height: 4rem
+  +media($wide)
+    top: $pos - 10
+    height: 5rem
 
 @mixin polaroid()
   +prefixer(box-shadow, 0 0 .5rem $light-gray , webkit moz ms o spec)
