@@ -26,6 +26,14 @@ nav.social
           font-size: 1rem
           line-height: 2rem
           width: 2rem
+  .social
+    a
+      +media($desktop)
+        +size(2rem)
+        padding-top: .45rem
+    svg
+      +media($desktop)
+        +size(1rem)
   &.home
     ol, ul
       margin: 0
@@ -37,6 +45,11 @@ nav.social
       &:before
         display: none
         content: ''
+    .social
+      li
+        margin-left: .38rem
+        &:first-child
+          margin-left: 0
   .share
     a:hover
       background-color: $link_social_bg

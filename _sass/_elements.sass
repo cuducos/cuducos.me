@@ -19,36 +19,21 @@ section.avatar
       text-transform: none
 
 nav.social
-  li
-    span
-      display: none
-    i
-      background-color: #ce1e79
-      border-radius: 50%
-      color: $link_social_fg
-      font-size: 1rem
-      line-height: 2rem
-      vertical-align: middle
-      width: 2rem
-      +media($desktop)
-        font-size: 1.38rem
-        line-height: 2.5rem
-        width: 2.5rem
-    .social-icon
-      +size(2rem)
-      background-color: $link_social_bg
-      border-radius: 50%
-      display: inline-block
-      +media($desktop)
-        +size(2.5rem)
-    svg
-      +size(1rem)
-      fill: $link_social_fg
-      margin-top: .2rem
-      transform: translateY(.4rem)
-      +media($desktop)
-        transform: translateY(.6rem)
-        +size(1.38rem)
+  a
+    +size(2rem)
+    background-color: $link_social_bg
+    border-radius: 50%
+    display: inline-block
+    padding-top: .45rem
+    +media($desktop)
+      +size(2.5rem)
+      padding-top: .6rem
+  svg
+    +size(1rem)
+    fill: $link_social_fg
+    margin: 0
+    +media($desktop)
+      +size(1.38rem)
 
 nav.posts
   a
@@ -61,6 +46,10 @@ nav.posts
 .blog 
   sidebar
     text-align: center
+  .pagination
+    svg
+      +size(2.62rem)
+      fill: $link_fg
   article
     h1
       font-size: 1.62rem
@@ -160,5 +149,7 @@ nav.posts
       display: inline-block
       margin-top: .5rem
       padding: 0 .75rem 0 .5rem
-      i
-        padding-right: .25rem
+      svg
+        +prefixer(transform, translateY(.2rem), webkit moz ms o spec)
+        +size(1rem)
+        fill: $link_social_fg

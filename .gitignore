@@ -8,7 +8,6 @@
 _site/
 
 # External libraries & processed files
-assets/fonts/font-awesome/
 assets/js/app.min.js
 bower_components/
 node_modules/

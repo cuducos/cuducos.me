@@ -14,13 +14,13 @@ class_name: blog home
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+    <a href="{{ paginator.previous_page_path }}" title="Previous posts" class="previous">
+      {% include svg/angle-double-left.svg %}
     </a>
   {% endif %}
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">
-      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+    <a href="{{ paginator.next_page_path }}" title="Next posts" class="next">
+      {% include svg/angle-double-right.svg %}
     </a>
   {% endif %}
 </div>
