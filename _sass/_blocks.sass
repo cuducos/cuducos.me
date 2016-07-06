@@ -16,18 +16,13 @@ html, body
   +media($desktop)
     padding: 0 1rem
 
-header
-  background-color: $header_bg
-  position: relative
-  .inner
-    height: 2rem
-    margin: 0
+header, footer
+  svg
+    fill: $header_bg
+    height: 4rem
+    width: 100%
     +media($desktop)
-      height: 4.5rem
-  .outer:before 
-    +trapezium(50%, $header_bg)
-    +media($desktop)
-      +trapezium(60%, $header_bg)
+      height: 6rem
 
 section, nav
 
@@ -69,20 +64,10 @@ section, nav
           margin-left: 1.68rem
 
 footer
-  background-color: $footer_bg
-  margin-top: 4.5rem
-  position: relative
-  .inner
-    height: 4rem
-    margin-bottom: 0
-    +media($desktop)
-      height: 5rem
-    +media($wide)
-      height: 7rem
-  .outer:before
-    +trapezium(-50%, $footer_bg)
-    +media($desktop)
-      +trapezium(-40%, $footer_bg)
+  margin-top: 6rem
+  svg
+    +prefixer(transform, rotate(180deg) translateY(-.5rem), webkit moz ms o spec)
+    fill: $footer_bg
 
 .blog
   section, nav
