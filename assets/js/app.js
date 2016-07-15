@@ -56,7 +56,7 @@ var includeEmailLink = function () {
 
 // Timer to call includeEmailLink
 var includeEmailLinkTimer = function () {
-  return setTimeout(includeEmailLink, 7654);
+  return setTimeout(includeEmailLink, 3456);
 };
 
 //
