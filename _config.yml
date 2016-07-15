@@ -2,7 +2,7 @@ title: Eduardo Cuducos
 description: Sociologist, geek, bread baker, and sports fan.
 url: "http://cuducos.me"
 baseurl: ""
-paginate: 14
+paginate: 21
 paginate_path: "/blog/:num/"
 
 gems:
