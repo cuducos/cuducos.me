@@ -30,3 +30,9 @@ Analisar esses casos, um a um, leva tempo. É possível e a [Operação Polític
 Muitas são as possibilidades: cruzar os dados da verba indenizatória com os dados dos CNPJ onde os gastos foram feitos, com endereços e localizações, com a agenda oficial do político, com os nomes dos sócios das empresas; com data de abertura e baixa da empresa; achar dados que desviam dos padrões; colocar nome de familiares nos nossos modelos; e muito mais. Estamos apenas começando e as possibilidades e expectativas são muitas.
 
 Esse post é uma celebração pessoal, minha, em virtude da satisfação que esse projeto me traz. Mas esse post é, também, uma pequena mostra do que podemos fazer. E, por fim, esse post é ainda [um convite](https://github.com/datasciencebr/serenata-de-amor/blob/master/CONTRIBUTING.md).
+
+---
+
+**Atualização (07/09/2016):** Quero levar esse projeto muito a sério. No ano em que estou me mudando de volta para o país, essa é minha serenata de amor ao Brasil. Para isso preciso da sua ajuda: eu, assim como você, pago minhas contas com meu trabalho, e a Serenata de Amor é meu trabalho agora. Esse projeto [está no Catarse](http://catarse.me/serenata): se puder, colabore por lá; se puder, divulgue o link para seus amigos e conhecidos ; ) Muito obrigado!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="pt" dir="ltr">Já falei do <a href="https://twitter.com/hashtag/SerenataDeAmor?src=hash">#SerenataDeAmor</a> aqui e quero levar esse projeto muito a sério. Ele é nossa serenata de amor ao Brasil <a href="https://t.co/wf993HH1l8">https://t.co/wf993HH1l8</a></p>&mdash; Cuducos (@cuducos) <a href="https://twitter.com/cuducos/status/773364126152269824">September 7, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
