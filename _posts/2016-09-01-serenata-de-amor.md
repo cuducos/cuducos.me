@@ -13,7 +13,7 @@ Mas isso é somente o aquecimento. Explorando os dados, apenas para ter uma idei
 
 Não acreditam? Ok, confesso: é uma pergunta retórica. Como dizia o grande Antônio Carlos Jobim, o Brasil não é para principiantes. Então eu não esperava mesmo nenhuma expressão de surpresa. Em todo caso, [nesse link da própria Câmara](http://www.camara.gov.br/cota-parlamentar/documentos/publ/2880/2015/5660757.pdf) qualquer um pode ver o recibo do que foi ressarcido a um deputado.
 
-{% include polaroid.html src='serenata-de-amor-01.png' alt='What happens in Vegas stays in Vegas' %}
+{% include figure.html class='polaroid' src='serenata-de-amor-01.png' alt='What happens in Vegas stays in Vegas' %}
 
 Eu mesmo verifiquei o [site da cervejaria](http://www.samueladams.com/) para verificar se eles, por algum acaso, não tinham uma cerveja sem álcool. Aparentemente não tem. Fui ler a lei que cria a verba indenizatória e vi que ela não proíbe explicitamente que a verba seja usada com bebidas alcoólicas. Consultei a própria Câmara e [me responderam](https://dl.dropboxusercontent.com/u/1311043/177491_157185_27490_A337103612015.pdf) que a lei não é clara mas que a jurisprudência do [TCU](https://pt.wikipedia.org/wiki/Tribunal_de_Contas_da_União) “considera tal prática incompatível com o interesse da Administração Pública” e que para a própria [CGU](https://pt.wikipedia.org/wiki/Controladoria-Geral_da_União_(Brasil)) “despesas com bebidas alcoólicas […] são consideradas inelegíveis, ou seja, não podem ser custeadas com recursos públicos, salvo em recepções oficiais” — mesmo assim o valor total do recibo foi pago ao deputado, R$ 83,45 após convertido para nossa moeda.
 
@@ -21,11 +21,11 @@ No outro caso que achamos intrigante um deputado aparentemente financiou a próp
 
 E esse caso tem um detalhe que vale ser ressaltado: o comprovante diz que as despesas se referem ao período da primeira quinzena de fevereiro de 2015, mas a empresa está inativa na receita Federal desde 2014. É só [entrar no site da Receita](http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/cnpjreva/cnpjreva_solicitacao2.asp), pesquisar pelo CNPJ `20.574.089/0001-07` e clicar em *Sim* na opção “Deseja emitir a Certidão de Baixa?” — a certidão deve ser parecida com esta:
 
-{% include polaroid.html src='serenata-de-amor-02.png' alt='Certidão de Baixa' %}
+{% include figure.html class='polaroid' src='serenata-de-amor-02.png' alt='Certidão de Baixa' %}
 
 Analisar esses casos, um a um, leva tempo. É possível e a [Operação Política Supervisionada](http://ops.net.br) faz isso com imenso sucesso: mais de R$ 5 milhões já foram contestados e ressarcidos aos cofres públicos graças a dedicação de inúmeros voluntários. O que fazemos na Serenata de Amor é expandir esse poder de análise tendo a tecnologia ao nosso lado: usamos _data science_ e _machine learning_ para analisar um banco de dados gigantesco, de anos e anos de verba indenizatória, e tudo isso de forma ágil e transparente.
 
-{% include polaroid.html src='serenata-de-amor-03.jpg' alt='Making of, com Irio e Cabral, de um vídeo para a campanha que começamos logo logo' %}
+{% include figure.html class='polaroid' src='serenata-de-amor-03.jpg' alt='Making of, com Irio e Cabral, de um vídeo para a campanha que começamos logo logo' %}
 
 Muitas são as possibilidades: cruzar os dados da verba indenizatória com os dados dos CNPJ onde os gastos foram feitos, com endereços e localizações, com a agenda oficial do político, com os nomes dos sócios das empresas; com data de abertura e baixa da empresa; achar dados que desviam dos padrões; colocar nome de familiares nos nossos modelos; e muito mais. Estamos apenas começando e as possibilidades e expectativas são muitas.
 

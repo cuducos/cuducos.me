@@ -1,4 +1,4 @@
-<figure class="polaroid">
+<figure class="{{ include.class }}">
   {% srcset {{ include.src }} ppi:1,2,3 alt='{{ include.alt }}' %}
     {% srcset_source size: '90vw' %}
     {% srcset_source width: 240 %}
