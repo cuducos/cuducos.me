@@ -166,11 +166,11 @@ Feito isso, é só compilar: `$ elm-make Main.elm`. Inspecionando o diretório, 
 * `index.html` é o nosso código compilado em HTML, com o JavaScript embutido, pronto para rodar no navedagor — não tenha medo, abra para ver como ficou!
 * `elm-package.json` e `elm-stuff` são criados pelo próprio Elm para controlar teu projeto.
 
-Se quiseremos compilar somente o JavaScript, para incluí-lo no HTML separadamente, podemos: `$ elm-make Main.elm --output app.js` gera o arquivo `app.js`, que pode ser [incluído em qualquer HTML posteriormente](https://guide.elm-lang.org/interop/html.html).
+Se quisermos compilar somente o JavaScript, para incluí-lo no HTML separadamente, podemos: `$ elm-make Main.elm --output app.js` gera o arquivo `app.js`, que pode ser [incluído em qualquer HTML posteriormente](https://guide.elm-lang.org/interop/html.html).
 
 Para desenvolvermos — e brincarmos — temos ainda o `$ elm-reactor`, uma ferramenta que faz tudo isso automaticamente para você poder se focar no que importa: escrever código. Vamos usar o Reactor logo logo.
 
-### A chave de outro: a arquitetura do Elm
+### A chave de ouro: a arquitetura do Elm
 
 Já vimos que o compilador ajuda o Elm a não deixar passar chances de erro. Já vimos que o Elm controla o tipo de cada valor para ter certeza que as funções recebem os argumentos do tipo correto e sempre retornam algo esperado. Mas ainda não falamos do principal: [a arquitetura do Elm](https://guide.elm-lang.org/architecture/).
 
