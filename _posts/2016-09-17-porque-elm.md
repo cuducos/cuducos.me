@@ -347,7 +347,7 @@ Isso no final das contas é uma tag `p`, sem nenhum atributo e tem um nó de tex
 
 ```haskell
 import Html exposing (p, text)
-import Html.Attributes (class)
+import Html.Attributes exposing (class)
 
 p [ class "alert" ] [ text "Ahoy" ]
 ```
@@ -356,7 +356,7 @@ Agora esse código recebeu uma lista não-vazia de argumentos, logo equivale a `
 
 ```haskell
 import Html exposing (p, strong, text)
-import Html.Attributes (class)
+import Html.Attributes exposing (class)
 
 p
     [ class "alert" ]
