@@ -7,7 +7,7 @@ Depois de falar de [Elm](http://elm-lang.org/) no [post sobre o webassets-elm]({
 
 ## Aprendendo um pouco de Elm toda semana
 
-A partir dessa semana, toda quinta-feira às 20h, vou fazer uma sessão sobre Elm no [Livecoding.tv](https://www.livecoding.tv/cuducos/). Sessões sempre abertas, de graça, para quem quiser. Das 20 até às 22h. Bem didáticas, partindo do bâ-a-bá da linguagem e construindo coisas mais avançadas. Também vou disponibilizar a gravação (para quem não puder ver ao vivo, ou quiser rever algum detalhe):
+A partir dessa semana, toda quinta-feira às 20h (horário de Brasília), vou fazer uma sessão sobre Elm no [Livecoding.tv](https://www.livecoding.tv/cuducos/). Sessões sempre abertas, de graça, para quem quiser. Das 20 até às 22h. Bem didáticas, partindo do bâ-a-bá da linguagem e construindo coisas mais avançadas. Também vou disponibilizar a gravação (para quem não puder ver ao vivo, ou quiser rever algum detalhe):
 
 **Quinta-feira, 27 de outubro**<br>
 O que é Elm? Qual problema o Elm resolve? Como é a sintaxe básica do Elm? O que é a famosa arquitetura do Elm?
