@@ -40,3 +40,7 @@ Indo para o inglês, essa é a [documentação oficial](http://package.elm-lang.
 E saindo das coisas oficiais, esse foi [um dos posts mais legais](http://ohanhi.github.io/master-elm-1-why-elm.html) que li quando comecei a estudar Elm. Amei também [essa palestra](https://youtu.be/IcgmSRJHu_8) recente sobre como o Elm te permite fazer _estados impossíveis_ da tua aplicação realmente _impossíveis_. E hoje achei [esse artigo muito legal](https://dev.to/dnimmo/i-was-wrong-to-dismiss-elm-and-i-think-you-probably-aretoo) de um desenvolvedor que menosprezou Elm (_tsc ah! mais uma linguagem que compila para JavaScript, deixa pra lá…_) e depois mudou de ideia (e o título diz que se você menosprezou Elm, provavelmente você está errado assim como ele estava). Preste atenção não nos pormenores da linguagem, mas em como a robustez dela e do ambiente que a envolve garantem qualidade (mesmo com mais gente, com difernetes níveis de conhecimento, escrevendo código na mesma aplicação).
 
 Por fim, se você nunca ouviu falar de programação funcional, talvez [essa série de artigos](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536) ajude a quebrar o gelo com os novos paradigmas.
+
+---
+
+Depois que publiquei esse texto o [Marcel](https://twitter.com/marcelgsantos) me contou que ele traduziu para português [a página de Elm no _Learn X in Y minutes_](https://learnxinyminutes.com/docs/pt-br/elm-pt/) — ficou muito bom, então fica a recomendação aqui!
