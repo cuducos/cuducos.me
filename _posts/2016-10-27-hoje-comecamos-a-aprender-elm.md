@@ -43,4 +43,7 @@ Por fim, se você nunca ouviu falar de programação funcional, talvez [essa sé
 
 ---
 
-Depois que publiquei esse texto o [Marcel](https://twitter.com/marcelgsantos) me contou que ele traduziu para português [a página de Elm no _Learn X in Y minutes_](https://learnxinyminutes.com/docs/pt-br/elm-pt/) — ficou muito bom, então fica a recomendação aqui!
+Depois que publiquei esse texto:
+
+* O [Marcel](https://twitter.com/marcelgsantos) me contou que ele traduziu para português [a página de Elm no _Learn X in Y minutes_](https://learnxinyminutes.com/docs/pt-br/elm-pt/) — ficou muito bom, então fica a recomendação aqui!
+* O [Eric](https://ericdouglas.github.io/) me contou que tem [uma versão traduzida da série sobre programação funcional](https://github.com/ericdouglas/traduz-ai/blob/master/series/entao-voce-quer-ser-um-programador-funcional/README.md), sensacional! 
