@@ -32,6 +32,6 @@ Se você curtiu a ideia, vamos juntos. É só [estar online](https://www.livecod
 
 Mas se você gostou mesmo da ideia, vamos conversar. Pode falar diretamente comigo, mas também criei [um grupo de emails](https://groups.google.com/d/forum/elm-brasil) para a todo mundo se conhecer.
 
-Se um grupo de email soa muito década-passada também criei um grupo no [Telegram](https://telegram.org/): [Vamos aprender Elm!](https://telegram.me/joinchat/ACJyTAj_HjLqJ5q9UFnATA) E tem [o canal brasileiro no Slack](https://elmlang.slack.com/archives/brazil) (confesso que não uso muito o Slack, mas é sempre bom dar uma passada lá!).
+Se um grupo de email soa muito década-passada também criei um grupo no [Telegram](https://telegram.org/): [Elm Brasil](https://telegram.me/elmbrasil) (ex _Vamos aprender Elm!_). E tem [o canal brasileiro no Slack](https://elmlang.slack.com/archives/brazil) (confesso que não uso muito o Slack, mas é sempre bom dar uma passada lá!).
 
 Por fim, o mais importante: repasse esse post e ajude essa comunidade a se encontrar ; )

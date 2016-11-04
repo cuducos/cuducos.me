@@ -3,7 +3,7 @@ layout: blog
 title: "Hoje começamos a aprender Elm"
 ---
 
-Fiquei muito feliz com a galera que se juntou no [grupo do Telegram](https://telegram.me/joinchat/ACJyTAj_HjLqJ5q9UFnATA) e na [lista de emails](https://groups.google.com/d/forum/elm-brasil) depois do meu post [Vamos aprender Elm!]({% post_url 2016-10-24-vamos-aprender-elm %}) No Telegram já somos quase 70 pessoas! Para aquecer o encontro de hoje a noite, resolvi escrever mais algumas linhas. E nos vemos hoje, 20h, no [livecoding.tv](http://livecoding.tv/cuducos).
+Fiquei muito feliz com a galera que se juntou no [grupo do Telegram](https://telegram.me/elmbrasil) e na [lista de emails](https://groups.google.com/d/forum/elm-brasil) depois do meu post [Vamos aprender Elm!]({% post_url 2016-10-24-vamos-aprender-elm %}) No Telegram já somos quase 70 pessoas! Para aquecer o encontro de hoje a noite, resolvi escrever mais algumas linhas. E nos vemos hoje, 20h, no [livecoding.tv](http://livecoding.tv/cuducos).
 
 ### Vai ser gravado e disponibilizado depois?
 
