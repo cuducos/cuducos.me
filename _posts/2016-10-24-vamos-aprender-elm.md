@@ -3,6 +3,10 @@ layout: blog
 title: "Vamos aprender Elm!"
 ---
 
+_Update: Ao final do post incluí links para os vídeos e para outros links relevates para a série._
+
+* * *
+
 Depois de falar de [Elm](http://elm-lang.org/) no [post sobre o webassets-elm]({% post_url 2016-06-14-python-webassets-elm %}) e no [tutorial sobre Elm]({% post_url 2016-09-17-porque-elm %}), e de apresentar o Elm no [Grupy-SP](http://www.meetup.com/Grupy-SP/events/233795546/?eventId=233795546) e na [Python Brasil](http://2016.pythonbrasil.org.br),  comecei a ter boas respostas, contatos e contribuições. Agora quero expandir essa rede ainda mais: **quero juntar mais gente que está curiosa, interessada, aprendendo Elm**.
 
 ## Aprendendo um pouco de Elm toda semana
@@ -12,7 +16,7 @@ A partir dessa semana, toda quinta-feira às 20h (horário de Brasília), vou fa
 **Quinta-feira, 27 de outubro**<br>
 O que é Elm? Qual problema o Elm resolve? Como é a sintaxe básica do Elm? O que é a famosa arquitetura do Elm?
 
-**Quinta-feira, 3 de novembro** (sim, no meio do feriadão)<br>
+**Quinta-feira, 3 de novembro**<br>
 Primeiro projeto em Elm: construindo uma caixa de comentários no _front-end_.
 
 **Quinta-feira, 10 de novembro**<br>
@@ -35,3 +39,17 @@ Mas se você gostou mesmo da ideia, vamos conversar. Pode falar diretamente comi
 Se um grupo de email soa muito década-passada também criei um grupo no [Telegram](https://telegram.org/): [Elm Brasil](https://telegram.me/elmbrasil) (ex _Vamos aprender Elm!_). E tem [o canal brasileiro no Slack](https://elmlang.slack.com/archives/brazil) (confesso que não uso muito o Slack, mas é sempre bom dar uma passada lá!).
 
 Por fim, o mais importante: repasse esse post e ajude essa comunidade a se encontrar ; )
+
+* * *
+
+## Vídeos e referências do _live coding_
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dPdmwONp7XE" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fmPm17iRNW0" frameborder="0" allowfullscreen></iframe>
+
+No GitHub estão o [código fonte](https://github.com/cuducos/vamos-aprender-elm) feito nos vídeos e a [API](https://github.com/cuducos/vamos-aprender-elm-api) utilizada. E se você leu até aqui, talvez vá curtir esses outros posts:
+
+* [Porquê Elm: Chega de dor de cabeça com front-end, chega de JavaScript]({% post_url 2016-09-17-porque-elm %})
+* [Hoje começamos a aprender Elm]({% post_url 2016-10-27-hoje-comecamos-a-aprender-elm %})
+* [Python, webassets & Elm]({% post_url 2016-06-14-python-webassets-elm %})
