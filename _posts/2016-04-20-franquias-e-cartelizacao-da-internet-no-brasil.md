@@ -21,7 +21,7 @@ A questão atual veio à tona quando Vivo, Oi e Claro — que respondem por 
 
 Temo por essa medida e gostaria de tomar um pouco mais do teu tempo para destacar três pontos que acho importantíssimos, como cidadão, nessa questão.
 
-## **Legalidade**
+## Legalidade
 
 Primeiramente questiono a própria legalidade dessa medida — já sabendo, para surpresa de ninguém, que a sucateada e ineficiente ANATEL discorda desse argumento. No [Marco Civil da Internet](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) (lei nº 12.965/2014, capítulo II, art. 7º, § IV) temos que:
 
