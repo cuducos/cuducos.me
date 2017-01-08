@@ -54,6 +54,8 @@ Por fim, o mais importante: repasse esse post e ajude essa comunidade a se encon
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lzs1jef6ktg" frameborder="0" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sNxsPAbgmkE" frameborder="0" allowfullscreen></iframe>
+
 No GitHub estão o [código fonte](https://github.com/cuducos/vamos-aprender-elm) feito nos vídeos e a [API](https://github.com/cuducos/vamos-aprender-elm-api) utilizada. E se você leu até aqui, talvez vá curtir esses outros posts:
 
 * [Porquê Elm: Chega de dor de cabeça com front-end, chega de JavaScript]({% post_url 2016-09-17-porque-elm %})
