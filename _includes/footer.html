@@ -1,3 +1,21 @@
+<div id="cc" class="outer">
+  <div class="inner">
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      {% include svg/cc.svg %}
+    </a>
+    <br />
+    &ldquo;<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</span>&rdquo;
+    by
+  <a xmlns:cc="http://creativecommons.org/ns#" href="{% if page.url %}{{ page.url }}{% else %}{{ site.url }}{% endif %}" property="cc:attributionName" rel="cc:attributionURL">
+      Eduardo Cuducos
+    </a>
+    is licensed under a
+    <br />
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+  </div>
+</div>
 <footer>
   {% include svg/trapezium.svg %}
 </footer>
