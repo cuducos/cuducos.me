@@ -28,11 +28,11 @@ A [Rosie](http://github.com/datasciencebr/rosie) nos disse que [essa refeição]
 
 Fizemos nossa pesquisa para confirmar se a Rosie estava certa. E, sim, estava. O [Da Noi tem um site, **com cardápio e preços online**](http://www.duducamargo.com.br/restaurante/danoi.html):
 
-{% include figure.html src='como-cidadaos-empoderados-podem-conversar-com-deputados-01.png' alt='Fonte: http://www.duducamargo.com.br/restaurante/danoi.html' %}
+{% include figure.html src='2017-02-08-como-cidadaos-empoderados-podem-conversar-com-deputados-01.png' alt='Fonte: http://www.duducamargo.com.br/restaurante/danoi.html' %}
 
 Os pratos mais caros custam pouco mais que R$ 50\. O deputado teria que ter almoçado **quatro pratos** para justificar uma conta que ultrapassa R$ 200\. Não podemos confirmar se foi esse o caso pois a nota fiscal diz apenas _despesa com refeição_:
 
-{% include figure.html src='como-cidadaos-empoderados-podem-conversar-com-deputados-02.png' alt='Fonte: http://www.camara.gov.br/cota-parlamentar/documentos/publ/3001/2015/5622917.pdf' %}
+{% include figure.html src='2017-02-08-como-cidadaos-empoderados-podem-conversar-com-deputados-02.png' alt='Fonte: http://www.camara.gov.br/cota-parlamentar/documentos/publ/3001/2015/5622917.pdf' %}
 
 Além disso [usuários dizem](https://foursquare.com/v/da-noi/4d37060d036c548163444989) que uma salada com frango custou R$ 20, no mesmo restaurante, dois anos antes. [No blog do chef do restaurante](http://duducamargo.com.br/blog/final-de-semana-gastronomico-no-da-noi/) vimos que em eventos especiais, já em 2015, o preço era R$ 75 por pessoa. Mesmo sem ter detalhes do que foi consumido nessa refeição, podemos dizer que Rosie estava certa: **esse reembolso parece mesmo suspeito**.
 
@@ -44,7 +44,7 @@ Escrevemos à Câmara pedindo esclarecimentos sobre esse reembolso. Linkamos o s
 
 A chefe de gabinete do deputado declarou que nada disso é válido. Segundo ela não é possível calcular um valor médio para o restaurante em questão pois ele funciona com menu _à la carte_. Explica ela que “_o preço cobrado é pelo valor de cada prato ou produto solicitado, de modo que_ **_não há um valor médio observado por pessoa_**”. Com esse argumento o deputado se negou a devolver o dinheiro, mesmo que segundo a nossa lógica esse montante não seja compatível com o valor de uma refeição naquele estabelecimento.
 
-{% include figure.html src='como-cidadaos-empoderados-podem-conversar-com-deputados-03.png' alt='Fonte: Resposta oficial do deputado, via Câmara Federal, Processo nº 100.548/2017, folha 8 (grifo nosso)' %}
+{% include figure.html src='2017-02-08-como-cidadaos-empoderados-podem-conversar-com-deputados-03.png' alt='Fonte: Resposta oficial do deputado, via Câmara Federal, Processo nº 100.548/2017, folha 8 (grifo nosso)' %}
 
 ## A hipotética réplica
 
@@ -54,7 +54,7 @@ No caso do Da Noi, o cardápio apresenta 14 pratos na parte de _Carnes, Aves & P
 
 Portanto, é possível obter uma média de preços por pessoa em restaurantes _à la carte_. As médias de um prato e uma bebida, somadas, totalizam R$ 55 — quase **quatro vezes menos do que o deputado alega ter consumido** em sua refeição.
 
-{% include figure.html src='como-cidadaos-empoderados-podem-conversar-com-deputados-04.png' alt='Fonte: http://www.duducamargo.com.br/restaurante/danoi.html' %}
+{% include figure.html src='2017-02-08-como-cidadaos-empoderados-podem-conversar-com-deputados-04.png' alt='Fonte: http://www.duducamargo.com.br/restaurante/danoi.html' %}
 
 Caso ele tivesse comido o prato mais caro, e tomado a bebida mais cara (uma jarra de suco), acrescidos os 10%, ele teria gasto R$ 86 — em outras palavras, o valor pelo qual ele foi reembolsado é **2,5 vezes maior** do que isso.
 

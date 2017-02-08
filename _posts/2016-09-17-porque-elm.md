@@ -58,7 +58,7 @@ Isso resolveu o problema do custo da alteração do DOM. Mas não resolveu a nos
 
 O Elm chegou com várias promessas ótimas. Ele promete ser [mais rápido](http://elm-lang.org/blog/blazing-fast-html-round-two) que as alternativas mencionadas anteriormente:
 
-{% include figure.html src='elm-blazing-fast.png' alt='Elm: Blazing Fast HTML, Round Two' %}
+{% include figure.html src='2016-09-17-porque-elm-01.png' alt='Elm: Blazing Fast HTML, Round Two' %}
 
 E, entre outras coisas, promete _no runtime exceptions_, ou seja, sem erros na hora do usuário executar a aplicação. A [NoRedInk](https://www.noredink.com), pioneira na adoção do Elm, tem uma aplicação em Elm de mais ou menos 36 mil linhas, rodando há 1 ano. Zero erros reportados.
 
@@ -184,7 +184,7 @@ Nos termos do Elm isso quer dizer que toda aplicação é organizada em torno de
 
 Vamos ver como isso funciona abrindo o `$ elm-reactor` no terminal e abrindo a URL do servidor que ele cria ([`localhost:8000`](http://localhost:8000)) no navegador.
 
-{% include figure.html src='elm-reactor.png' alt='Elm Reactor' %}
+{% include figure.html src='2016-09-17-porque-elm-02.png' alt='Elm Reactor' %}
 
 Clicando em [`Main.elm`](http://localhost:8000/Main.elm) (ou em qualquer arquivo Elm) o Reactor já compila e mostra o resultado no navegador. Então vamos começar a aprender um pouco mais de Elm e testar sua arquitetura criando uma caixa de comentários.
 
