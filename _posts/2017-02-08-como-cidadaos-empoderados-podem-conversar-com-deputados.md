@@ -58,7 +58,7 @@ Portanto, é possível obter uma média de preços por pessoa em restaurantes _�
 
 Caso ele tivesse comido o prato mais caro, e tomado a bebida mais cara (uma jarra de suco), acrescidos os 10%, ele teria gasto R$ 86 — em outras palavras, o valor pelo qual ele foi reembolsado é **2,5 vezes maior** do que isso.
 
-Outra forma de obter uma média de gastos no Da Noi é olhando para a própria Cota que estamos investigando: [existem 1223 reembolsos feitos a deputados que fizeram refeições nesse estabelecimento](https://jarbas.datasciencebr.com/#/cnpjCpf/16955896000445). O mais baixo desses é no valor de R$ 2,50 — possivelmente um café ou uma água. Filtrando apenas os gastos maiores que R$ 25 (valor próximo ao prato mais barato da casa), temos 830 reembolsos. A média entre eles é R$ 59,14 — **quase 4 vezes menos do que o gasto do deputado** em questão.
+Outra forma de obter uma média de gastos no Da Noi é olhando para a própria Cota que estamos investigando: [existem 1223 reembolsos feitos a deputados que fizeram refeições nesse estabelecimento](https://jarbas.serenatadeamor.org/#/cnpjCpf/16955896000445). O mais baixo desses é no valor de R$ 2,50 — possivelmente um café ou uma água. Filtrando apenas os gastos maiores que R$ 25 (valor próximo ao prato mais barato da casa), temos 830 reembolsos. A média entre eles é R$ 59,14 — **quase 4 vezes menos do que o gasto do deputado** em questão.
 
 Sendo assim, apesar da resposta oficial, continuamos desconfiando desse reembolso.
 

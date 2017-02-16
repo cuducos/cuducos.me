@@ -3,7 +3,7 @@ layout: blog
 title: Tecnologia, transparência e política
 ---
 
-Essa semana fui um dos convidados para palestrar no [USP Talks](http://facebook.com/usptalks). O evento foi muito legal, teve até [transmissão ao vivo](https://www.youtube.com/channel/UCw8ZXVXrAyNTdvzKH6HMhmg). Para quem não pode ver no dia, deixo o vídeo da palestra e o roteiro que rascunhei (e obviamanete não segui à risca) para a minha fala. E também tem [essa matéria](http://jornal.usp.br/universidade/tecnologia-pode-auxiliar-na-fiscalizacao-de-desvio-de-recursos-publicos/) bem legal contando do evento, da [Operação Serenata de Amor](http://serenata.datasciencebr.com) e de blockchain.
+Essa semana fui um dos convidados para palestrar no [USP Talks](http://facebook.com/usptalks). O evento foi muito legal, teve até [transmissão ao vivo](https://www.youtube.com/channel/UCw8ZXVXrAyNTdvzKH6HMhmg). Para quem não pode ver no dia, deixo o vídeo da palestra e o roteiro que rascunhei (e obviamanete não segui à risca) para a minha fala. E também tem [essa matéria](http://jornal.usp.br/universidade/tecnologia-pode-auxiliar-na-fiscalizacao-de-desvio-de-recursos-publicos/) bem legal contando do evento, da [Operação Serenata de Amor](http://serenatadeamor.org) e de blockchain.
 
 Muito obrigado ao Paulo Almeida pelo convite, e ao [Herton Escobar](http://br.linkedin.com/in/hertonescobar) e ao [Pedro Vilanova](https://twitter.com/pedrovilanova) por me ajudar a organizar minhas ideias.
 
@@ -83,7 +83,7 @@ Mas, se eu já disse que temos a tecnologia necessária, porque não juntar as d
 
 Porque não usar inteligência artificial e machine learning para detectar casos de corrupção, casos de uso indevido? Podemos usar essa tecnologia para identificar casos suspeitos nos gastos dos políticos, usar essa tecnologia para para ficar de olho no que eles andam fazendo com o nosso dinheiro.
 
-Na verdade, essa é a ideia de um grupo do qual eu faço parte: a [Operação Serenata de Amor](http://serenata.datasciencebr.com). Esse projeto tem como objetivo exatamente isso. Nós estamos fazendo um robô que fiscaliza contas públicas, que encontra casos de corrupção na menor escala possível e em maior volume possível.
+Na verdade, essa é a ideia de um grupo do qual eu faço parte: a [Operação Serenata de Amor](http://serenatadeamor.org). Esse projeto tem como objetivo exatamente isso. Nós estamos fazendo um robô que fiscaliza contas públicas, que encontra casos de corrupção na menor escala possível e em maior volume possível.
 
 Nos inspiramos em um caso da Suécia, da década de 90: Mona Sahlin era fortíssima candidata a Primeira Ministra quando, em um caso icônico, um chocolate Toblerone apareceu na fatura de seu cartão corporativo — ou seja, em uma conta paga com dinheiro público. Isso derrubou qualquer chance de sucesso para as ambições da candidata. O caso ficou conhecido como _Toblerone Affair_.O que nós queremos é fazer o mesmo aqui no Brasil.
 

@@ -7,7 +7,7 @@ _Post originalmente [publicado na Data Science Brigade](https://datasciencebr.co
 
 ---
 
-Últimas semanas dessa fase da [Serenata de Amor](http://serenata.datasciencebr.com/). Nós aqui muito gratas e gratos por todo o apoio que tivemos, pela força que nos deram com grana, retuítes, críticas e elogios.
+Últimas semanas dessa fase da [Serenata de Amor](http://serenatadeamor.org/). Nós aqui muito gratas e gratos por todo o apoio que tivemos, pela força que nos deram com grana, retuítes, críticas e elogios.
 
 Nós aqui também muito empolgados e curiosos para ouvir da Câmara dos Deputados respostas sobre as [centenas de denúncias](https://datasciencebr.com/o-resultado-do-mutir%C3%A3o-de-den%C3%BAncias-%C3%A0-c%C3%A2mara-321ef0825888) que geramos na [semana passada](https://datasciencebr.com/como-est%C3%A1-acontecendo-a-hackaton-de-den%C3%BAncias-da-opera%C3%A7%C3%A3o-serenata-de-amor-a8bd193e0c76).
 
@@ -39,7 +39,7 @@ Por melhores que tenham sido os resultados das denúncias que já fizemos, não 
 
 ### Automatização
 
-Queremos automatizar tudo: hoje o [Jarbas](http://jarbas.datasciencebr.com) é nossa ferramenta para visualizar os dados, e a Rosie a peça fundamental que pega os dados, analisa e alimenta o Jarbas. O problema é que a conversa entre Jarbas e Rosie ainda é feita manualmente: digitamos um comando para a Rosie gerar os arquivos, então pegamos esses arquivos e passamos para o Jarbas; por fim digitamos outro comando para o Jarbas ler esses arquivos.
+Queremos automatizar tudo: hoje o [Jarbas](http://jarbas.serenatadeamor.org) é nossa ferramenta para visualizar os dados, e a Rosie a peça fundamental que pega os dados, analisa e alimenta o Jarbas. O problema é que a conversa entre Jarbas e Rosie ainda é feita manualmente: digitamos um comando para a Rosie gerar os arquivos, então pegamos esses arquivos e passamos para o Jarbas; por fim digitamos outro comando para o Jarbas ler esses arquivos.
 
 Nosso foco nessas semanas é fazer com que tudo isso aconteça automática e periodicamente: em um servidor, uma ou duas vezes por dia, esse processo todo vai acontecer sem a necessidade de um humano digitar comandos ou mover arquivos. Isso vai fazer com que o Jarbas esteja sempre atualizado. **Sempre**. Mas não temos como testar essa implementação se a Câmara nos oferece um arquivo corrompido.
 
