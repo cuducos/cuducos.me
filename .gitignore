@@ -9,6 +9,5 @@ _site/
 
 # External libraries & processed files
 assets/js/app.min.js
-bower_components/
 node_modules/
 

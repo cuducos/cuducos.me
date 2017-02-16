@@ -6,14 +6,11 @@ if [ -n "$CUDUCOSME" ]; then
     echo '\n==> Cleaning _site/'
     bundle exec jekyll clean
 
-    echo '\n==> Instaling NodeJS and Bower dependencies'
-    npm i
+    echo '\n==> Instaling NodeJS packages'
+    yarn install
 
-    echo '\n==> Generating JavaScript'
-    npm run js
-
-    echo '\n==> Creating SCSS of Prsim CSS files'
-    npm run prism
+    echo '\n==> Generating assets'
+    yarn assets
 
     echo '\n==> Generating the site at _site/'
     JEKYLL_ENV=production bundle exec jekyll build

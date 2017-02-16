@@ -5,15 +5,17 @@
     "url": "git://github.com/cuducos/cuducos.me.git"
   },
   "scripts": {
-    "js": "gulp",
-    "prism": "find bower_components/prism -iname '*.css' -exec cp {} {}.scss \\;",
-    "postinstall": "bower install"
+    "assets": "gulp",
+    "preassets": "find node_modules/prismjs -iname '*.css' -exec cp {} {}.scss \\;"
   },
   "dependencies": {
-    "bower": "^1.7.7",
+    "bourbon": "^4.3.2",
+    "bourbon-bitters": "^1.2.1",
+    "bourbon-neat": "^1.8.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-uglify": "^2.0.0",
+    "prismjs": "^1.6.0",
     "uglify-js": "^2.6.2"
   }
 }

@@ -4,10 +4,10 @@ var gulpUglify = require('gulp-uglify');
 
 gulp.task('default', function () {
   var files = [
-    'bower_components/prism/prism.js',
-    'bower_components/prism/components/prism-python.js',
-    'bower_components/prism/components/prism-javascript.js',
-    'bower_components/prism/components/prism-haskell.js',
+    'node_modules/prismjs/prism.js',
+    'node_modules/prismjs/components/prism-python.js',
+    'node_modules/prismjs/components/prism-javascript.js',
+    'node_modules/prismjs/components/prism-haskell.js',
     'assets/js/app.js',
   ];
 

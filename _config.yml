@@ -12,14 +12,14 @@ gems:
     
 exclude: 
   - assets/js/app.js
-  - bower.json
-  - bower_components/
   - contrib/
   - Gemfile
   - Gemfile.lock
+  - gulpfile.js
   - node_modules/
   - package.json
   - README.md
+  - yarn.lock
 
 keep_files:
   - media

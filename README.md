@@ -7,7 +7,7 @@
 Basic requirements:
 
 * [Ruby](http://ruby-lang.org) 2.3.1 with `gem`
-* [NodeJS](http://nodejs.org) with `npm`
+* [Yarn](http://yarnpkg.com)
 
 ### Dependencies
 
@@ -17,17 +17,17 @@ Install [Bundler](http://bundler.io) gem, then the other   required [Ruby](http:
 $ gem install bundler
 $ bundle install
 ```
-To build the front-end some NodeJS and [Bower](http://bower.io) packages are required:
+
+To install some front-end requirements we use [Yarn](http://yarnpkg.com):
 
 ```console
-# npm install
+$ yarn install
 ```
+
 Then prepare the front-end assets:
 
 ```console
-$ npm run js
-$ npm run fonts
-$ npm run prism
+$ yarn assets
 ```
 
 ### Settings
