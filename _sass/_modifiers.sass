@@ -18,17 +18,17 @@ nav.social
       position: absolute
     &::after
       background-color: $link_social_bg
-      border-radius: rem(3)
+      border-radius: 0.1875rem
       color: $link_social_fg
       content: attr(title)
       padding: .2rem .5rem
       pointer-events: none
       top: 3rem
       white-space: nowrap
-      +media($desktop)
+      @media ($desktop)
         min-width: 2.5rem
     &::before
-      border: solid transparent rem(4)
+      border: solid transparent 0.1875rem
       border-bottom-color: $link_social_bg
       content: ''
       display: block
@@ -58,19 +58,21 @@ nav.social
           width: 2rem
   .social
     a
-      +media($desktop)
-        +size(2rem)
+      @media (desktop)
+        height: 2rem
         padding-top: .45rem
+        width: 2rem
     svg
-      +media($desktop)
-        +size(1rem)
+      @media (desktop)
+        height: 1rem
+        width: 1rem
   &.home
     ol, ul
       margin: 0
     li
       list-style-type: none
       margin: 1rem 0 0 0
-      +media($desktop)
+      @media (desktop)
         margin: 0
       &:before
         display: none
