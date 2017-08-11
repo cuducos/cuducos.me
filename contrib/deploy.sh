@@ -7,10 +7,10 @@ if [ -n "$CUDUCOSME" ]; then
     bundle exec jekyll clean
 
     echo '\n==> Instaling NodeJS packages'
-    yarn install
+    npm install
 
     echo '\n==> Generating assets'
-    yarn assets
+    npm run assets
 
     echo '\n==> Generating the site at _site/'
     JEKYLL_ENV=production bundle exec jekyll build

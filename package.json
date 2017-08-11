@@ -9,13 +9,13 @@
     "preassets": "find node_modules/prismjs -iname '*.css' -exec cp {} {}.scss \\;"
   },
   "dependencies": {
-    "bourbon": "^4.3.2",
+    "bourbon": "^4.3.4",
     "bourbon-bitters": "^1.2.1",
-    "bourbon-neat": "^1.8.0",
+    "bourbon-neat": "^1.9.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^3.0.0",
     "prismjs": "^1.6.0",
-    "uglify-js": "^2.6.2"
+    "uglify-js": "^3.0.27"
   }
 }

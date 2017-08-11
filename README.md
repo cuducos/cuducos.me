@@ -7,7 +7,7 @@
 Basic requirements:
 
 * [Ruby](http://ruby-lang.org) 2.3.1 with `gem`
-* [Yarn](http://yarnpkg.com)
+* `npm`
 
 ### Dependencies
 
@@ -18,16 +18,16 @@ $ gem install bundler
 $ bundle install
 ```
 
-To install some front-end requirements we use [Yarn](http://yarnpkg.com):
+To install some front-end requirements we use `npm`:
 
 ```console
-$ yarn install
+$ npm install
 ```
 
 Then prepare the front-end assets:
 
 ```console
-$ yarn assets
+$ npm run assets
 ```
 
 ### Settings
