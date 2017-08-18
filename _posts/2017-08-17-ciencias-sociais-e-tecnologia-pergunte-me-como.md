@@ -27,7 +27,7 @@ Mas apesar disso você **não** precisa aprender a programar. Você precisa ente
 
 Diversos acadêmicos nas ciência sociais tem conhecimento sobre programação e tem feito centenas de pesquisas boas também, mesmo que não usem código diretamente nos trabalhos: é o caso, por exemplo, da [danah boyd](https://twitter.com/zephoria) com um sensacional trabalho sobre [adolescentes e privacidade em redes sociais](https://www.danah.org/books/ItsComplicated.pdf), ou do [James Allen-Robertson](https://twitter.com/Minyall), um dos meus orientadores, e a pesquisa sobre [a indústria cultural digital e a cultura hacker](https://www.palgrave.com/us/book/9781137033468).
 
-Claro que existe ainda outra possibilidade: usar a programação como parte da metodologia de pesquisa nas ciências sociais, como é o caso do [Taha Yasseri](https://twitter.com/TahaYasseri), um dos autores do _Political Turbulence_ que mencioneu antes, ou do meu colega daquele curso que fiz em Oxford, [Felix Victor Münch](https://twitter.com/FlxVctr)… então pode ser que você realmente queira aprender a programar. 
+Claro que existe ainda outra possibilidade: usar a programação como parte da metodologia de pesquisa nas ciências sociais, como é o caso do [Taha Yasseri](https://twitter.com/TahaYasseri), um dos autores do _Political Turbulence_ que mencionei antes, ou do meu colega daquele curso que fiz em Oxford, [Felix Victor Münch](https://twitter.com/FlxVctr)… então pode ser que você realmente queira aprender a programar. 
 
 Quando (re)comecei, ou seja, quando fui aprender coisas mais modernas depois de um período de uns 7 anos sem programar, aprendi muito de Python com [essas fontes aqui](https://github.com/cuducos/whiskyton#thanks), talvez seja um bom começo.
 
