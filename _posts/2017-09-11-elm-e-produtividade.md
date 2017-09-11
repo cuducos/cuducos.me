@@ -5,9 +5,9 @@ title: Elm e produtividade
 
 Recebo quase sempre perguntas de gente interessada em [Elm](http://elm-lang.org) mas com dúvida sobre produtividade: adotar Elm vai resultar em uma time mais produtivo?
 
-A pergunta que eu sempre devolvo nesse ponto é a seguinte: _o que é importante nessa tua produtividade?_ Digo isso pois o foco no Elm não é agilidade (por mais que seja totalmente compatível com métodos ágeis, TDD etc.). O ponto forte do Elm é mais relacionado a robustez no ambiente de desenvolvimento para garantir estabilidade da aplicação e facilidade de manutenção.
+A pergunta que eu sempre devolvo nesse ponto é a seguinte: _o que é importante nessa tua produtividade?_ Digo isso pois o foco no Elm não é rapidez (por mais que seja totalmente compatível com métodos ágeis, TDD etc.). O ponto forte do Elm é mais relacionado a robustez no ambiente de desenvolvimento para garantir estabilidade da aplicação e facilidade de manutenção.
 
-Agilidade faz muito sentido nos momentos em que precisamos de um protótipo rápido, um MVP, por exemplo. Mas se o foco é estabilidade e facilidade de manutenção no médio/longo prazo (coisas sem sentido para um protótipo ou MVP) aí a robustez da arquitetura do Elm faz a diferença.
+Rapidez faz muito sentido nos momentos em que precisamos de um protótipo rápido, um MVP, por exemplo. Mas se o foco é estabilidade e facilidade de manutenção no médio/longo prazo (coisas sem sentido para um protótipo ou MVP) aí a robustez da arquitetura do Elm faz a diferença.
 
 O ponto é que para um produto de front-end ser robusto e de fácil manutenção é necessário, normalmente, um stack mais ou menos assim: [npm](https://www.npmjs.com) ou [Yarn](https://yarnpkg.com/), [webpack](https://webpack.js.org), [React](https://facebook.github.io/react/), [Redux](http://redux.js.org), [Immutable.JS](https://facebook.github.io/immutable-js/). Além da adoção de melhores práticas, programação funcional e guias de estilo. E isso ainda sem falar de outras possibilidades como [Vue](https://vuejs.org) ou [TypeScript](http://www.typescriptlang.org).
 
