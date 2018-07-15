@@ -7,7 +7,7 @@ Hoje eu estava pensando no [AlchemyDumps](https://github.com/cuducos/alchemydump
 
 * * *
 
-Lá para meados de 2013, depois de escrever uma [dissertação sobre o caso do Aaron Swartz](http://meiaduzia.com.br/hacktivism/), enfiei na minha cabeça que eu iria aprender Python. Foi um das decisões mais acertadas da minha vida: foi quando comecei a me reconciliar com o mundo da programação, mundo que eu havia abandonado há uns 7 ou 8 anos.
+Lá para meados de 2013, depois de escrever uma [dissertação sobre o caso do Aaron Swartz](http://cuducos.me/hacktivism/), enfiei na minha cabeça que eu iria aprender Python. Foi um das decisões mais acertadas da minha vida: foi quando comecei a me reconciliar com o mundo da programação, mundo que eu havia abandonado há uns 7 ou 8 anos.
 
 Comecei fazendo um [curso no Coursera](https://www.coursera.org/course/interactivepython), depois fui lendo um [livro sobre Python](http://www.greenteapress.com/thinkpython/thinkpython.html). Fui [me atualizar](https://redd.it/1uec51) sobre desenvolvimento para web. Fui pedindo [ajuda no Reddit](https://redd.it/1rnfle) e seguindo um [tutorial para desenvolver uma aplicação web](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world). Com isso logo coloquei meu [primeiro projeto](http://whiskyton.herokuapp.com) no ar — [_hell yeah!_]({% post_url 2016-05-19-chega-de-sim-e-ou-hell-yeah-ou-nao %})
 

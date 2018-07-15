@@ -3,7 +3,7 @@ layout: blog
 title: "Um mundo deprimente esse de diegos e josé eugenios"
 ---
 
-Escrevo esse texto com dor, e a emoção que causa essa dor com certeza me atordoa. Não sou advogado, nem formado em direito. Por mais que eu tenha um [mestrado sobre sociologia do direito](http://www.meiaduzia.com.br/hacktivism/), legislação, interpretação das leis e jurisprudência não são minha especialidade.
+Escrevo esse texto com dor, e a emoção que causa essa dor com certeza me atordoa. Não sou advogado, nem formado em direito. Por mais que eu tenha um [mestrado sobre sociologia do direito](http://cuducos.me/hacktivism/), legislação, interpretação das leis e jurisprudência não são minha especialidade.
 
 Apesar de tudo isso sou sociólogo. Sou treinado para olhar como estruturas de poder se relacionam em uma sociedade. E nessa infeliz quarta-feira vi um juiz anular a existência de uma mulher — e o significado disso é amedrontador para todos nós que queremos um mundo justo para todos, independente de gênero ou sexualidade.
 
