@@ -15,7 +15,7 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-uglify": "^3.0.0",
-    "prismjs": "^1.6.0",
-    "uglify-js": "^3.0.27"
+    "prismjs": "^1.15.0",
+    "uglify-js": "^3.4.4"
   }
 }
