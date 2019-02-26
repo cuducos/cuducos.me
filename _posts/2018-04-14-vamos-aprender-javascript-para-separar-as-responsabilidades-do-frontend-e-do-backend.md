@@ -31,20 +31,22 @@ O [código](https://github.com/cuducos/django-ajax-contatcs) foi escrito em mais
 
 ## Parte 1
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AW9FcWVHKWk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSNPrpdSvP0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Parte 2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mA1c7ztyjXI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5liiGKWmKNc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Parte 3
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PhzsW6XmzEU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qH5xvNegPCM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Parte 4
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fPiWWmWSXoc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cj4z1-GL2QA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Parte 5
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yb2OG5iQzAE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HZ1izoKfKRg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> **UPDATE** No dia 26 de fevereiro de 2019 subi novas versões dos vídeos, com o áudio tratado pelo Marcelino Pinheiro — muito obrigado : )
