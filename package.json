@@ -11,11 +11,11 @@
   "dependencies": {
     "bourbon": "^4.3.4",
     "bourbon-bitters": "^1.2.1",
-    "bourbon-neat": "^1.9.0",
+    "bourbon-neat": "^1.9.1",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
     "prismjs": "^1.15.0",
-    "uglify-js": "^3.4.4"
+    "uglify-js": "^3.4.10"
   }
 }
