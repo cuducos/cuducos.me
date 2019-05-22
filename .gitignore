@@ -1,13 +1,14 @@
 # OS
 .DS_Store
+.ruby-version
+.node-version
+.python-version
 
 # Ruby, Jekyll & preprocessors
 .jekyll-metadata
-.ruby-version
 .sass-cache
 _site/
 
 # External libraries & processed files
 assets/js/app.min.js
 node_modules/
-

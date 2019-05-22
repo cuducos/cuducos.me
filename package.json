@@ -12,10 +12,10 @@
     "bourbon": "^4.3.4",
     "bourbon-bitters": "^1.2.1",
     "bourbon-neat": "^1.9.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.2",
-    "prismjs": "^1.15.0",
-    "uglify-js": "^3.4.10"
+    "prismjs": "^1.16.0",
+    "uglify-js": "^3.5.15"
   }
 }
