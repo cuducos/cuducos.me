@@ -1,40 +1,29 @@
 # Eduardo Cuducos
 
-[Jekyll](http://jekyllrb.com) source files for [my personal page & blog](http://cuducos.me).
+[Jekyll](https://jekyllrb.com) source files for [my personal page & blog](https://cuducos.me).
 
-## Build instructions
+Requires [Ruby](http://ruby-lang.org) (version specified in `Gemfile`) with [Bundler](http://bundler.io).
 
-Basic requirements:
+## Getting started
 
-* [Ruby](http://ruby-lang.org) 2.3.1 with `gem`
-* `npm`
-
-### Dependencies
-
-Install [Bundler](http://bundler.io) gem, then the other   required [Ruby](http://ruby-lang.org) gems:
+Install  the dependacies:
 
 ```console
 $ gem install bundler
-$ bundle install
 ```
 
-To install some front-end requirements we use `npm`:
+Then install the SASS libraries inside `_sass` directory:
 
 ```console
-$ npm install
+$ cd _sass
+$ bundle exec bourbon install
+$ bundle exec neat install
+$ bundle exec bitters install
 ```
 
-Then prepare the front-end assets:
+Finally, change the site URL at `_config.yml` if needed.
 
-```console
-$ npm run assets
-```
-
-### Settings
-
-Change the site URL at `_config.yml` if needed.
-
-### Building
+## Building
 
 And finally build the site into `_site/`:
 
@@ -50,7 +39,7 @@ $ JEKYLL_ENV=production jekyll b
 
 ### Deploy
 
-To deploy via `rsync`, set the environment variable `CUDUCOSME` with the SSH path to the server and directory where you want to deploy (e.g.: `user:secret@server.org:/users/user/www/`). Then run:
+To deploy using `awscli`, set it's credentials and run:
 
 ```console
 $ ./contrib/deploy.sh
