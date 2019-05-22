@@ -74,7 +74,7 @@ Elm é uma outra linguagem, com outra lógica, e com compilador próprio. Ela é
 
 Depois de [instalar o Elm](https://guide.elm-lang.org/get_started.html), vamos brincar um pouco para sentir como ele é. Faremos isso abrindo o console, o _read–eval–print loop_, com `$ elm-repl`:
 
-```haskell
+```elm
 > "Ahoy"
 "Ahoy" : String
 > 3.1415
@@ -114,7 +114,7 @@ Reparem como a mensagem de erro é clara: `TYPE MISMATCH` te diz qual o tipo do 
 
 Outro exemplo: o `Maybe`. Imagine uma cenário onde, por algum motivo, você precisa do primeiro elemento de uma lista. Mas imagine que por algum motivo (talvez ainda desconhecido) aquela lista chegou ali vazia. No Python temos um `IndexError`, como já vimos. E no Elm?
 
-```haskell
+```elm
 > import List
 > List.head [1, 2, 3]
 Just 1 : Maybe.Maybe number
@@ -122,7 +122,7 @@ Just 1 : Maybe.Maybe number
 
 Faríamos assim com uma lista contendo três elementos. Mas repare no detalhe do tipo que essa função retornou, `Just 1`, e no tipo que essa mesma função retorna quando passamos uma lista vazia, o `Nothing`:
 
-```haskell
+```elm
 > List.head []
 Nothing : Maybe.Maybe a
 ```
@@ -131,7 +131,7 @@ O Elm sabe que uma lista pode ser vazia. E não te deixa esquecer disso. Quando 
 
 Se quisermos somente o número, sem o tipo `Just <número>`, podemos dizer qual é o valor padrão:
 
-```haskell
+```elm
 > Maybe.withDefault 0 (List.head [])
 0 : number
 ```
@@ -144,7 +144,7 @@ Mas e como desenvolvemos algo _de verdade_? Bom, vamos por partes.
 
 Comecemos com um arquivo simples, `Main.elm`:
 
-```haskell
+```elm
 module Main exposing (..)
 
 import Html exposing (text)
@@ -198,7 +198,7 @@ Vamos pensar quais dados precisamos para ter uma caixa de comentário:
 
 Com isso, vamos começar a editar nosso `Main.elm` criando um tipo específico para nossos comentários:
 
-```haskell
+```elm
 type alias Comment =
     { author : String
     , contents : String
@@ -209,7 +209,7 @@ O Elm já tem vários tipos de dados como `Integer`, `Float`, `String`, `List`, 
 
 E vamos criar também um modelo nosso:
 
-```haskell
+```elm
 type alias Model =
     { new = Comment
     , comments = List Comment
@@ -242,7 +242,7 @@ Por isso definimos que nosso modelo tem dois campos: um `new` onde guardamos nom
 
 Podemos declarar uma constante que seria o equivalente a uma caixa de comentários vazia:
 
-```haskell
+```elm
 initialModel =
     { new =
         { author = ""
@@ -255,7 +255,7 @@ initialModel =
 Ou, por exemplo, uma em que já teríamos dois comentários postados, e um sendo digitado:
 
 
-```haskell
+```elm
 initialModel =
     { new =
         { author = "John Doe"
@@ -274,7 +274,7 @@ initialModel =
 
 Ainda podemos, antes de declarar a constante, especificar que ela deve seguir os tipos do nosso `Model` criado anteriormente:
 
-```haskell
+```elm
 initialModel : Model
 initialModel =
     { new =
@@ -308,7 +308,7 @@ But I am inferring that the definition has this type:
 
 Pronto, já temos nosso modelo declarado e um valor inicial para ele. Se você se perdeu, é isso que adicionamos ao nosso `Main.elm`:
 
-```haskell
+```elm
 type alias Comment =
     { author : String
     , contents : String
@@ -345,7 +345,7 @@ p [] [ text "Ahoy" ]
 
 Isso no final das contas é uma tag `p`, sem nenhum atributo e tem um nó de texto com `Ahoy` dentro. Ou seja, `<p>Ahoy</p>`.
 
-```haskell
+```elm
 import Html exposing (p, text)
 import Html.Attributes exposing (class)
 
@@ -354,7 +354,7 @@ p [ class "alert" ] [ text "Ahoy" ]
 
 Agora esse código recebeu uma lista não-vazia de argumentos, logo equivale a `<p class="alert">Ahoy</p>`.
 
-```haskell
+```elm
 import Html exposing (p, strong, text)
 import Html.Attributes exposing (class)
 
@@ -370,7 +370,7 @@ Agora temos uma _tag_ dentro de outra: `<p class="alert">Ahoy, <strong>cap'n</st
 
 É essa mesma estrutura que vamos utilizar na nossa `view`. A assinatura dela é receber um `Model` e devolver esses elementos de HTML, o que em Elm dizemos assim:
 
-```haskell
+```elm
 view : Model -> Html.Html a
 ```
 
@@ -382,7 +382,7 @@ O módulo de listas do Elm pode nos facilitar a vida. Ele tem a função `List.l
 
 Então o texto que queremos mostrar vai ser a junção de duas coisas: o valor retornado por `List.length`, transformado para texto, mais  o texto `comentários` (depois cuidamos do plural). Isso quer dizer algo como:
 
-```haskell
+```elm
 view : Model -> Html.Html a
 view model =
     p [] [ text ((toString (List.length model.comments)) ++ " comentários") ]
@@ -390,7 +390,7 @@ view model =
 
 Esse código está péssimo. Muito fácil se perder nos parênteses. Vamos usar uma estrutura do Elm pra facilitar isso, depois explicamos mais sobre ela:
 
-```haskell
+```elm
 view : Model -> Html.Html a
 view model =
     let
@@ -409,7 +409,7 @@ Dentro do `let` temos um número inteiro `count`, que é transformado para texto
 
 Se quiser ver nosso modelo e view funcionando, é só trocar `main` por:
 
-```haskell
+```elm
 main =
     view initialModel
 ```
@@ -426,7 +426,7 @@ Antes de fechar nossa `view` precisamos fazer três coisas:
 
 Essa é a mais simples: o que precisamos é de uma função `Int -> String`, ou seja, passamos um número inteiro (`0`, ou `1`, ou `2` etc.) e ela nos devolve `"comentário"` quando passamos `1`, ou `"comentários"` quando passamos qualquer outro número:
 
-```haskell
+```elm
 pluralize : Int -> String
 pluralize count =
     if count == 1 then
@@ -437,7 +437,7 @@ pluralize count =
 
 E já podemos usá-la na nossa `view` substituindo a antiga `phrase` por:
 
-```haskell
+```elm
 phrase =
     (toString count) ++ " " ++ pluralize count
 ```
@@ -446,7 +446,7 @@ phrase =
 
 Nosso formulário só vai ganhar vida quando tivermos nossa função de `update` que vai pegar o que for digitado e salvar no modelo. Então por enquanto é só usar o HTML do Elm. Expomos mais algumas _tags_ e atributos e ficamos com esse resultado:
 
-```haskell
+```elm
 import Html exposing (br, button, div, form, input, p, text, textarea)
 import Html.Attributes exposing (value)
 
@@ -483,7 +483,7 @@ São muitas linhas novas, mas é só HTML escrito de uma forma um pouco diferent
 
 Para começar vamos fazer uma nova função que recebe um comentário só (tipo `Comment` que criamos) e retorna HTML (`Comment -> Html.Html. a`):
 
-```haskell
+```elm
 viewComment : Comment -> Html.Html a
 viewComment comment =
     p
@@ -500,7 +500,7 @@ Agora vamos usar o `List.map` para aplicar essa função em cada um dos comentá
 
 Na prática a única novidade na nossa `view` é o `div [] (List.map viewComment model.comments)`:
 
-```haskell
+```elm
 view : Model -> Html.Html a
 view model =
     let
@@ -533,7 +533,7 @@ A função `update` é a mais complexa. Ela recebe um modelo e uma mensagem, par
 * a ação de digitar um novo comentártio (ou seja, guardar o que for digitado no modelo, no `Model.new.contents`);
 * e a ação de postar um novo comentário (adicionar o conteúdo do `Model.new` à lista `Model.comments` e limpar o `Model.new`).
 
-```haskell
+```elm
 type Msg = UpdateAuthor String | UpdateContents String | PostComment
 ```
 
@@ -545,13 +545,13 @@ Criamos um novo tipo, o `Msg`. Não é um `type alias` como antes pois não esta
 
 Essas são as mensagens que precisamos e é o nosso HTML (o tipo `Html.Html`, no caso) que vai produzí-las. Esse é o significado do `a` na assinatura da nossa `view`: qual o tipo de mensagem que nosso HTML vai produzir? Agora podemos atualizar nossa `view` e especificar que será uma dessas mensagens que definimos no tipo `Msg` (e podemos fazer o mesmo com a `viewComments`):
 
-```haskell
+```elm
 view : Model -> Html.Html Msg
 ```
 
 Falando na `view`, podemos importar alguns eventos do módulo `Html`: o `onInput` para quando tiver qualquer alteração nos dados do `input` ou do `textarea`, e o `onSubmit`, que captura o momento que um formulário foi enviado.
 
-```haskell
+```elm
 import Html.Events exposing (onInput, onSubmit)
 
 --
@@ -592,7 +592,7 @@ Assim, quando o usuário interagir com o formulário o aplicativo já dispara as
 
 No caso do `UpdateAuthor` ou `UpdateContents` a ideia é pegar o texto que vier junto com a mensagem e atualizar, respectivamente, o `new.author` e o `new.comments`. Feito isso é só retornar uma nova versão do modelo. Vamos ver como começamos:
 
-```haskell
+```elm
 update : Msg -> Model -> Model
 update msg model =
     case msg of
@@ -618,7 +618,7 @@ Temos a nossa função `update` cuidando de somente um caso. Ela recebe a mensag
 
 Imagine que você tenha esse `Comment`:
 
-```haskell
+```elm
 myComment : Comment
 myComment =
     { author = "Buccaneer"
@@ -628,7 +628,7 @@ myComment =
 
 Se você quiser atualizar esse `Comment` para obter um cujo o `author` seja `"Scurvy dog"`, você poderia trocar o `author` e manter o `contents`:
 
-```haskell
+```elm
 myNewComment : Comment -> Comment
 myNewComment comment =
     { author = "Scurvy dog"
@@ -638,7 +638,7 @@ myNewComment comment =
 
 Isso é simples em um `Record` que não tem muitos campos mas imagine como seria a repetição caso nosso `Comment` tivesse [mais de 25 campos](https://github.com/datasciencebr/jarbas/blob/master/jarbas/frontend/elm/Document.elm#L20)? É para isso que a sintaxe que usamos serve, para manter tudo intacto, menos menos o que for declarado após o _pipe_ (`|`). Por exemplo, essa função abaixo faz a mesma coisa que a de cima: mantém todos os campos intactos, salvo o `author`.
 
-```haskell
+```elm
 myNewComment : Comment -> Comment
 myNewComment comment =
     { comment | author = "Scurvy dog" }
@@ -651,7 +651,7 @@ myNewComment comment =
 
 Para fazer o `UpdateContents`, a lógica é a mesma. Para fazer `PostComment` vamos adicionar o `new` como um novo elemento da lista `comment`, depois limpar os campos do `new`. Juntando tudo, temos:
 
-```haskell
+```elm
 update : Msg -> Model -> Model
 update msg model =
     case msg of
@@ -694,7 +694,7 @@ Depois dessa complicação toda da função `update` você abriu o navegador e n
 
 O que falta é criar uma aplicação que liga os fios entre o modelo, a `update` e a `view`. Vamos importar esse aplicativo atualizar nossa `main`:
 
-```haskell
+```elm
 import Html.App
 
 --
