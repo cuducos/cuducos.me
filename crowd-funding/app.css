@@ -1,0 +1,31 @@
+a {
+  color: #FF1493;
+  opacity: 0.83;
+}
+a:hover {
+  color: #FF1493;
+  opacity: 1;
+}
+
+.pusher div:first-child .container {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  height: 100vh;
+}
+
+.ui.button.primary {
+  background-color: #FF1493;
+  margin-bottom: 1rem;
+  opacity: 0.83;
+}
+.ui.button.primary:hover {
+  background-color: #FF1493;
+  opacity: 1;
+}
+
+h2.ui.header:first-child, h3.ui.header:first-child { margin: 3rem auto }
+h2.ui.header:first-child a, h3.ui.header:first-child a { color: rgba(0,0,0,.87) }
+
+nav.ui.grid { padding-bottom: 3rem }
