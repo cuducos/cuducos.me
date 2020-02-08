@@ -69,7 +69,7 @@ Da mesma forma, ao termos muitas informações sobre nossos governos, temos que 
 
 As Diferentonas e o Meu Município pegam dados do orçamento público e comparam em grupos de cidades semelhantes em diversos aspectos, como cada uma delas gasta. Isso permite não só uma nova visualização dos dados que já eram públicos, mas que o cidadão pondere as razões de seu município ter mais ou menos sucesso em cada umas das políticas que a prefeitura implementa. Esses projetos jogam no ar a pergunta sobre como prefeitas e prefeitos estão gerindo a cidade — e isso é muito mais valioso do que um simples acesso aos dados do orçamento.
 
-{% include figure.html src='2018-03-12-o-que-importa-sao-as-perguntas-02.png' alt='Suspeitando' %}
+{% include figure.html src='2018-03-12-o-que-importa-sao-as-perguntas-03.png' alt='Suspeitando' %}
 
 O Suspeitando utiliza dados sobre as licitações para se perguntar onde houve superfaturamento nesses processos. Ele propõe a pergunta diretamente, o que é muito mais valioso do que uma planilha gigante listando tudo que foi licitado por um órgão ou outro.
 
