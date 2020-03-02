@@ -9,7 +9,7 @@ Requires [Ruby](http://ruby-lang.org) (version specified in `Gemfile`) with [Bun
 Install  the dependacies:
 
 ```console
-$ gem install bundler
+$ bundle install
 ```
 
 Then install the SASS libraries inside `_sass` directory:
