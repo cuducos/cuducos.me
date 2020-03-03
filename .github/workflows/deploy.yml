@@ -1,0 +1,37 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: chrislennon/action-aws-cli@v1.1
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.5
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+          cd _sass
+          bundle exec bourbon install
+          bundle exec neat install
+          bundle exec bitters install
+          cd ..
+
+      - name: Build
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Sync S3
+        run: aws s3 sync _site s3://cuducos.me --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
