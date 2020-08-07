@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Scientists Are Using Twitter to Battle Brazil’s Congressional Corruption
 ---
 

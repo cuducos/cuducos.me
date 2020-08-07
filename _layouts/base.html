@@ -5,28 +5,26 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{% if page.lang %}{{ page.lang }}{% else %}pt{% endif %}">
 
-  {% include head.html%}
+{% include head.html %}
 
-<body class="{% if page.class_name %}{{ page.class_name }}{% else %}blog{% endif %}">
+<body>
+  
+  <div class="main-wrapper">
+    <!-- LANGUAGE NAVBAR  -->
+    <div class="navbar">
+      <div class="dropdown">
+        <button onclick="Click()" class="dropbtn">English<i class="fas fa-caret-down"></i></button>
+        <div id="langDropdown" class="dropdown-content">
+          <a href="#">Português</a>
+        </div>
+      </div>
+    </div>
 
-    <div id="wrapper">
+    {{ content }}
 
-      {% include header.html %} 
-
-      <main>
-        <div class="outer">
-          <div class="inner">
-            {{ content }}
-          </div><!-- end div.inner -->
-        </div><!-- end div.outter -->
-      </main>
-
-      {% include footer.html %} 
-
-    </div><!-- end div#wrapper -->
-
-    {% include javascript.html %} 
-
-  </body>
+    {% include footer.html %}
+  </div>
+  
+  {% include javascript.html %}
+</body>
 </html>
-

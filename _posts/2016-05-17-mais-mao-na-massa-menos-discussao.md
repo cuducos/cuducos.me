@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: post
 title: "Mais mão na massa, menos discussão"
 ---
 
-_Nesse post faço a insanidade de listar nomes. Isso é uma merda. Certeza que na empolgação para escrever esqueci muita gente. Minhas sinceras desculpas a quem ficou de fora — me avisem e vou atualizando : )_
+_Nesse post faço a insanidade de listar nomes. Isso é uma merda. Certeza que na empolgação para escrever esqueci muita gente. Minhas sinceras desculpas a quem ficou de fora — me avisem e vou atualizando : )_
 
 * * *
 
@@ -25,7 +25,7 @@ Bem ele, o cérebro de onde surgiu o exemplo máximo de que código aberto e col
 
 Ou seja, como seria esse espaço? Isso me leva a um segunda reflexão que pode soar um pouco egoísta. Talvez eu já tenha esses espaços digitais, minhas panelinhas, meus amigos com quem amadureci nos últimos 10 anos. Mas o curioso desses espaços é que nenhum deles vive sem um projeto prático, sem o lado mão na massa.
 
-Com amigos como o [Id](http://id.etc.br), o [João Vítor](http://www.jvitor.com.br), o [Pistoni](http://fb.com/felipe.pistoni), o [Andrés](http://andresgalante.com), o [Guga](http://fb.com/diogoropelato) e outros fiz muitos freelas e tive inúmeros papos sobre como viver sem um emprego. Esse assunto era comum nas nossas conversas há uns 10 anos. Fui amadurecendo as incertezas da vida sem uma renda estável, as formas de negociar escopo, valores, de se proteger, de mostrar o valor em relações desiguais de contratação e assim por diante. Até hoje tenho neles um grupo totalmente informal — tanto que eles talvez nem se conheçam entre si — ao qual sinto que posso recorrer. Mas nunca fizemos uma reunião para discutir a vida sem emprego, a gente apenas vivia sem emprego e compartilhava as alegrias e tropeços do caminho.
+Com amigos como o [Id](http://id.etc.br), o [João Vítor](http://www.jvitor.com.br), o [Pistoni](http://fb.com/felipe.pistoni), o [Andrés](http://andresgalante.com), o [Guga](http://fb.com/diogoropelato) e outros fiz muitos freelas e tive inúmeros papos sobre como viver sem um emprego. Esse assunto era comum nas nossas conversas há uns 10 anos. Fui amadurecendo as incertezas da vida sem uma renda estável, as formas de negociar escopo, valores, de se proteger, de mostrar o valor em relações desiguais de contratação e assim por diante. Até hoje tenho neles um grupo totalmente informal — tanto que eles talvez nem se conheçam entre si — ao qual sinto que posso recorrer. Mas nunca fizemos uma reunião para discutir a vida sem emprego, a gente apenas vivia sem emprego e compartilhava as alegrias e tropeços do caminho.
 
 Com amigos como o [Larusso](http://larusso.com.br), o [Joatan](http://fb.com/joatanj), o [Galdino](http://fernandogaldino.com), o [Marcinho](https://lessertruth.wordpress.com) e muitos outros fizemos muitos encontros. A gente não precisava de nenhum palestrante cinco estrelas para fazer valer a pena um encontro. A gente sempre teve a certeza de que podíamos aprender muito um com o outro. Muito mesmo. E assim fomos dando mais importância aos nossos papos, RDesigns e NDesigns, viagens, _happy hours_ e qualquer forma de encontro. E é assim até hoje. Mas nunca falamos _vamos discutir o poder dos encontros_ (por mais que trocássemos muitas ideias sobre isso). Apenas íamos e nos encontrávamos fisica e digitalmente quando tínhamos uma boa desculpa.
 
@@ -41,7 +41,7 @@ Curiosamente alguns lugares que se reunem só para discutir foram os que mais me
 
 A provocação, resumindo, é essa: eu não acredito muito em grupos para discutir _x_. Mas aprendi demais em grupos para fazer _y_. Afinal, _talk is cheap, show me the code_.
 
-Se eu tenho algo a responder para meus amigos, é isso: não sei se daria certo. Pode ser até que dê, eu adoraria estar errado. Mas se eu pudesse dar um conselho seria: mão na massa. Comecem um projeto, se juntem a outro, chamem pessoas para perguntar as coisas que quiserem. Marque cafés e cervejas com perguntas claras (inclusive comigo!). Ache nessas conversas ideias para saírem do papel. Se juntem a _hackathlons_, a coisas como [Good for Nothing](http://www.goodfornothing.com) ou [Trade School](http://tradeschool.coop). Se não tiver nenhuma perto, crie. E façam coisas. Fazer coisas diz muito sobre vocês — inclusive, e principalmente, para vocês mesmos.
+Se eu tenho algo a responder para meus amigos, é isso: não sei se daria certo. Pode ser até que dê, eu adoraria estar errado. Mas se eu pudesse dar um conselho seria: mão na massa. Comecem um projeto, se juntem a outro, chamem pessoas para perguntar as coisas que quiserem. Marque cafés e cervejas com perguntas claras (inclusive comigo!). Ache nessas conversas ideias para saírem do papel. Se juntem a _hackathlons_, a coisas como [Good for Nothing](http://www.goodfornothing.com) ou [Trade School](http://tradeschool.coop). Se não tiver nenhuma perto, crie. E façam coisas. Fazer coisas diz muito sobre vocês — inclusive, e principalmente, para vocês mesmos.
 
 <iframe src="https://player.vimeo.com/video/71544191" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

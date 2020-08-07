@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Rosie the Robot: Social accountability one tweet at a time"
 ---
 

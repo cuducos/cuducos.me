@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Governo e corporações não funcionam — mas isso não é novidade"
 ---
 
@@ -11,7 +11,7 @@ E com corporações não é muito diferente. Muitas vezes sentimos a injustiça 
 
 > Olha, o que você fez é feio e errado mas POR FAVOR NÃO VÁ EMBORA DO BRASIL OK NÃO PRECISA NEM PAGAR A MULTA E EU TE DOU MAIS ABATIMENTOS DE IMPOSTOS MAS PFV NÃO VÁ!
 
-Por tudo isso resolvi dissecar um pouco meu desgosto por governos e corporações. Esse texto são algumas reflexões sobre o porquê dessas instituições funcionarem como funcionam — ou, como eu prefiro, o porquê elas _não_ funcionam como nós esperávamos.
+Por tudo isso resolvi dissecar um pouco meu desgosto por governos e corporações. Esse texto são algumas reflexões sobre o porquê dessas instituições funcionarem como funcionam — ou, como eu prefiro, o porquê elas _não_ funcionam como nós esperávamos.
 
 ## Relações muito desiguais entre indivíduos e instituições
 
@@ -42,7 +42,7 @@ Um exemplo clássico é o que o Jason Fried chama de problema M&M, _managers and
 
 E isso para não falar para no [fenômeno dos _bullshit jobs_](http://www.strikemag.org/bullshit-jobs/). De qualquer forma, as empresas se esforçam para ter controle sobre os funcionários, os governos se esforçam para saber tudo sobre nós. E com isso, sobra menos liberdade, menos autonomia, menos força e menos tempo para fazer as coisas que importam para nós (e, por vezes, para a própria empresa, e para a própria sociedade).
 
-No caso dos governos, o ponto principal não é a privacidade virtual, mas questões como burocracia em excesso, impostos demais, regulações de mercado que, no fundo, fortalecem as corporações já estabelecidas e assim por diante. Em resumo, medidas que inibem a inovação, o novo, o dissidente. Corporações e governos, na sede por controle, inibem a criatividade e a autonomia — mesmo quando eles mesmo se beneficiariam dela.
+No caso dos governos, o ponto principal não é a privacidade virtual, mas questões como burocracia em excesso, impostos demais, regulações de mercado que, no fundo, fortalecem as corporações já estabelecidas e assim por diante. Em resumo, medidas que inibem a inovação, o novo, o dissidente. Corporações e governos, na sede por controle, inibem a criatividade e a autonomia — mesmo quando eles mesmo se beneficiariam dela.
 
 ## Excesso de controle apaga o lado humano das decisões
 
@@ -52,7 +52,7 @@ Em um artigo sensacional para o _The Atlantic_, Jerry Useem resumiu bem o que el
 
 > Mas voltemos à Volkswagen. Você não pode inconscientemente instalar um “dispositivo defeituoso” em centenas de milhares de carros. Você precisa ser sorrateiro e, portanto, agir deliberadamente. Para entender esse comportamento, temos que considerar um seleto grupo de exemplos, como o escândalo dos freios da Força Aérea americana em 1968, quando B. F. Goodrich construiu um freio para aeronaves que muitos empregados sabiam que ia falhar. Quando o freio foi testado na Base Aérea de Edwards, o freio derreteu. Virou material fundido.
 >
-> Assim como nas ações da Volkswagen, isso pode parecer um ato de pura e simples loucura. (“Foi como pintar um alvo neles mesmos” disse Joseph Badaracco, um professor de ética da Harvard Business School, sobre a VW).  Mas a decisão final pela enganação foi, no nível individual, racional — uma conclusão lógica após uma longa sequência de fatos.
+> Assim como nas ações da Volkswagen, isso pode parecer um ato de pura e simples loucura. (“Foi como pintar um alvo neles mesmos” disse Joseph Badaracco, um professor de ética da Harvard Business School, sobre a VW).  Mas a decisão final pela enganação foi, no nível individual, racional — uma conclusão lógica após uma longa sequência de fatos.
 >
 > Tudo começou, assim como aparentemente foi o caso do problema da Volkswagen, com uma promessa que não deveria ter sido feita. Goodrich, que depois de uma entrega de freios de péssima qualidade estava desesperado para reconquistar a Força Aérea como fornecedor, prometeu que entregaria freios ultrabaratos e ultraleves. Leves demais, de fato. Quando fizeram o primeiro teste, uma simulação no laboratório da empresa, o protótipo ficou incandescente, brilhou avermelhado, e soltou faíscas de metal. Mas quando o jovem engenheiro descobriu que a origem do problema era no projeto estrutural da peça (um engenheiro sênior havia errado um cálculo), o projeto já estava literalmente rolando. Peças para o projeto, encomendadas a outros fornecedores, já estavam chegando. O redesign que seria necessário arruinaria os prazos do projeto. O jovem engenheiro recebeu ordens de continuar testando.
 >

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Como cidadãos empoderados podem conversar com deputados?"
 ---
 
@@ -44,7 +44,7 @@ Escrevemos à Câmara pedindo esclarecimentos sobre esse reembolso. Linkamos o s
 
 A chefe de gabinete do deputado declarou que nada disso é válido. Segundo ela não é possível calcular um valor médio para o restaurante em questão pois ele funciona com menu _à la carte_. Explica ela que “_o preço cobrado é pelo valor de cada prato ou produto solicitado, de modo que_ **_não há um valor médio observado por pessoa_**”. Com esse argumento o deputado se negou a devolver o dinheiro, mesmo que segundo a nossa lógica esse montante não seja compatível com o valor de uma refeição naquele estabelecimento.
 
-{% include figure.html src='2017-02-08-como-cidadaos-empoderados-podem-conversar-com-deputados-03.png' alt='Fonte: Resposta oficial do deputado, via Câmara Federal, Processo nº 100.548/2017, folha 8 (grifo nosso)' %}
+{% include figure.html src='2017-02-08-como-cidadaos-empoderados-podem-conversar-com-deputados-03.png' alt='Fonte: Resposta oficial do deputado, via Câmara Federal, Processo nº 100.548/2017, folha 8 (grifo nosso)' %}
 
 ## A hipotética réplica
 

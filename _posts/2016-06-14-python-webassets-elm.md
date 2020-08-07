@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Python, webassets & Elm"
 ---
 
@@ -7,17 +7,17 @@ _Post originalmente [publicado no Python Club](http://pythonclub.com.br/python-w
 
 * * *
 
-Se você é geek e me conhece, ou se me segue nas redes sociais, já ouviu eu falar de [Elm](http://elm-lang.org/). É uma solução para _front-end_ com componentes reativos — mas Elm não é JavaScript. É uma outra linguagem, outro ambiente, outro compilador etc.
+Se você é geek e me conhece, ou se me segue nas redes sociais, já ouviu eu falar de [Elm](http://elm-lang.org/). É uma solução para _front-end_ com componentes reativos — mas Elm não é JavaScript. É uma outra linguagem, outro ambiente, outro compilador etc.
 
 É uma linguagem que muito me impressionou. Sou novato, engatinhando, tentando levantar e tomando belos tombos. Mas hoje resolvi um desses tombos: como integrar o Elm que uso para _front-end_ com _back-ends_ em Python.
 
-A resposta foi o [webassets-elm](https://github.com/cuducos/webassets-elm) — pacote que escrevi hoje e já está [disponível no PyPI](https://pypi.python.org/pypi/webassets-elm).
+A resposta foi o [webassets-elm](https://github.com/cuducos/webassets-elm) — pacote que escrevi hoje e já está [disponível no PyPI](https://pypi.python.org/pypi/webassets-elm).
 
 Nesse texto vou fazer uma pequena introdução sobre interfaces reativas, sobre Elm em si, e depois explico um pouco do problema que o [webassets-elm](https://github.com/cuducos/webassets-elm) resolve — spoiler: é gambiarra.
 
 ## O que é um _front-end_ com componente reativo?
 
-Componentes reativos são elementos na interface do usuário que seguem a [programação reativa](https://en.wikipedia.org/wiki/Reactive_programming): “um paradigma de programação orientado ao fluxo de dados e a propagação de mudanças” — como a Wikipédia define.
+Componentes reativos são elementos na interface do usuário que seguem a [programação reativa](https://en.wikipedia.org/wiki/Reactive_programming): “um paradigma de programação orientado ao fluxo de dados e a propagação de mudanças” — como a Wikipédia define.
 
 Mas o que isso quer dizer? Comecemos com um exemplo básico **não** reativo:
 
@@ -31,11 +31,11 @@ a = 11
 print(c) # 42
 ```
 
-Se esse bloco fosse reativo, ao mudar o valor de `a`, a alteração deveria também mudar o valor de `c` — ou seja, o segundo `print(c)` deveria resultar em `13`, não em `42`.
+Se esse bloco fosse reativo, ao mudar o valor de `a`, a alteração deveria também mudar o valor de `c` — ou seja, o segundo `print(c)` deveria resultar em `13`, não em `42`.
 
 Isso é muito útil quando gerenciamos interfaces complexas no _front-end_: ao invés de gerenciarmos vários `div`, `span` com suas classes e conteúdos, definimos uma estrutura de dados e as _regras_ para renderização desses dados em HTML. Alterando os dados, o HTML é atualizado automaticamente.
 
-Isso seria uma carroça de lerdeza se tivéssemos que atualizar o [DOM](https://pt.wikipedia.org/wiki/Modelo_de_Objeto_de_Documentos) cada vez que nossos dados fossem alterados — afinal [não é o JavaScript que é lento, o DOM é que é](https://www.youtube.com/watch?v=hQVTIJBZook). Por isso mesmo todos as alternativas para _front-end_ reativo — [Elm](http://elm-lang.org/), [React](https://facebook.github.io/react/), [Vue](https://vuejs.org/) e muitas outras — trabalham com um DOM virtual: todas as alterações são feitas primeiro nesse (eficiente) DOM virtual, que é comparado com o DOM real e então apenas as alterações mínimas são feitas no (lento) DOM real para que a interface seja atualizada. Simples assim.
+Isso seria uma carroça de lerdeza se tivéssemos que atualizar o [DOM](https://pt.wikipedia.org/wiki/Modelo_de_Objeto_de_Documentos) cada vez que nossos dados fossem alterados — afinal [não é o JavaScript que é lento, o DOM é que é](https://www.youtube.com/watch?v=hQVTIJBZook). Por isso mesmo todos as alternativas para _front-end_ reativo — [Elm](http://elm-lang.org/), [React](https://facebook.github.io/react/), [Vue](https://vuejs.org/) e muitas outras — trabalham com um DOM virtual: todas as alterações são feitas primeiro nesse (eficiente) DOM virtual, que é comparado com o DOM real e então apenas as alterações mínimas são feitas no (lento) DOM real para que a interface seja atualizada. Simples assim.
 
 ## Por quê Elm?
 
@@ -46,7 +46,7 @@ Não posso negar que JavaScript é mais fácil de aprender — no sentido de que
 O que eu gostei no Elm é que, apesar de a curva de aprendizado ser muito maior que a do JavaScript, a linguagem já te força a escrever código com certa qualidade. Por exemplo:
 
 * **Interface reativa de acordo com “melhores práticas”**: pensar na arquitetura do código é totalmente opcional no JavaScript, mas escrever algo com qualidade vai requerer que você aprenda JavaScript (sem [jQuery](http://jquery.com)), como usar [JavaScript de forma funcional](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84), [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), [React](https://facebook.github.io/react/), [Redux](http://redux.js.org) ou ainda [Vue](https://vuejs.org/), para dar alguns exemplos. Então, se juntar a curva de aprendizado de todas coisas, vai ser uma curva de aprendizado parecida com a do próprio Elm (que já é funcional pois é um [Heskell](https://www.haskell.org) simplificado, já tem [sua própria arquitetura](http://guide.elm-lang.org/architecture/index.html) etc.)
-* **Erros**: Com JavaScript (incluindo jQuery, ReactJs, Vue etc.) pode acontecer de passar erros para a produção ou homologação — um caso raro no qual uma função espere `x`, mas receba `y`, um loop infinito, uma função ou variável não definida, um objeto não encontrado. Com Elm, não: o compilador já elimina trocentos mil possibilidades de erro na compilação (como dizem na home do Elm, no _runtime exceptions_). Isso porquê o Elm já trabalha com tipagem e com objetos imutáveis, e consegue verificar possibilidades que o cérebro humano demoraria para imaginar. Se tem alguma possibilidade de teu código receber `String` quando espera `Integer`, ou de cair em um `import` cíclico, ele não compila se você não corrigir. Ele é chato, mas não deixa passar erro.
+* **Erros**: Com JavaScript (incluindo jQuery, ReactJs, Vue etc.) pode acontecer de passar erros para a produção ou homologação — um caso raro no qual uma função espere `x`, mas receba `y`, um loop infinito, uma função ou variável não definida, um objeto não encontrado. Com Elm, não: o compilador já elimina trocentos mil possibilidades de erro na compilação (como dizem na home do Elm, no _runtime exceptions_). Isso porquê o Elm já trabalha com tipagem e com objetos imutáveis, e consegue verificar possibilidades que o cérebro humano demoraria para imaginar. Se tem alguma possibilidade de teu código receber `String` quando espera `Integer`, ou de cair em um `import` cíclico, ele não compila se você não corrigir. Ele é chato, mas não deixa passar erro.
 * **Mensagens de erro**: Se o Elm é chato por não compilar se houver possibilidade de erro, suas mensagens não são nada chatas. Na minha opinião uma das coisas mais chatas de desenvolver com JavaScript é que a console é muito ruim: as mensagens são vagas, é o terror do `undefined is not a function`, `NaN` etc. Já as mensagens de erro do compilador do Elm são muito educativas, te mostram o que está errado, onde está errado e, muitas vezes, como resolver.
 
 ![Compiler errors for humans](http://elm-lang.org/assets/blog/error-messages/0.15.1/naming.png)
@@ -66,7 +66,7 @@ Para quem não conhece, o [webassets](http://webassets.readthedocs.io/) é pacot
 A integração com [Flask](http://flask.pocoo.org) ou [Django](http://djangoproject.com) é super fácil e útil com o [flask-assets](http://flask-assets.readthedocs.io/) ou [django-assets](http://django-assets.readthedocs.org/). Com isso sua própria aplicação gera, no servidor, seus _assets_. Em ambiente de desenvolvimento e produção a geração dos _assets_ passa a ocorrer automaticamente (sem necessidade de _watchers_ ou de rodar manualmente `sass`, `coffee`, `browserify`, `webpack`, `grunt`, `gulp` etc.).
 
 
-O [webassets-elm](https://github.com/cuducos/webassets-elm) nada mais é, então, do que um filtro para o _webassets_ saber o que fazer com arquivos `.elm` — ou seja para transformar meus arquivos em Elm em `.js` para o navegador saber o que fazer com eles (isso é o que chamamos de _compilar_ no Elm). Parece simples, e a arquitetura do _webassets_ ajuda muito: eles mesmos oferecem um objeto [`ExternalTool`](https://github.com/miracle2k/webassets/blob/master/src/webassets/filter/__init__.py#L400-L456) para facilitar a criação de filtros personalizados.
+O [webassets-elm](https://github.com/cuducos/webassets-elm) nada mais é, então, do que um filtro para o _webassets_ saber o que fazer com arquivos `.elm` — ou seja para transformar meus arquivos em Elm em `.js` para o navegador saber o que fazer com eles (isso é o que chamamos de _compilar_ no Elm). Parece simples, e a arquitetura do _webassets_ ajuda muito: eles mesmos oferecem um objeto [`ExternalTool`](https://github.com/miracle2k/webassets/blob/master/src/webassets/filter/__init__.py#L400-L456) para facilitar a criação de filtros personalizados.
 
 
 O que quero é que na hora que eu rodar minha aplicação em Flask ou em Django, se eu tiver alterado qualquer arquivo `.elm` (ou `.sass`), por exemplo, automaticamente a aplicação já gere um `.js` (ou `.css`) atualizado.

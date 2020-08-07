@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: post
 title: "Design thinking: designers cada vez menos designers"
 ---
 
-_Coluna publicada na [Revista Clichê, N4](http://www.revistacliche.com.br/n4/), nº 4. O convite para escrevê-la foi feito em 2014 com a pergunta “Design thinking existe?” — Eu logo lembrei das minhas opiniões, que pouco mudaram, de uns anos atrás: é [design thinking ou design bem feito?]({% post_url 2010-06-18-design-thinking-ou-design-bem-feito %}) Mas resolvi escrever outro texto ponderando o que aprendi durante os últimos anos._
+_Coluna publicada na [Revista Clichê, N4](http://www.revistacliche.com.br/n4/), nº 4. O convite para escrevê-la foi feito em 2014 com a pergunta “Design thinking existe?” — Eu logo lembrei das minhas opiniões, que pouco mudaram, de uns anos atrás: é [design thinking ou design bem feito?]({% post_url 2010-06-18-design-thinking-ou-design-bem-feito %}) Mas resolvi escrever outro texto ponderando o que aprendi durante os últimos anos._
 
 * * *
 

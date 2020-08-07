@@ -1,11 +1,11 @@
 ---
-layout: blog
+layout: post
 title: "Geradores do Python: o que são e quais problemas resolvem"
 ---
 
 Outro dia um amigo viu eu escrevendo uma _função_ em Python que usava `yield` ao invés de `return` e perguntou:
 
-> — Qual a utilidade disso? Nunca entendi…
+> — Qual a utilidade disso? Nunca entendi…
 
 Na verdade eu estava escrevendo um _gerador_ e não uma _função_. A sintaxe é basicamente a mesma, a única diferença é o que meu amigo reparou: o `yield` ao invés do `return`. Mas e aí? Para que serve?
 
@@ -43,7 +43,7 @@ Ele só vai calcular o primeiro elemento da sequência quando precisar dele. E v
 
 Ao invés de criar a lista toda, ele cria um gerador (de listas, por exemplo, mas um iterável) e vai calculando um a um os elementos, de acordo com a necessidade de acessá-los… e de fato ele só vai calcular alguma coisa a cada `next()` – que é a função chamada internamente se você passar um gerador para um `for`, por exemplo.
 
-Mas o `next()` também pode ser usado manualmente — o que é ótimo para explorar:
+Mas o `next()` também pode ser usado manualmente — o que é ótimo para explorar:
 
 ```python
 my_first_generator = numbers_up_to(42)

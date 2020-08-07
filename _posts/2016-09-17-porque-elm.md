@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Porquê Elm: chega de dor de cabeça com front-end, chega de JavaScript"
 ---
 
@@ -28,11 +28,11 @@ Mas deixemos os _memes_ de canto. Arrisco dizer que quem gosta de Python não go
 
 1. Existem muitas formas de fazer a mesma coisa, nem todas são óbvias e nem todas funcionam em todos os navegadores. Por exemplo, aqui temos [uma lista de 535 formas de recarregar uma página](http://www.phpied.com/files/location-location/location-location.html). Bateu aquela saudades do [_there should be one – and preferably only one – obvious way to do it_](https://www.python.org/dev/peps/pep-0020/#id3), né?
 1. Debugar JavaScript é difícil pois as mensagens de erro padrão são péssimas.  Por exemplo, tentar pegar o primeiro elemento de uma lista vazia, no JavaScript, vai te retornar apenas `undefined`. Bateu saudades do `IndexError: list index out of range`, né?
-1. O código é verboso demais no JavaScript — mas reconheço que isso é muito subjetivo. De qualquer forma, quem está acostuamdo com as _list comprehensions_ do Python acha um absurdo usar `for (var i = 0; i < myList.length; i++) { … }`.
+1. O código é verboso demais no JavaScript — mas reconheço que isso é muito subjetivo. De qualquer forma, quem está acostuamdo com as _list comprehensions_ do Python acha um absurdo usar `for (var i = 0; i < myList.length; i++) { … }`.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">“Maybe this new JavaScript framework will compensate for the fact I haven’t actually learned JavaScript properly” - every front-end dev.</p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/646377503708180480">September 22, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Mas não podemos nos livrar do JavaScript – pelo menos não tão cedo. Ele roda em todos os navegadores, assim é a linguagem padrão disponível para UI e UX na web, seja em computadores, tablets ou celulares.
+Mas não podemos nos livrar do JavaScript – pelo menos não tão cedo. Ele roda em todos os navegadores, assim é a linguagem padrão disponível para UI e UX na web, seja em computadores, tablets ou celulares.
 
 E, por sorte, existem coisas boas no JavaScript!
 
@@ -68,7 +68,7 @@ Mas… como o Elm consegue? Esse é o foco da palestra.
 
 O primeiro passo para entender como o Elm consegue resolver esse problema é entender que ele não é só uma linguagem que compila para JavaScript. Ele oferece um ambiente de desenvolvimento único, sem paralelos com JavaScript. No final, por _acaso_, ele vira um `.js` para você integrar na aplicação. Por _acaso_ pois ele não depende do JavaScript e, se um dia os navegadores suportarem outra linguagem, ou mesmo Elm, o JavaScript some de cena sem deixar vestígios no ambiente de desenvolvimento Elm.
 
-Elm é uma outra linguagem, com outra lógica, e com compilador próprio. Ela é uma linguagem funcional, trabalha com constantes e expressões — sempre.
+Elm é uma outra linguagem, com outra lógica, e com compilador próprio. Ela é uma linguagem funcional, trabalha com constantes e expressões — sempre.
 
 #### Conhecendo a sintaxe e as mensagens de erro
 
@@ -82,7 +82,7 @@ Depois de [instalar o Elm](https://guide.elm-lang.org/get_started.html), vamos b
 > ["Ahoy", "Cap'n"]
 ["Ahoy","Cap'n"] : List String
 ```
-No Elm os tipos importam muito. E ele usa isso para verificar várias possibilidades de erro no código — e não compila enquanto você não resolver esses problemas em potencial. Vamos a alguns exemplos:
+No Elm os tipos importam muito. E ele usa isso para verificar várias possibilidades de erro no código — e não compila enquanto você não resolver esses problemas em potencial. Vamos a alguns exemplos:
 
 Que tal tentar juntar um número inteiro com uma string?
 
@@ -127,7 +127,7 @@ Faríamos assim com uma lista contendo três elementos. Mas repare no detalhe do
 Nothing : Maybe.Maybe a
 ```
 
-O Elm sabe que uma lista pode ser vazia. E não te deixa esquecer disso. Quando você for usar um valor que vem de uma lista, você tem que prever esse cenário. Por isso ele não retorna um número, no nosso caso, logo de cara. Ele retorna `Just 1` ou `Nothing` — sendo que `1` é o primeiro item da nossa lista.
+O Elm sabe que uma lista pode ser vazia. E não te deixa esquecer disso. Quando você for usar um valor que vem de uma lista, você tem que prever esse cenário. Por isso ele não retorna um número, no nosso caso, logo de cara. Ele retorna `Just 1` ou `Nothing` — sendo que `1` é o primeiro item da nossa lista.
 
 Se quisermos somente o número, sem o tipo `Just <número>`, podemos dizer qual é o valor padrão:
 
@@ -136,7 +136,7 @@ Se quisermos somente o número, sem o tipo `Just <número>`, podemos dizer qual 
 0 : number
 ```
 
-É com estruturas e lógicas como essa que o Elm consegue prometer – e cumprir — a promessa de não deixar passar erros.
+É com estruturas e lógicas como essa que o Elm consegue prometer – e cumprir — a promessa de não deixar passar erros.
 
 #### Compilando e colocando a mão na massa
 
@@ -158,17 +158,17 @@ Todo arquivo Elm que vai ser compilado espera uma função `main`. E essa funç�
 
 Então importamos uma função, `text`, que retorna um `Html`. Depois definimos que a função `main`: ela retorna seja lá o que for que aquela função `Html.text` produzir quando passarmos a ela um texto `"Ahoy"`.
 
-A primeira linha é padrão em todo arquivo Elm: você dá um nome ao módulo que está criando ali naquele arquivo (e esse nome tem que bater com o nome do arquivo). O `(..)` define o que desse módulo é acessível externamente — algo com o que não precisamos nos preocupar agora (`..` define que tudo é acessível externamente).
+A primeira linha é padrão em todo arquivo Elm: você dá um nome ao módulo que está criando ali naquele arquivo (e esse nome tem que bater com o nome do arquivo). O `(..)` define o que desse módulo é acessível externamente — algo com o que não precisamos nos preocupar agora (`..` define que tudo é acessível externamente).
 
 Feito isso, é só compilar: `$ elm-make Main.elm`. Inspecionando o diretório, vamos ver quatro arquivos:
 
 * `Main.elm` é o nosso código fonte.
-* `index.html` é o nosso código compilado em HTML, com o JavaScript embutido, pronto para rodar no navedagor — não tenha medo, abra para ver como ficou!
+* `index.html` é o nosso código compilado em HTML, com o JavaScript embutido, pronto para rodar no navedagor — não tenha medo, abra para ver como ficou!
 * `elm-package.json` e `elm-stuff` são criados pelo próprio Elm para controlar teu projeto.
 
 Se quisermos compilar somente o JavaScript, para incluí-lo no HTML separadamente, podemos: `$ elm-make Main.elm --output app.js` gera o arquivo `app.js`, que pode ser [incluído em qualquer HTML posteriormente](https://guide.elm-lang.org/interop/html.html).
 
-Para desenvolvermos — e brincarmos — temos ainda o `$ elm-reactor`, uma ferramenta que faz tudo isso automaticamente para você poder se focar no que importa: escrever código. Vamos usar o Reactor logo logo.
+Para desenvolvermos — e brincarmos — temos ainda o `$ elm-reactor`, uma ferramenta que faz tudo isso automaticamente para você poder se focar no que importa: escrever código. Vamos usar o Reactor logo logo.
 
 ### A chave de ouro: a arquitetura do Elm
 
@@ -216,7 +216,7 @@ type alias Model =
     }
 ```
 
-Temos duas novidades aqui: primeiro, uma vez que já temos um tipo `Comment`, criado no passo anterior, já podemos utilizá-lo para criar novos tipos; segundo, quando definimos uma lista, temos que informar qual o tipo dos elementos dessa lista — logo, ao contrário do Python, uma lista em Elm não pode ter tipos misturados. Por exemplo, ao tentarmos criar umas lista com `"Ahoy"` (texto) e `42` (número inteiro), temos um erro que diz que o primeiro e o segundo elementos da lista não são do mesmo tipo:
+Temos duas novidades aqui: primeiro, uma vez que já temos um tipo `Comment`, criado no passo anterior, já podemos utilizá-lo para criar novos tipos; segundo, quando definimos uma lista, temos que informar qual o tipo dos elementos dessa lista — logo, ao contrário do Python, uma lista em Elm não pode ter tipos misturados. Por exemplo, ao tentarmos criar umas lista com `"Ahoy"` (texto) e `42` (número inteiro), temos um erro que diz que o primeiro e o segundo elementos da lista não são do mesmo tipo:
 
 ```console
 > ["Ahoy", 42]
@@ -374,7 +374,7 @@ Agora temos uma _tag_ dentro de outra: `<p class="alert">Ahoy, <strong>cap'n</st
 view : Model -> Html.Html a
 ```
 
-Esse `Html.Html a` parece um pouco complicado. Basicamente o `Html.Html` quer dizer _o tipo `Html` dentro do módulo `Html`_. Já o `a` vamos usar quando criarmos nossa função `update` — guarde ele aí. O importante é entender que essa função vai receber um modelo e devolver HTML.
+Esse `Html.Html a` parece um pouco complicado. Basicamente o `Html.Html` quer dizer _o tipo `Html` dentro do módulo `Html`_. Já o `a` vamos usar quando criarmos nossa função `update` — guarde ele aí. O importante é entender que essa função vai receber um modelo e devolver HTML.
 
 Vamos, por enquanto, só renderizar um parágrafo dizendo _Temos 0 comentários_, _Temos 1 comentário_, _Temos x comentários_, de acordo com quanto elementos tivermos no nosso modelo.
 
@@ -477,7 +477,7 @@ view model =
             ]
 ```
 
-São muitas linhas novas, mas é só HTML escrito de uma forma um pouco diferente: usando função, lista de atributos, e lista de nós (de outros _tags_ HTMLs). A única coisa a se atentar ali é que usamos o `new` do nosso modelo para preencher o `input` e o `textarea` — se você usar a versão preenchida do `initalModel`, já vai ver no navegador um pirata comentando algo ali.
+São muitas linhas novas, mas é só HTML escrito de uma forma um pouco diferente: usando função, lista de atributos, e lista de nós (de outros _tags_ HTMLs). A única coisa a se atentar ali é que usamos o `new` do nosso modelo para preencher o `input` e o `textarea` — se você usar a versão preenchida do `initalModel`, já vai ver no navegador um pirata comentando algo ali.
 
 ##### Mostrando os comentários
 
@@ -685,7 +685,7 @@ update msg model =
 
 Alguns detalhes:
 
-* `Comment "" ""` é um atalho para `{ author = "", contents = "" }` — qualquer tipo criado também cria seu construtor, que por sua vez recebe os argumentos na ordem em que o tipo foi criado (por exemplo `Comment "Scurvy dog" ""` cria `{ author = "Scurvy dog", contents = "" }`, enquanto `Comment "" "Ahoy"` cria `{ author = "", contents = "Ahoy" }`).
+* `Comment "" ""` é um atalho para `{ author = "", contents = "" }` — qualquer tipo criado também cria seu construtor, que por sua vez recebe os argumentos na ordem em que o tipo foi criado (por exemplo `Comment "Scurvy dog" ""` cria `{ author = "Scurvy dog", contents = "" }`, enquanto `Comment "" "Ahoy"` cria `{ author = "", contents = "Ahoy" }`).
 * `List.append` espera duas listas como argumento, então envolvemos `model.new` nos colchetes, ou seja, passamos ele para uma lista de um elemento só (`[ model.new ]`) pois o `List.append` não aceitaria `Comment` como segundo argumento (ou seja, o correto é `List.append model.comments [ model.new ]` e não `List.append model.comments model.new`).
 
 ##### Ligando os pontos

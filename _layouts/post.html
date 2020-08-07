@@ -1,0 +1,29 @@
+---
+layout: base
+---
+
+<!-- CONTENT BLOCKS -->
+<div class="container-block lavender-bg  post-block">
+  <div class="main-title">
+    <span>{{ page.date | date:"%d/%m/%Y" }}</span>
+    <h1>
+      {{ page.title }}
+    </h1>
+  </div>
+  <img class="avatar"src="/assets/images/cuducos-256.jpg" alt="Avatar" style="border-radius: 50%; width: 80px;height: 80px;">
+  <div class="Cuducos">
+    <h6>{{ page.author }}</h6>
+  </div>
+  {% include social.html %}
+</div> 
+<section class="container-block post-block">
+  <div class="post-content">
+    <h6>
+      Today I was a panelist in one of the activities of the <a href="#">Global Partnership for Social Accountability Forum.</a> The panel was called  Government as a Platform: from Social Accountability to Institutional Reform and this was what I prepared for the occasion.
+    </h6>
+    <div class="line"></div>
+    {{ content }}
+  </div>
+  {% include share.html %}
+</section>
+{% include blog_posts.html %}

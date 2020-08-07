@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Como lidar com um legislativo que ignora o que ele mesmo legisla?"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "TDD com Python e Flask"
 ---
 
@@ -9,7 +9,7 @@ _Post originalmente [publicado no Python Club](http://pythonclub.com.br/tdd-com-
 
 > Baseado na palestra que ofereci no [encontro](http://www.meetup.com/Grupy-SP/events/228437612/) do [Grupy-SP](https://groups.google.com/forum/#!forum/grupy-sp), em 12 de março de 2016. O código dessa atividade está disponível no [meu GitHub](https://github.com/cuducos/grupy-python-tdd-flask).
 
-A ideia desse exercício é introduzir a ideia de _test driven development_ (TDD) usando [Python](http://http://python.org) e [Flask](http://flask.pocoo.org/) — digo isso pois a aplicação final desse “tutorial” não é nada avançada, tampouco funcional. E isso se explica por dois motivos: primeiro, o foco é sentir o que é o _driven_ do TDD, ou seja, como uma estrutura de _tests first_ (sempre começar escrevendo os testes, e não a aplicação) pode guiar o processo de desenvolvimento; e, segundo, ser uma atividade rápida, de mais ou menos 1h.
+A ideia desse exercício é introduzir a ideia de _test driven development_ (TDD) usando [Python](http://http://python.org) e [Flask](http://flask.pocoo.org/) — digo isso pois a aplicação final desse “tutorial” não é nada avançada, tampouco funcional. E isso se explica por dois motivos: primeiro, o foco é sentir o que é o _driven_ do TDD, ou seja, como uma estrutura de _tests first_ (sempre começar escrevendo os testes, e não a aplicação) pode guiar o processo de desenvolvimento; e, segundo, ser uma atividade rápida, de mais ou menos 1h.
 
 Em outras palavras, não espere aprender muito de Python ou Flask. Aqui se concentre em sentir a diferença de utilizar um método de programar. Todo o resto é secundário.
 
@@ -27,7 +27,7 @@ Você pode verificar a versão do seu Python com esse comando:
 $ python --version                                                                                    
 ```
 
-Dependendo da sua instalação, pode ser que você tenha que usar `python3` ao invés de `python` — ou seja, o comando todo deve ser `python3 --version`. O resultado deve ser esse:
+Dependendo da sua instalação, pode ser que você tenha que usar `python3` ao invés de `python` — ou seja, o comando todo deve ser `python3 --version`. O resultado deve ser esse:
 
 ```console
 Python 3.5.1
@@ -39,7 +39,7 @@ E instalar o Flask assim:
 $ pip install Flask
 ```
 
-O `pip` é um gerenciador de pacotes do Python. Ele vem instalado por padrão nas versões mais novas do Python. Dependendo da sua instalação, pode ser que você tenha que usar `pip3` ao invés de `pip` — ou seja, o comando todo deve ser `pip3 install Flask`. Com esse comando ele vai instalar o Flask e qualquer dependência que o Flask tenha:
+O `pip` é um gerenciador de pacotes do Python. Ele vem instalado por padrão nas versões mais novas do Python. Dependendo da sua instalação, pode ser que você tenha que usar `pip3` ao invés de `pip` — ou seja, o comando todo deve ser `pip3 install Flask`. Com esse comando ele vai instalar o Flask e qualquer dependência que o Flask tenha:
 
 ```console
 Collecting Flask
@@ -173,10 +173,10 @@ Esse arquivo agora faz quatro coisas referentes a nossa aplicação web:
 
 1. Importa o objeto `meu_web_app` (que ainda não criamos) do nosso arquivo `app.py`;
 1. Cria uma instância da nossa aplicação web específica para nossos testes (é o método `meu_web_app.test_client()`, cujo retorno batizamos de `app`);
-1. Tenta acessar a “raíz” da nossa aplicação — ou seja, se essa aplicação web estivesse no servidor `pythonclub.com.br` estaríamos acessando [http://pythonclub.com.br/](http://pythonclub.com.br/).
+1. Tenta acessar a “raíz” da nossa aplicação — ou seja, se essa aplicação web estivesse no servidor `pythonclub.com.br` estaríamos acessando [http://pythonclub.com.br/](http://pythonclub.com.br/).
 1. Verifica se, ao acessar esse endereço, ou seja, se ao fazer a requisição HTTP para essa URL, temos como resposta o código 200, que representa sucesso.
 
-Os códigos de status de requisição HTTP mais comuns são o `200` (sucesso), `404` (página não encontrada) e `302` (redirecionamento) — mas a [lista completa](https://pt.wikipedia.org/wiki/Lista_de_códigos_de_status_HTTP) é muito maior que isso. 
+Os códigos de status de requisição HTTP mais comuns são o `200` (sucesso), `404` (página não encontrada) e `302` (redirecionamento) — mas a [lista completa](https://pt.wikipedia.org/wiki/Lista_de_códigos_de_status_HTTP) é muito maior que isso. 
 
 De qualquer forma não conseguiremos rodar esses testes. O interpretador do Python vai nos retornar um erro:
 
@@ -374,7 +374,7 @@ OK
 
 ### Apresentando o conteúdo com HTML
 
-O Python e o Flask cuidam principalmente do back-end da apliacação web — o que ocorre “por trás dos panos” no lado do servidor.
+O Python e o Flask cuidam principalmente do back-end da apliacação web — o que ocorre “por trás dos panos” no lado do servidor.
 
 Mas temos também o front-end, que é o que o usuário vê, a interface com a qual o usuário interage. Normalmente o front-end é papel de outras linguagens, como o HTML, o CSS e o JavaScript.
 
@@ -497,7 +497,7 @@ OK
 
 O problema da nossa página é que ela é estática. Vamos usar o Python e o Flask para que quando a gente acesse `/cuducos` a gente veja a minha página, com meus dados. Mas caso a gente acesse `/z4r4tu5tr4`, a gente veja o conteúdo referente ao outro Eduardo que palestrou comigo no Grupy.
 
-Antes de mudar nossas URLS, vamos refatorar nossa aplicação e — importantíssimo! — os testes tem que continuar passando. A ideia é evitar que o conteúdo esteja “fixo” no template. Vamos fazer o conteúdo ser passado do método `pagina_principal()` para o template.
+Antes de mudar nossas URLS, vamos refatorar nossa aplicação e — importantíssimo! — os testes tem que continuar passando. A ideia é evitar que o conteúdo esteja “fixo” no template. Vamos fazer o conteúdo ser passado do método `pagina_principal()` para o template.
 
 A ideia é extrair todo o conteúdo do nosso HTML criando um dicionário no `app.py`:
 
@@ -540,7 +540,7 @@ Por fim, vamor utilizar, ao invés das minhas informações, a variável `perfil
 </html>
 ```
 
-Feito isso, temos todas as informações disponíveis no nosso ambiente Python, e não mais no HTML. E os testes nos garantem que no final das contas, para o usuário, a página não mudou — ou seja, estamos mostrando as informações corretamente.
+Feito isso, temos todas as informações disponíveis no nosso ambiente Python, e não mais no HTML. E os testes nos garantem que no final das contas, para o usuário, a página não mudou — ou seja, estamos mostrando as informações corretamente.
 
 ### Criando conteúdo dinâmico
 
@@ -673,7 +673,7 @@ Agora o Flask recebe uma variável `perfil` depois da `/` (e sabemos que é uma 
 
 ## Considerações finais
 
-Se chegou até aqui, vale a pena ressaltar que esse post tem apenas o objetivo de introduzir a ideia básica do TDD. Ou seja: ver como o hábito, o método de programar pouco a pouco (_baby steps_) e sempre começando com os testes te dão dois benefícios sensacionais: eles não só garantem que a aplicação funcionará como esperado, mas eles guiam o próprio processo de desenvolvimento. As mensagens de erro te dizer – muitas vezes literalmente — o qual é a próxima linha de código que você vai escrever.
+Se chegou até aqui, vale a pena ressaltar que esse post tem apenas o objetivo de introduzir a ideia básica do TDD. Ou seja: ver como o hábito, o método de programar pouco a pouco (_baby steps_) e sempre começando com os testes te dão dois benefícios sensacionais: eles não só garantem que a aplicação funcionará como esperado, mas eles guiam o próprio processo de desenvolvimento. As mensagens de erro te dizer – muitas vezes literalmente — o qual é a próxima linha de código que você vai escrever.
 
 E, se chegou até aqui, talvez você queira se aprofundar nos assuntos dos quais falamos. Além de inúmeros posts aqui do blog, ressalto mais algumas referências.
 
@@ -689,4 +689,4 @@ Leitura recomendada para conhecer mais sobre TDD:
 
 > Quem aprendeu alguma coisa nova?
 >
-> — [Raymond Hettinger](https://twitter.com/raymondh)
+> — [Raymond Hettinger](https://twitter.com/raymondh)

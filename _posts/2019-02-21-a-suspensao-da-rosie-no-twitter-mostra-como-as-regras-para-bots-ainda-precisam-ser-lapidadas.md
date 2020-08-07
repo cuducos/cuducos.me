@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: A suspensão da Rosie no Twitter mostra como as regras para bots ainda precisam ser lapidadas
 ---
 
@@ -16,9 +16,9 @@ E como isto é feito no nosso caso? Por meio de uma conta no Twitter que automat
 
 Apesar de desenvolvermos este sério e importante trabalho, foi com surpresa que, sem que nos fosse dada qualquer informação, nosso perfil no Twitter teve suas publicações informatizadas suspensas. Ou seja: até o momento estamos impossibilitados de, depois de coletar e analisar os dados, publicá-los automaticamente, marcando os perfis interessados.
 
-{% include figure.html src='2019-02-21-a-suspensao-da-rosie-no-twitter-mostra-como-as-regras-para-bots-ainda-precisam-ser-lapidadas-01.png' alt='<a href="https://twitter.com/RosieDaSerenata/status/1097497396890734597">Confira o fio todo no Twitter</a>' %}
+{% include figure.html src='2019-02-21-a-suspensao-da-rosie-no-twitter-mostra-como-as-regras-para-bots-ainda-precisam-ser-lapidadas-01.png' alt='<a href="https://twitter.com/RosieDaSerenata/status/1097497396890734597">Confira o fio todo no Twitter</a>' %}
 
-## A explicação do Twitter
+## A explicação do Twitter
 
 A suspensão da nossa automatização foi feita pelo próprio Twitter, sem qualquer tipo de aviso ou explicação. Alguns dias depois a área de políticas públicas do Twitter nos procurou informalmente (por telefone) para explicar a razão de terem suspendido a Rosie, nossa robô. Mais uns dias se passaram sem nada formal até que ontem recebemos um email. O resumo é: teríamos desrespeitado as [regras de automação do Twitter](https://help.twitter.com/en/rules-and-policies/twitter-automation), especificamente esse trecho da lista de atividades que não poderíamos praticar:
 
@@ -50,7 +50,7 @@ Ao nosso lado temos decisões históricas como a da corte americana que [proibiu
 
 Em outras palavras, se o Twitter considera as menções aos parlamentares e à Câmara “mensagens não-solicitadas”, o Twitter está ignorando todo o arcabouço legal sobre direitos e deveres de cidadãos e representantes democraticamente eleitos da República Federativa do Brasil.
 
-## Vamos construir regras melhores para bots
+## Vamos construir regras melhores para bots
 
 Sabemos dos [esforços do Twitter para controlar os bots](https://blog.twitter.com/en_us/topics/company/2018/how-twitter-is-fighting-spam-and-malicious-automation.html). Inúmeras matérias nos últimos anos mostram como esse tipo de automação impactou tomadas de decisões importantíssimas em países pelo mundo afora. No entanto existem bots e bots. Alguns, por exemplo, tentam se passar por humanos de verdade e tentam impulsionar mensagens específicas se aproveitando dessas automatizações para construir um engajamento que não é humano, orgânico, real.
 

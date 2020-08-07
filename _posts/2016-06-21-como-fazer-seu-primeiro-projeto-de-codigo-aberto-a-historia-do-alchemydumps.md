@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Como fazer seu primeiro projeto de código aberto: a história do AlchemyDumps"
 ---
 
@@ -13,7 +13,7 @@ Comecei fazendo um [curso no Coursera](https://www.coursera.org/course/interacti
 
 Mas eu queria mais. Queria sentir a responsabilidade de ter no ar algo que não fosse apenas um projeto de estudos. Queria um projeto _de verdade_. Não podia ser coisa grande, eu era um novato em Python. Mas tinha que dar o gostinho de ser algo no qual eu não pudesse falhar (ao menos, não grotescamente). E foi bem nessa época que surgiu a oportunidade de um _freela_. Um [amigo](http://miguelzin.com) precisava um site para uma exposição, um _single page application_ com um gerenciador de conteúdo básico.
 
-Juntei o pouco que sabia de Python e pensei: consigo! Orçamento enviado e aprovado, desenvolvimento começando, cliente começando a usar as primeiras versões da aplicação, eu muito contente e… com muito medo.
+Juntei o pouco que sabia de Python e pensei: consigo! Orçamento enviado e aprovado, desenvolvimento começando, cliente começando a usar as primeiras versões da aplicação, eu muito contente e… com muito medo.
 
 E se eu errasse? Se eu fizesse alguma besteira com o código, tudo bem, o [git](https://git-scm.com) me salvava. Mas e se eu fizesse algum erro que afetasse o banco de dados, que fizesse meu cliente perder o que ele já havia cadastrado?
 

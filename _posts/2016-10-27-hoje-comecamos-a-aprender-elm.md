@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Hoje começamos a aprender Elm"
 ---
 
@@ -19,13 +19,13 @@ A sintaxe do Elm é parecida com a do [Haskell](https://www.haskell.org), mas n�
 
 ### Qual a minha experiência na área?
 
-Pronto, já veio gente instigar a minha [síndrome do impostor](https://pt.wikipedia.org/wiki/S%C3%ADndrome_do_impostor)… (brincadeira, já não me preocupo mais com isso). Vamos lá:
+Pronto, já veio gente instigar a minha [síndrome do impostor](https://pt.wikipedia.org/wiki/S%C3%ADndrome_do_impostor)… (brincadeira, já não me preocupo mais com isso). Vamos lá:
 
 Não tenho formação oficial na área (sou formado em design gráfico, tenho dois mestrados em sociologia e ciência política, e estou terminando um doutorado em sociologia também). E eu nunca programei com qualquer linguagem de baixo nível (ponteiros? sei o que são mas nunca usei).
 
 Dito isso sou _geek_ desde pequeno. Usava internet quando tinha que ligar pela linha telefônica a uma [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system) (usando o novíssimo modem Zoltrix 2400) para enviar um email. Aprendi sozinho HTML, CSS, JavaScript no meio da década de 90. Depois trabalhei bastante com [ActionScript](https://en.wikipedia.org/wiki/ActionScript) (script tosquíssimo que rolava dentro do Macromedia Flash, e não sei mais que fim levou; e sim, o Flash não era da Adobe até a Adobe comprar uma empresa que se chamava Macromedia). Façam a piada que for mas foi ali — animando dinamicamente no Flash, trazendo dados de banco de dados para o Flash e etc. — que comecei a aprender e usar orientação a objetos. Felizmente o Flash começou a morrer e depois trabalhei muito com PHP (antes do [Laravel](https://www.laravel.com); para mim [Code Igniter](http://www.codeigniter.com) foi a grande novidade). Flertei com [Rails](http://rubyonrails.org), que estava nas fraldas naquela época, mas antes de fazer mais nada tive uma crise e larguei a tecnologia.
 
-Minha abstnência durou uns 7 ou 8 anos. Em 2013 deu saudades de programar. Retomei aprendendo [Python](https://python.org) e [Ruby](https://www.ruby-lang.org/), [SASS](http://sass-lang.com), [CoffeeScript](http://coffeescript.org) (sim, cheguei atrasado na festa), mas acabei me interessando muito mais pelo o que realmente mudou nesse período: metodologias, arquiteturas, ambientes de desenvolvimento (métodos ágeis, TDD e testes em geral, DRY, PaaS, ferramentas de _devops_ etc.). Me apaixonei por Python e já tenho uns calos em [Django](https://www.djangoproject.com) e [Flask](http://flask.pocoo.org) — ou seja, meu foco continou sendo web.
+Minha abstnência durou uns 7 ou 8 anos. Em 2013 deu saudades de programar. Retomei aprendendo [Python](https://python.org) e [Ruby](https://www.ruby-lang.org/), [SASS](http://sass-lang.com), [CoffeeScript](http://coffeescript.org) (sim, cheguei atrasado na festa), mas acabei me interessando muito mais pelo o que realmente mudou nesse período: metodologias, arquiteturas, ambientes de desenvolvimento (métodos ágeis, TDD e testes em geral, DRY, PaaS, ferramentas de _devops_ etc.). Me apaixonei por Python e já tenho uns calos em [Django](https://www.djangoproject.com) e [Flask](http://flask.pocoo.org) — ou seja, meu foco continou sendo web.
 
 Me apaixonei por ferramentas que ajudam o desenvolvedor e arrisquei escrever algumas (como o [GetGist](https://github.com/cuducos/getgist) ou o [webassets-elm](https://github.com/cuducos/webassets-elm) por exemplo). Me apaixonei pelo mundo do código aberto e distribuo algumas linhas de código em alguns pacotes que uso. Recentemente comecei a aprender Elm pois odeio (opinião pessoal) o _stack_ JavaScript. Rolou uma química legal entre eu e o Elm. O Elm e a arquitetura dele levam o front-end para um alto nível de abstração (mas sim, isso existe também no [React](https://facebook.github.io/react/) com [Redux](https://github.com/reactjs/redux), que, por sinal, foi [inspirado no Elm](http://redux.js.org/#influences)).
 

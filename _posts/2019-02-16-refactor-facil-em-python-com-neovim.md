@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Refactor fácil em Python com NeoVim (ou Vim)"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Click to give them money, call to a landline to stop doing so
 lang: en
 ---

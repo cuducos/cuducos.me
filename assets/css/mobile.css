@@ -1,0 +1,214 @@
+@media only screen and (max-width: 500px) {
+    
+    /* Index CSS Mobile  */
+
+    .main-title {
+        max-width: 250px;
+        text-align: center;
+    }
+    
+    .main-title h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .post-block .main-title h1 {
+        font-size: 36px;
+        height: auto;
+    }
+
+    .navbar {
+        margin-right: 10px;
+    }
+
+    .container-block#bg-about-photo {
+        padding: 333px 16px 16px 16px;
+        background-size: 450%!important;
+        background-color: #cfd1d6;
+        background-position: -215px -100px;
+    }
+
+    .about {
+        margin: 0;
+        width: 99%;
+        height: 100%;
+    }
+    
+    .about h4 {
+        margin: 16px 16px 40px 16px;
+    }
+        
+    .about p {
+        margin: 0 16px 30px 16px;
+    }
+
+    .lastprojects-bg {
+        height: 116px !important;
+      }
+
+    .project-container {
+        height: 600px;
+    }
+
+    .project-container.left, .project-container.right {
+        justify-content: center;
+        margin-bottom: 40px;
+        min-width: 100vw;
+    }
+
+    #bg-worldbank {
+        height: 542px!important;
+    }
+    
+    #bg-serenata {
+        height: 528px!important;
+    }
+
+    #bg-expedicao {
+        height: 558px!important;
+    }
+
+    #bg-internetsl {
+        height: 529px!important;
+    }
+
+    #bg-mutuo {
+        height: 527px!important;
+    }
+
+    .about-project > img {
+        display: flex;
+    }
+
+    #logo-1, #logo-2, #logo-3, #logo-4, #logo-5 {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .about-project.left, .about-project.right {
+        padding: 16px;
+        width: 100%;
+        height: 92%;        
+    }
+
+    .blog-posts-bg {
+        height: 170px;
+    }
+
+    .triangulo {
+        height: 140px!important;
+    }
+    
+    .allposts-bg .triangulo {
+        height: 475px!important;
+    }
+    
+    .triangulo:after {
+        bottom: -30px !important;
+        border-top: 30px solid #ff0090 !important;
+        border-left: 50vw solid transparent;
+        border-right: 50.4vw solid transparent!important;
+    }
+
+    .triangulo.smaller:after {
+        background-color: #f4f4f4;
+    }
+
+    .last-posts {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        background-color: #f4f4f4;
+        padding: 20px 0;
+    }
+    
+    .post {
+        margin: 20px auto;
+        line-height: 30px;
+    }
+    
+    .post h3 {
+        text-transform: uppercase;
+    }
+
+    .search-block {
+        background-color: #f4f4f4;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form.search-form {
+        width: 288px;
+    }
+    
+    input#search {
+        width: 211px;
+    }
+    
+    button.pink {
+        width: 288px;
+    }
+    
+    form input {
+        width: 288px;
+    }
+
+    form textarea {
+        width: 288px;
+    }
+
+    button.white {
+        width: 288px;
+    }
+
+    button.pink.all-posts {
+        margin: 40px auto;
+    }
+
+    footer p, a{
+        width: 295px;
+        height: auto;
+    }
+
+    /* ALL POSTS PAGE  */
+
+    .allposts-list {
+        padding: 0 40px;
+    }
+
+    .prev-next {
+        width: 288px;
+    }
+
+    #prev, #next {
+        width: 120px;
+    }
+
+    /* BLOG POST PAGE  */
+
+    .post-content {
+        padding: 80px 16px;
+        background-color: #f4f4f4;
+    }
+    
+    .share {
+        padding: 0 50px 80px 50px;
+        flex-wrap: wrap;
+        background: #f4f4f4;
+    }
+    
+    a.share-btn {
+        margin: 2px;
+    } 
+
+    a.share-btn.twitter, a.share-btn.facebook {
+        width: 96px;
+    }
+
+    a.share-btn.linkedin, a.share-btn.reddit {
+        width: 88px;
+    }
+
+}
