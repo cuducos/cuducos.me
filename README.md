@@ -1,4 +1,4 @@
-# Eduardo Cuducos
+# Eduardo Cuducos [![Netlify Status](https://api.netlify.com/api/v1/badges/34646b4a-cbca-4f0d-8db9-b7ecfb359e91/deploy-status)](https://app.netlify.com/sites/cuducos/deploys)
 
 [Jekyll](https://jekyllrb.com) source files for [my personal page & blog](https://cuducos.me).
 
