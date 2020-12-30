@@ -2,39 +2,36 @@
 
 [Jekyll](https://jekyllrb.com) source files for [my personal page & blog](https://cuducos.me).
 
-Requires [Ruby](http://ruby-lang.org) (version specified in `Gemfile`) with [Bundler](http://bundler.io).
-
 ## Getting started
 
-Install  the dependacies:
+Build the Docker image:
 
 ```console
-$ bundle install
+$ docker build -t cuducos.me .
 ```
 
-Then install the SASS libraries inside `_sass` directory:
+Change the site URL at `_config.yml` if needed.
+
+## Previewing
+
+To launch the server at [`localhost:4000`](http://localhost:4000):
 
 ```console
-$ cd _sass
-$ bundle exec bourbon install
-$ bundle exec neat install
-$ bundle exec bitters install
+$ docker run -p 4000:4000 -v $(pwd)/_site/:/home/cuducos/_site/ cuducos.me s
 ```
-
-Finally, change the site URL at `_config.yml` if needed.
 
 ## Building
 
 And finally build the site into `_site/`:
 
 ```console
-$ jekyll b
+$ docker run -v $(pwd)/_site/:/home/cuducos/_site/ cuducos.me b
 ```
 
 Optionally use set `ENV` variable to build the site with the _production_ server settings:
 
 ```console
-$ JEKYLL_ENV=production jekyll b
+$ docker run -e "JEKYLL_ENV=production" -v $(pwd)/_site/:/home/cuducos/_site/ cuducos.me b
 ```
 
 ## License
