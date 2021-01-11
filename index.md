@@ -10,4 +10,4 @@ I'm a developer at [Shopify](https://shopify.com), former [World Bank](https://w
 
 I love side projects such as [Minha Receita](https://twitter.com/cuducos/status/1339980776985808901), [Expedição Liberdade](http://www.expedicaoliberdade.com.br), and [Calculadora do Cidadão](https://github.com/cuducos/calculadora-do-cidadao). I'm engaged in open source — founding and collaborating to [various projects](https://github.com/cuducos/) and some people [support me with some drinks here and there](https://github.com/sponsors/cuducos).
 
-I'm based in <span itemprop="workLocation">Washington, DC</span>. Feel free to join me for a cup or a pint if you believe in the _power to the people_ motto : )
+I'm based in <span itemprop="workLocation">Ottawa, ON</span>. Feel free to join me for a cup or a pint if you believe in the _power to the people_ motto : )
