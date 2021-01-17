@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "TDD com Python e Flask"
 ---
 

@@ -2,21 +2,139 @@
 layout: base
 ---
 
-<div itemscope itemtype="http://schema.org/Person">
-
-  <section class="avatar">
-    {% include avatar.html %}
+<!-- CONTENT BLOCKS -->
+<div class="container-block lavender-bg">
+  <div class="main-title">
     <h1>
-      <small>Hello! I'm</small>
-      <span itemprop="name">
+      Technology
+      <span class="h4-main-title">for</span>
+      Social Change
+    </h1>
+  </div>
+  <div class="Cuducos">
+    <h6>@Cuducos</h6>
+  </div>
+  {% include social.html %}
+</div>
+</div>
+<!-- ABOUT SECTION  -->
+<section>
+  <div class="container-block" id="bg-about-photo" style="
+  background-image: url(/assets/images/cuducos.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;">
+  <div class="about" itemscope itemtype="http://schema.org/Person">
+    <h4>Hello! I'm
+      <span class="about-title" itemprop="name">
         <span itemprop="givenName">Eduardo</span>
         <span itemprop="familyName">Cuducos</span>
       </span>
-    </h1>
-  </section>
-
-  <section itemprop="description" class="about">{{ content }}</section>
-  <nav class="social">{% include social.html %}</nav>
-  {% include schema.html %}
-
+    </h4>
+    <div itemprop="description">
+      {{ content }}
+    </div>
+  </div>
 </div>
+</section>
+<!-- LAST PROJECTS SECTION  -->
+<section>
+  <div class="container-block lastprojects">
+    <div class="lastprojects-bg">
+      <div class="triangulo smaller"></div>
+      <div class="block-title">
+        <h4>Last<span class="titles">Projects</span></h4>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="project-container left" id="bg-worldbank" style="
+      background-image: url('/assets/images/worldbank-bg.jpg');
+      background-repeat:no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 480px;">
+      <!-- <div class="project-container left" id="project-background-1"> -->
+        <div class="about-project left">
+          <img id="logo-1" src="/assets/images/world-bank-logo.gif" alt="World Bank">
+          <h5>
+            One of the world’s largest sources of funding and knowledge for developing countries.
+          </h5>
+          <p>
+            The World Bank Group is a unique global partnership: five institutions working for sustainable solutions that reduce poverty and build shared prosperity in developing countries.
+          </p>
+        </div>
+      </div>
+      <div class="project-container right" id="bg-serenata" style="
+      background-image: url('/assets/images/serenata-bg.jpg');
+      background-repeat:no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 480px;">
+      <!-- <div class="project-container right" id="project-background-2"> -->
+        <div class="about-project right">
+          <img id="logo-2" src="/assets/images/serenata-de-amor.png" alt="Serenata de Amor">
+          <h5>
+            Artificial inteligence for social control of public administration
+          </h5>
+          <p>
+            An open project that uses data science - the same technologies used by giants like Google, Facebook and Netflix - for the purpose of monitoring public spending and sharing information in a way accessible to everyone.
+          </p>
+        </div>
+      </div>
+      <div class="project-container left" id="bg-expedicao" style="
+      background-image: url('/assets/images/expedicao-bg.jpg');
+      background-repeat:no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 480px;">
+      <!-- <div class="project-container left" id="project-background-3"> -->
+        <div class="about-project left">
+          <img id="logo-3" src="/assets/images/expedicao-liberdade.png" alt="Expedição Liberdade">
+          <h5>
+            What is behind some of the most amazing schools in the world?
+          </h5>
+          <p>
+            It was with this question that was born the project Expedição Liberdade, by Daniel Larusso, Eduardo Cuducos and Mabel Lazzarin. Between October and November 2013, they visited nine spaces and out-of-box education initiatives across Europe.
+          </p>
+        </div>
+      </div>
+      <div class="project-container right" id="bg-internetsl" style="
+      background-image: url('/assets/images/internetsemlimites-bg.jpg');
+      background-repeat:no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 480px;">
+      <!-- <div class="project-container right" id="project-background-4"> -->
+        <div class="about-project right">
+          <img id="logo-4" 
+          src="/assets/images/internet-sem-limites-logo.png" alt="Internet Sem Limites">
+          
+          <h5>
+            Lorem ipsum dolor sit amet
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div class="project-container left" id="bg-mutuo" style="
+      background-image: url('/assets/images/mutuo-bg.jpg');
+      background-repeat:no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 480px;">
+      <!-- <div class="project-container left" id="project-background-5"> -->
+        <div class="about-project right">
+          <img id="logo-5" src="/assets/images/mutuo-logo.png" alt="Mútuo">
+          <h5>
+            Lorem ipsum dolor sit amet
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include blog_posts.html %}

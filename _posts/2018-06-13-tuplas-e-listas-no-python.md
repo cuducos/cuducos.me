@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Tuplas e listas no Python"
 ---
 

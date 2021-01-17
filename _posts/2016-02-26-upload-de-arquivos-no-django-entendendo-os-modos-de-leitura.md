@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Upload de arquivos no Django: entendendo os modos de leitura"
 ---
 

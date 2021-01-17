@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Quem que saber o que é design?"
 ---
 

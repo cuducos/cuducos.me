@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Franquias e cartelização da internet no Brasil
 ---
 

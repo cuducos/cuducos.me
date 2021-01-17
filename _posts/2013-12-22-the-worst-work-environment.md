@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: The worst work environment?
 lang: en
 ---

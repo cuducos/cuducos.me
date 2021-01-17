@@ -1,0 +1,115 @@
+.post-block .main-title {
+    width: 980px;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.post-block .main-title h1 {
+    padding-top: 40px;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.post-block .Cuducos {
+    margin: 16px 0;
+}
+
+.post-content {
+    padding: 80px 200px;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5 {
+    margin-top: 40px;
+}
+
+.post-content .line {
+    border: 1px solid #dbdbdb;
+}
+
+.post-content h6, p{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #3c3c3c;
+    line-height: 1.5;
+}
+
+.post-content h6 {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.post-content p {
+    padding-top: 40px;
+}
+
+.post-content a {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.67;
+    color: #ff0090;
+}
+
+.post-content .highlight {
+    margin-top: 40px;
+    width: 600px;
+    overflow: auto;
+}
+
+.post-content figure,
+.post-content img {
+    margin: 20px auto 0 auto;
+    max-width: 60%;
+}
+
+.post-content figure > img {
+    max-width: 100%;
+}
+
+.post-content iframe {
+    display: block;
+    margin: 20px auto 0 auto;
+    max-width: 100%;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+a.share-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 24px;
+    background-color: #ff0090;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin: 0 2px;
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a.share-btn svg {
+    height: 1rem;
+    margin-right: 4px;
+    width: 1rem;
+    fill: #ffffff;
+}
+
+strong {
+    font-weight: 400;
+}
+

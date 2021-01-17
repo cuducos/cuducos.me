@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Como eu descobri o que eu queria ser quando crescer: meus últimos 20 anos"
 ---
 

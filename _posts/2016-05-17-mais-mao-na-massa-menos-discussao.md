@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Mais mão na massa, menos discussão"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Privacidade e nhenhenhés"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Autonomia: meus últimos 10 anos"
 ---
 

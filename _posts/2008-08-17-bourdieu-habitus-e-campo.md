@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Bourdieu, habitus e campo"
 ---
 

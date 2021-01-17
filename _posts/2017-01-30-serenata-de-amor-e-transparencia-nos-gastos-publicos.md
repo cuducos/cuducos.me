@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Serenata de Amor e transparência nos gastos públicos"
 ---
 

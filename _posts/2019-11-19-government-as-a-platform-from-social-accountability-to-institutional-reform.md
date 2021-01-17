@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Government as a Platform: from Social Accountability to Institutional Reform"
 ---
 

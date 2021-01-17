@@ -1,6 +1,5 @@
 ---
 layout: home
-class_name: home
 lang: en
 ---
 

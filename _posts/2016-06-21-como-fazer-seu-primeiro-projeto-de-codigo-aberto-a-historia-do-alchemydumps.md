@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Como fazer seu primeiro projeto de código aberto: a história do AlchemyDumps"
 ---
 
