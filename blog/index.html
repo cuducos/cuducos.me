@@ -17,10 +17,7 @@ layout: base
   </div>
 </div>
 <div class="container-block allposts-block">
-  <form action="" class="search-form">
-    <input type="text" id="search" placeholder="Search...">
-    <button type="submit" class="pink ok">OK</button>
-  </form>
+  {% include search.html %}
   <div class="allposts-list">
 
     {% for post in paginator.posts %}
