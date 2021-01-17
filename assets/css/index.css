@@ -255,12 +255,14 @@ span.titles {
 }
 
 .project-container {
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
     height: 480px;
     margin-bottom: 80px;
-    display: flex;
-    align-items: center;
     padding: 0 20px;
-
+    width: 100%;
 }
 
 .project-container.left {
@@ -270,38 +272,6 @@ span.titles {
 .project-container.right {
     justify-content: flex-end;
 }
-
-/* #project-background-1 {
-    background-image: url('../images/worldbank-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* #project-background-2 {
-    background-image: url('../images/serenata-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* #project-background-3 {
-    background-image: url('../images/expedicao-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* #project-background-4 {
-    background-image: url('../images/internetsemlimites-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* 
-#project-background-5 {
-    background-image: url('../images/mutuo-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
 
 .about-project.left {
     width: 464px;
@@ -324,6 +294,7 @@ span.titles {
     font-weight: 400;
     color: #3c3c3c;
     padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .about-project p {
@@ -333,34 +304,8 @@ span.titles {
     color: #3c3c3c;
 }
 
-#logo-1 {
-    width: 210px;
-    height: 84px;
-    margin-bottom: 22px;
-}
-
-#logo-2 {
-    width: 143px;
-    height: 70px;
-    margin-bottom: 48px;
-}
-
-#logo-3 {
-    width: 210px;
-    height: 70px; 
-    margin-bottom: 36px;
-}
-
-#logo-4 {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 18px;
-}
-
-#logo-5 {
-    width: 120px;
-    height: 100px;
-    margin-bottom: 19px;
+.about-project img {
+    width: 68%;
 }
 
 .lastprojects-bg {
