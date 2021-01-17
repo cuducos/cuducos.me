@@ -526,7 +526,7 @@ footer svg {
     margin-bottom: 10px;
 }
 
-footer p, a{
+footer p, footer a{
     text-align: center;
     font-family: 'Crimson Text', serif;
     font-size: 14px;

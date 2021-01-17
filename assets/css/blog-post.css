@@ -10,6 +10,11 @@
     text-transform: uppercase;
 }
 
+.post-block a {
+    text-align: center;
+    text-decoration: none;
+}
+
 .post-block .Cuducos {
     margin: 16px 0;
 }
