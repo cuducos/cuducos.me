@@ -480,6 +480,11 @@ label[for=msg] {
     margin-top: 25px;
 }
 
+a#hello {
+    display: block;
+    margin: 2rem 0;
+}
+
 form textarea {
     resize: none;
     width: 480px;
