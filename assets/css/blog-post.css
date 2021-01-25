@@ -35,8 +35,11 @@
     border: 1px solid #dbdbdb;
 }
 
-.post-content h6, p{
+.post-content h6, p, a, strong, em, ul {
     font-family: 'Crimson Text', serif;
+}
+
+.post-content h6, p{
     font-size: 20px;
     font-weight: normal;
     color: #3c3c3c;
@@ -53,16 +56,23 @@
 }
 
 .post-content a {
-    font-family: 'Crimson Text', serif;
     font-size: 18px;
     text-decoration: none;
     line-height: 1.67;
     color: #ff0090;
 }
 
+.post-content strong {
+    font-weight: bold;
+}
+
+.post-content em {
+    font-weight: normal;
+    font-style: italic;
+}
+
 .post-content .highlight {
     margin-top: 40px;
-    width: 600px;
     overflow: auto;
 }
 
@@ -80,6 +90,10 @@
     display: block;
     margin: 20px auto 0 auto;
     max-width: 100%;
+}
+
+.language-plaintext {
+    font-size: initial !important;
 }
 
 .share {
@@ -113,8 +127,3 @@ a.share-btn svg {
     width: 1rem;
     fill: #ffffff;
 }
-
-strong {
-    font-weight: 400;
-}
-
