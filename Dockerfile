@@ -12,13 +12,6 @@ RUN apt update && \
     apt autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 
-COPY _sass/ _sass/
-WORKDIR /home/cuducos/_sass/
-RUN bundle exec bourbon install && \
-    bundle exec neat install && \
-    bundle exec bitters install
-WORKDIR /home/cuducos/
-
 COPY _includes/ _includes/
 COPY _layouts/ _layouts/
 COPY _media/ _media/

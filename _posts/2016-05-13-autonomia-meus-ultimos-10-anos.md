@@ -9,25 +9,25 @@ Outro dia uma amiga me perguntou, em meio a um grupo de gente que vive hackeando
 
 De bate e pronto respondi que era [importante aprender a dizer “não”](http://www.larusso.com.br/blog/2016/2/1/diga-no). Perguntei quais eram os medos dela, o que ela sentia que precisava — _mesmo_ — para começar, e o que estava a segurando.
 
-Ou seja, joguei uma resposta aparentemente sem pé nem cabeça. E devolvi essas perguntas abstratas — me livrei da batata quente. Claro que não funcionou.
+Ou seja, joguei uma resposta aparentemente sem pé nem cabeça. E devolvi essas perguntas abstratas — me livrei da batata quente. Claro que não funcionou.
 
 Em um segundo momento, resolvi ir aos poucos. E esse textão são essas reflexões sobre como ser autônomo, como lidar com sonhos e objetivos pessoais e profissionais. Tudo isso de um ponto muito pessoal, refletindo sobre minhas próprias escolhas nos últimos 10 anos.
 
 ## Quem é você: a importante pergunta que não leva a lugar nenhum
 
-Para começar a falar de autonomia é importante falar de você. Se você quer ser autônomo, é você que vai tomar todas as decisões importantes da tua vida. Desde a hora de dormir e acordar, até qual pijama vestir — se é que vai vestir algum. Se vai trabalhar ou procrastinar, guardar ou gastar, ficar em casa, ir no café ou cruzar o Atlântico. Ser autônomo é ser você. Então comecemos por aí mesmo: quem é você?
+Para começar a falar de autonomia é importante falar de você. Se você quer ser autônomo, é você que vai tomar todas as decisões importantes da tua vida. Desde a hora de dormir e acordar, até qual pijama vestir — se é que vai vestir algum. Se vai trabalhar ou procrastinar, guardar ou gastar, ficar em casa, ir no café ou cruzar o Atlântico. Ser autônomo é ser você. Então comecemos por aí mesmo: quem é você?
 
 Em uma conversa que tive mês passado com o [Cabral](https://twitter.com/felipebcabral), a gente falava sobre esse assunto, sobre se conhecer. E ele me disse a seguinte frase:
 
 > Você tem que se conhecer, e se definir, senão os outros vem e te arrancam pedaço.
 
-Claro que nesse sentido o _se definir_ não é algo duro ou imutável, mas é importante saber o que você quer da vida. Se não souber, os _outros_ vão vir e… tirar pedaço — ou seja, você pode acabar não fazendo o que você queria fazer. Não vai ser autônomo, vai acabar sendo o que os outros querem que você seja.
+Claro que nesse sentido o _se definir_ não é algo duro ou imutável, mas é importante saber o que você quer da vida. Se não souber, os _outros_ vão vir e… tirar pedaço — ou seja, você pode acabar não fazendo o que você queria fazer. Não vai ser autônomo, vai acabar sendo o que os outros querem que você seja.
 
 Então talvez seja melhor parar tudo e ir atrás daquele sonho, daquele projeto legal, fazer aquelas coisas que estão há anos guardadas em um canto do nosso coração (mas que nunca tivemos condições de abraça-las). Ser autônomo deve ser isso!
 
 De maneira superficial, é isso sim. Mas até chegar lá tem muita pedra no caminho. Vejo muita gente com medo de começar, medo de largar o que já tem para mergulhar nessa caixinha maravilhosas de sonhos:
 
-> Tenho medo de largar meu emprego para me arriscar em um mar desconhecido — ainda não sei se estou preparado.
+> Tenho medo de largar meu emprego para me arriscar em um mar desconhecido — ainda não sei se estou preparado.
 
 E aí encontramos perguntas mais interesantes. Você quer se jogar nesse _mar_ para chegar onde? Como diz o ditado, se não souber para onde está indo, qualquer caminho vai servir. Se quer se jogar em algo é importante ter um norte. Se quer se jogar no mar da autonomia, não tem como fazer isso sem se perguntar qual é o seu próprio norte.
 
@@ -41,7 +41,7 @@ Normalmente pulamos todas essas perguntas e olhamos para as questões mais pragm
 
 Se teus pensamentos empacarem nesse pragmatismo, a resposta para todas essas perguntas é a mesma: _nada_. O que você precisa mesmo é começar.
 
-Mas… começar o quê?
+Mas… começar o quê?
 
 Comecemos com um exemplo bobo: O que você precisa para correr uma maratona? Precisa começar a correr. Claro que você não vai correr os 42km de uma maratona logo no primeiro dia. Mas vista um tênis, saia de casa e vá correr. Corra 2km, 3km… 10km que seja. Sem começar, sem correr o primeiro quilômetro, você nunca vai chegar na maratona.
 
@@ -63,7 +63,7 @@ Mas, sendo pentelho, tem uma coisa muito errada nessa pergunta. Os trabalhos nã
 
 Para quem é autônomo, os trabalhos são coisas que as pessoas mesmos criam. Então, se por trás dessa pergunta tem uma vontade de _encontrar_ oportunidades em projetos fodas, colaborativos, na gringa, trabalhando remotamente, fazendo o bem (seja lá o que for isso) e tudo mais _hype_ possível, a única resposta seria: ache problemas que você possa resolver, resolva-os ou ofereça-se para resolve-los.
 
-Comece, simples assim: comece. Faça e refaça o que você sabe fazer, quantas vezes puder — é como um [_kata_](https://pt.wikipedia.org/wiki/Kata_(artes_marciais)): vai te fazer melhor, te ajudar a apriomorar tuas próprias habilidades, sejam elas quais forem. Isso vai fazer você resolver melhor ainda os problemas que você já resolve bem.
+Comece, simples assim: comece. Faça e refaça o que você sabe fazer, quantas vezes puder — é como um [_kata_](https://pt.wikipedia.org/wiki/Kata_(artes_marciais)): vai te fazer melhor, te ajudar a apriomorar tuas próprias habilidades, sejam elas quais forem. Isso vai fazer você resolver melhor ainda os problemas que você já resolve bem.
 
 Mas faça isso e mostre que fez, tuíte, poste no Facebook, mostre para a mãe e para o papagaio, comente com os amigos, faça um blog e conte tuas experiências. Viva tuas habilidades, e mostre-as sem pudor. Isso é tremendamente importante.
 
@@ -114,7 +114,7 @@ Se tem algo que eu acrescentaria é que não precisei _largar tudo_. Fiz isso se
 
 Contei uma história gigante, mas ainda não chegou o dinheiro. E sem o dinheiro, ninguém consegue chegar a lugar nenhum.
 
-O [Henrique Bastos](http://henriquebastos.net) sempre sabe ir direto ao ponto quando o assunto é grana e autonomia. Segundo ele, muita gente fica naquela ciclo eterno de querer fazer _outras_ coisas, o emprego não deixar tempo livre para tal, mas a pessoa não consegue se livrar do emprego pois precisa da grana, do salário… e volta à estaca zero. Mas ele diz que isso só é um ciclo infinito se falarmos do assunto sem falar dos números:
+O [Henrique Bastos](http://henriquebastos.net) sempre sabe ir direto ao ponto quando o assunto é grana e autonomia. Segundo ele, muita gente fica naquela ciclo eterno de querer fazer _outras_ coisas, o emprego não deixar tempo livre para tal, mas a pessoa não consegue se livrar do emprego pois precisa da grana, do salário… e volta à estaca zero. Mas ele diz que isso só é um ciclo infinito se falarmos do assunto sem falar dos números:
 
 > O primeiro passo é fazer um diagnóstico para detectar em números e em frases: o quanto eu preciso do meu emprego?
 >

@@ -1,6 +1,6 @@
 .allposts-bg {
     background-color: #f4f4f4;
-    z-index: -1;
+    z-index: 1;
 }
 
 .allposts-bg .triangulo {
@@ -86,9 +86,9 @@ button.pink.all-posts {
     color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
-    -webkit-box-shadow: 0 2px 2px -2px black; 
+    -webkit-box-shadow: 0 2px 2px -2px black;
     -moz-box-shadow: 0 2px 2px -2px black;
-    box-shadow: 0 2px 2px -2px black;	
+    box-shadow: 0 2px 2px -2px black;
 }
 
 #prev.deactivate, #next.deactivate {

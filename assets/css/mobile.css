@@ -1,12 +1,12 @@
 @media only screen and (max-width: 500px) {
-    
+
     /* Index CSS Mobile  */
 
     .main-title {
         max-width: 250px;
         text-align: center;
     }
-    
+
     .main-title h1 {
         font-size: 36px;
         line-height: normal;
@@ -33,11 +33,11 @@
         width: 99%;
         height: 100%;
     }
-    
+
     .about h4 {
         margin: 16px 16px 40px 16px;
     }
-        
+
     .about p {
         margin: 0 16px 30px 16px;
     }
@@ -47,33 +47,13 @@
       }
 
     .project-container {
-        height: 600px;
+        height: 600px !important;
     }
 
     .project-container.left, .project-container.right {
         justify-content: center;
         margin-bottom: 40px;
         min-width: 100vw;
-    }
-
-    #bg-worldbank {
-        height: 542px!important;
-    }
-    
-    #bg-serenata {
-        height: 528px!important;
-    }
-
-    #bg-expedicao {
-        height: 558px!important;
-    }
-
-    #bg-internetsl {
-        height: 529px!important;
-    }
-
-    #bg-mutuo {
-        height: 527px!important;
     }
 
     .about-project > img {
@@ -88,7 +68,7 @@
     .about-project.left, .about-project.right {
         padding: 16px;
         width: 100%;
-        height: 92%;        
+        height: 92%;
     }
 
     .blog-posts-bg {
@@ -98,11 +78,11 @@
     .triangulo {
         height: 140px!important;
     }
-    
+
     .allposts-bg .triangulo {
         height: 475px!important;
     }
-    
+
     .triangulo:after {
         bottom: -30px !important;
         border-top: 30px solid #ff0090 !important;
@@ -121,12 +101,12 @@
         background-color: #f4f4f4;
         padding: 20px 0;
     }
-    
+
     .post {
         margin: 20px auto;
         line-height: 30px;
     }
-    
+
     .post h3 {
         text-transform: uppercase;
     }
@@ -142,15 +122,15 @@
     form.search-form {
         width: 288px;
     }
-    
+
     input#search {
         width: 211px;
     }
-    
+
     button.pink {
         width: 288px;
     }
-    
+
     form input {
         width: 288px;
     }
@@ -192,16 +172,16 @@
         padding: 80px 16px;
         background-color: #f4f4f4;
     }
-    
+
     .share {
         padding: 0 50px 80px 50px;
         flex-wrap: wrap;
         background: #f4f4f4;
     }
-    
+
     a.share-btn {
         margin: 2px;
-    } 
+    }
 
     a.share-btn.twitter, a.share-btn.facebook {
         width: 96px;

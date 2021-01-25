@@ -5,12 +5,12 @@
     outline: none;
     border:0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
 }
 
 .main-wrapper {
     display: flex;
     flex-direction: column;
+    font-family: 'Oswald', sans-serif;
 }
 
 .navbar {
@@ -26,7 +26,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 
 .dropbtn {
@@ -124,6 +124,10 @@ span.h4-main-title {
     font-style: italic;
     font-weight: normal;
     color: #f4f4f4;
+}
+
+.Cuducos > a {
+    text-decoration: none !important;
 }
 
 nav.social {
@@ -255,12 +259,14 @@ span.titles {
 }
 
 .project-container {
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
     height: 480px;
     margin-bottom: 80px;
-    display: flex;
-    align-items: center;
     padding: 0 20px;
-
+    width: 100%;
 }
 
 .project-container.left {
@@ -271,49 +277,17 @@ span.titles {
     justify-content: flex-end;
 }
 
-/* #project-background-1 {
-    background-image: url('../images/worldbank-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* #project-background-2 {
-    background-image: url('../images/serenata-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* #project-background-3 {
-    background-image: url('../images/expedicao-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* #project-background-4 {
-    background-image: url('../images/internetsemlimites-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-/* 
-#project-background-5 {
-    background-image: url('../images/mutuo-bg.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-} */
-
-
 .about-project.left {
     width: 464px;
     height: 448px;
-    background-color: white; 
+    background-color: white;
     padding: 40px 80px 32px 64px;
 }
 
 .about-project.right {
     width: 464px;
     height: 448px;
-    background-color: white; 
+    background-color: white;
     padding: 40px 64px 32px 80px;
 }
 
@@ -324,6 +298,7 @@ span.titles {
     font-weight: 400;
     color: #3c3c3c;
     padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .about-project p {
@@ -333,34 +308,8 @@ span.titles {
     color: #3c3c3c;
 }
 
-#logo-1 {
-    width: 210px;
-    height: 84px;
-    margin-bottom: 22px;
-}
-
-#logo-2 {
-    width: 143px;
-    height: 70px;
-    margin-bottom: 48px;
-}
-
-#logo-3 {
-    width: 210px;
-    height: 70px; 
-    margin-bottom: 36px;
-}
-
-#logo-4 {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 18px;
-}
-
-#logo-5 {
-    width: 120px;
-    height: 100px;
-    margin-bottom: 19px;
+.about-project img {
+    width: 68%;
 }
 
 .lastprojects-bg {
@@ -378,7 +327,7 @@ span.titles {
     display: inline-block;
     z-index: -10;
   }
-  
+
 .triangulo:after {
     position: absolute;
     content: "";
@@ -404,7 +353,7 @@ span.titles {
 .triangulo.smaller {
     height: 80px;
 }
-  
+
 .triangulo.smaller:after {
     bottom: -100px;
     border-top: 101px solid #ff0090;
@@ -478,7 +427,7 @@ button.pink {
     color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
-    -webkit-box-shadow: 0 2px 2px -2px black; 
+    -webkit-box-shadow: 0 2px 2px -2px black;
     -moz-box-shadow: 0 2px 2px -2px black;
     box-shadow: 0 2px 2px -2px black;
 }
@@ -535,6 +484,11 @@ label[for=msg] {
     margin-top: 25px;
 }
 
+a#hello {
+    display: block;
+    margin: 2rem 0;
+}
+
 form textarea {
     resize: none;
     width: 480px;
@@ -561,9 +515,9 @@ button.white {
     cursor: pointer;
     border-radius: 4px;
     margin-top: 26px;
-    -webkit-box-shadow: 0 2px 2px -2px black; 
+    -webkit-box-shadow: 0 2px 2px -2px black;
     -moz-box-shadow: 0 2px 2px -2px black;
-    box-shadow: 0 2px 2px -2px black;	
+    box-shadow: 0 2px 2px -2px black;
 }
 
 footer {
@@ -581,7 +535,7 @@ footer svg {
     margin-bottom: 10px;
 }
 
-footer p, a{
+footer p, footer a{
     text-align: center;
     font-family: 'Crimson Text', serif;
     font-size: 14px;

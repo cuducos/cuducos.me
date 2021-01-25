@@ -3,8 +3,14 @@
   <div class="block-title">
     <h4>Get in<span class="titles">Touch</span></h4>
   </div>
-  
-  <form class="contact" action="" method="POST">
+
+  <p itemscope="" itemtype="http://schema.org/ContactPoint" itemprop="contactPoint">
+    <a id="hello" href="mailto:c%75duc%6F%73@gmail.com" title="E-mail">
+      {% include svg/email.svg %}
+    </a>
+  </p>
+
+  <!--form class="contact" action="" method="POST">
     <div>
       <label for="name">Name</label>
       <input type="text" id="name" placeholder="Your name"/>
@@ -17,17 +23,17 @@
       <label for="msg">Message</label>
       <textarea id="msg" placeholder="Write your message here"></textarea>
     </div>
-    
+
     <button class="white" type="submit">Send</button>
-  </form>
+  </form-->
 
   <footer>
-    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"> 
-      {% include svg/cc.svg %} 
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+      {% include svg/cc.svg %}
     </a>
     <p>
       "Eduardo Cuducos” by <a href="{{ site.url }}">Eduardo Cuducos</a> is licensed under a
       <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-    </p> 
+    </p>
   </footer>
 </div>

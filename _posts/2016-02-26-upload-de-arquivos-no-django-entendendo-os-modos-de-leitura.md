@@ -97,4 +97,4 @@ Enfim, esse métodos `UploadedFile.close()` e `UploadedFile.open(mode=mode)` pod
 
 > Quem aprendeu alguma coisa nova?
 >
-> — Raymond Hettinger
+> — Raymond Hettinger

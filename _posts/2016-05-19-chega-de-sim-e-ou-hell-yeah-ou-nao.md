@@ -9,7 +9,7 @@ _Minha tradução de [No more yes. It's either HELL YEAH! or no](https://sivers.
 
 Vocês que sempre se cobram demais, ou vocês que se sentem sem rumo, talvez gostem da nova filosofia que estou testando:
 
-Se sinto que não vou dizer _HELL YEAH!_ para alguma coisa, então digo não.
+Se sinto que não vou dizer _HELL YEAH!_ para alguma coisa, então digo não.
 
 Ou seja: Na hora de decidir se vou ou não me comprometer com alguma coisa, **se eu sinto qualquer coisa menor que “Uau! Isso vai ser sensacional! Com certeza! Hell yeah!” — então minha resposta vai ser não**.
 
@@ -27,9 +27,9 @@ Eu estava decidindo iria onde morar. Tinham me falado bem de Vancouver e Sydney.
 
 ## 9, 10 ou 1
 
-O surpreendentemente bom livro [_Personal Development for Smart People_](https://sivers.org/book/PersonalDevelopmentForSmartPeople) te pergunta sobre as diferentes áreas da sua vida pessoal (carreira, relacinamentos, o lado espiritual, saúde, etc.) — e pede que você dê uma nota de 1 a 10 para sua satisfação em cada uma dessas áreas.
+O surpreendentemente bom livro [_Personal Development for Smart People_](https://sivers.org/book/PersonalDevelopmentForSmartPeople) te pergunta sobre as diferentes áreas da sua vida pessoal (carreira, relacinamentos, o lado espiritual, saúde, etc.) — e pede que você dê uma nota de 1 a 10 para sua satisfação em cada uma dessas áreas.
 
-Mas foi depois disso que me interessei: o passo seguinte era voltar para todas as áreas em que a nota foi 5, 6, 7, ou 8 — e substitui-las por 1! Ou seja, não devemos nos contentar com _não é tão ruim assim_ — temos, ao invés disso, que encarar de frente o que realmente queremos.
+Mas foi depois disso que me interessei: o passo seguinte era voltar para todas as áreas em que a nota foi 5, 6, 7, ou 8 — e substitui-las por 1! Ou seja, não devemos nos contentar com _não é tão ruim assim_ — temos, ao invés disso, que encarar de frente o que realmente queremos.
 
 Em outras palavras: **Chega de “sim”. É ou “HELL YEAH!” ou “não”**.
 

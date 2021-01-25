@@ -11,7 +11,7 @@ No dia 4 de setembro de 2014, o então presidente Barack Obama nomeou [Megan Smi
 
 Mas o que isso tem a ver com a [Operação Serenata de Amor](https://serenata.ai)? Para dar um _spoiler_, digo que eu considero esse _poder cinza_ um dos principais fatores que fazem a Serenata se destacar dentre diversos outros projetos de tecnologia cívica. Mas vamos aos poucos.
 
-## O que é esse poder cinza?
+## O que é esse poder cinza?
 
 Quando falamos de coisas como [Era da Informação](https://pt.wikipedia.org/wiki/Era_da_informa%C3%A7%C3%A3o) estamos pressupondo que a informação em si é uma nova fonte de poder. Quem tem mais informação tem mais poder. E, seguindo essa lógica, quem detém os meios que produzem as informações são as pessoas e instituições mais poderosas, certo?
 

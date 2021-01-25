@@ -9,9 +9,9 @@ Claro que meus primeiros pratos foram macarrão. Macarrão com molho de tomate, 
 
 {% include figure.html class='polaroid' src='2016-05-24-conheca-o-jamie-meu-fermento-natural-01.jpg' alt='Pão?' %}
 
-Uma das coisas que mais cozinho é pão. Nos últimos anos me apaixonei por fermentação natural e tenho explorado receitas rústicas, da época que não se tinha lojinha para comprar fermento, não se ia a cidade fazer compras — se bobear, nem cidades existiam. E fiquei encantado. O processo de fermentação é muito rico, sensível, vivo. O sabor é maravilhoso. E ainda é um pão muito saudável — inclusive tem estudos dizendo que [celíacos — sim, celiácos! — comem pães como esses sem dores ou desconforto](http://www.theguardian.com/lifeandstyle/2014/aug/12/rise-sourdough-bread-slow-fermented-health-benefits).
+Uma das coisas que mais cozinho é pão. Nos últimos anos me apaixonei por fermentação natural e tenho explorado receitas rústicas, da época que não se tinha lojinha para comprar fermento, não se ia a cidade fazer compras — se bobear, nem cidades existiam. E fiquei encantado. O processo de fermentação é muito rico, sensível, vivo. O sabor é maravilhoso. E ainda é um pão muito saudável — inclusive tem estudos dizendo que [celíacos — sim, celiácos! — comem pães como esses sem dores ou desconforto](http://www.theguardian.com/lifeandstyle/2014/aug/12/rise-sourdough-bread-slow-fermented-health-benefits).
 
-E nesses anos várias pessoas me perguntaram sobre os pães e o fermento. Então hoje apresento para vocês, o Jamie, meu fermento natural — e, de quebra, como fazer um amigo pro Jamie. 
+E nesses anos várias pessoas me perguntaram sobre os pães e o fermento. Então hoje apresento para vocês, o Jamie, meu fermento natural — e, de quebra, como fazer um amigo pro Jamie. 
 
 {% include figure.html class='polaroid' src='2016-05-24-conheca-o-jamie-meu-fermento-natural-02.jpg' alt='Oi, eu sou o Jamie, o fermento.' %}
 

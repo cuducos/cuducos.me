@@ -10,6 +10,11 @@
     text-transform: uppercase;
 }
 
+.post-block a {
+    text-align: center;
+    text-decoration: none;
+}
+
 .post-block .Cuducos {
     margin: 16px 0;
 }
@@ -18,10 +23,10 @@
     padding: 80px 200px;
 }
 
-.post-content h1, 
-.post-content h2, 
-.post-content h3, 
-.post-content h4, 
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
 .post-content h5 {
     margin-top: 40px;
 }
@@ -30,8 +35,11 @@
     border: 1px solid #dbdbdb;
 }
 
-.post-content h6, p{
+.post-content h6, p, a, strong, em, ul {
     font-family: 'Crimson Text', serif;
+}
+
+.post-content h6, p{
     font-size: 20px;
     font-weight: normal;
     color: #3c3c3c;
@@ -48,16 +56,23 @@
 }
 
 .post-content a {
-    font-family: 'Crimson Text', serif;
     font-size: 18px;
     text-decoration: none;
     line-height: 1.67;
     color: #ff0090;
 }
 
+.post-content strong {
+    font-weight: bold;
+}
+
+.post-content em {
+    font-weight: normal;
+    font-style: italic;
+}
+
 .post-content .highlight {
     margin-top: 40px;
-    width: 600px;
     overflow: auto;
 }
 
@@ -77,6 +92,10 @@
     max-width: 100%;
 }
 
+.language-plaintext {
+    font-size: initial !important;
+}
+
 .share {
     display: flex;
     align-items: center;
@@ -85,7 +104,7 @@
     padding-bottom: 80px;
 }
 
-a.share-btn { 
+a.share-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +116,7 @@ a.share-btn {
     text-transform: uppercase;
     border-radius: 3px;
     margin: 0 2px;
-    font-family: 'Oswald', serif; 
+    font-family: 'Oswald', serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -108,8 +127,3 @@ a.share-btn svg {
     width: 1rem;
     fill: #ffffff;
 }
-
-strong {
-    font-weight: 400;
-}
-

@@ -25,7 +25,7 @@ Já comunicamos à Câmara, protocolo número 170117–000249, mas ainda não ob
 
 A resposta, para ser sincero, pouco nos interessa. Queremos é que a Câmara volte a cumprir o quanto antes a Lei da Acesso à Informação disponibilizando um arquivo que, ao menos, não esteja corrompido.
 
-### **É só mimimi?**
+### **É só mimimi?**
 
 Essa pergunta é válida e sincera. Mas não é só de mimimi que vive esse texto. Essa falha na Câmara tem impacto direto no nosso trabalho. Poderia falar por dias sobre isso, mas vou resumir em três pontos:
 
@@ -55,7 +55,7 @@ Que venha 2017 e uma Câmara melhor!
 
 ---
 
-### **Atualizado em 24 de janeiro de 2017**
+### **Atualizado em 24 de janeiro de 2017**
 
 Hoje às 11h31 a Câmara respondeu:
 
