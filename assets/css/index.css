@@ -5,12 +5,12 @@
     outline: none;
     border:0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
 }
 
 .main-wrapper {
     display: flex;
     flex-direction: column;
+    font-family: 'Oswald', sans-serif;
 }
 
 .navbar {
@@ -124,6 +124,10 @@ span.h4-main-title {
     font-style: italic;
     font-weight: normal;
     color: #f4f4f4;
+}
+
+.Cuducos > a {
+    text-decoration: none !important;
 }
 
 nav.social {
