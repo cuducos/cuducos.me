@@ -136,7 +136,7 @@ nav.social {
     font-size: 15px;
 }
 
-nav.social a {
+.social a {
     background-color: #faf8f2;
     border-radius: 50%;
     display: inline-block;
@@ -147,11 +147,11 @@ nav.social a {
     width: 2rem;
 }
 
-nav.social li {
+.social li {
     display: inline;
 }
 
-nav.social svg {
+.social svg {
     fill: #ff0090;
     height: 1rem;
     margin: 0;
@@ -485,7 +485,8 @@ label[for=msg] {
 }
 
 a#hello {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 2rem 0;
 }
 
