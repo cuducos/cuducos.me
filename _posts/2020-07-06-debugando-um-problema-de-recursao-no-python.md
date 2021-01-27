@@ -137,7 +137,6 @@ Analisando o código vi que a cada chamada da `generate_with_nonce`, o valor de 
 Com base nessa análise, sugeri o seguinte _refactor_:
 
 ```python
-```python
 from hashlib import sha256
 
 
