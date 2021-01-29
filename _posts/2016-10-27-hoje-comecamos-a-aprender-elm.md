@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Hoje começamos a aprender Elm"
 ---
 

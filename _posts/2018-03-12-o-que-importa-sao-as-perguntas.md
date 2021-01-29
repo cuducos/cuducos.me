@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: O que importa são as perguntas
 ---
 

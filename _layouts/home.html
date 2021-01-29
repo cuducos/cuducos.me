@@ -2,21 +2,76 @@
 layout: base
 ---
 
-<div itemscope itemtype="http://schema.org/Person">
-
-  <section class="avatar">
-    {% include avatar.html %}
+<!-- CONTENT BLOCKS -->
+<div class="container-block lavender-bg">
+  <div class="main-title">
     <h1>
-      <small>Hello! I'm</small>
-      <span itemprop="name">
+      Technology
+      <span class="h4-main-title">for</span>
+      Social Impact
+    </h1>
+  </div>
+  <div class="Cuducos">
+    <h6>@Cuducos</h6>
+  </div>
+  {% include social.html %}
+</div>
+</div>
+<!-- ABOUT SECTION  -->
+<section>
+  <div class="container-block" id="bg-about-photo" style="
+  background-image: url(/assets/images/cuducos.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;">
+  <div class="about" itemscope itemtype="http://schema.org/Person">
+    <h4>Hello! I'm
+      <span class="about-title" itemprop="name">
         <span itemprop="givenName">Eduardo</span>
         <span itemprop="familyName">Cuducos</span>
       </span>
-    </h1>
-  </section>
-
-  <section itemprop="description" class="about">{{ content }}</section>
-  <nav class="social">{% include social.html %}</nav>
-  {% include schema.html %}
-
+    </h4>
+    <div itemprop="description">
+      {{ content }}
+    </div>
+  </div>
 </div>
+</section>
+<!-- LAST PROJECTS SECTION  -->
+<section>
+  <div class="container-block lastprojects">
+    <div class="lastprojects-bg">
+      <div class="triangulo smaller"></div>
+      <div class="block-title">
+        <h4>Last<span class="titles">Projects</span></h4>
+      </div>
+    </div>
+    <div class="projects">
+      {% include project.html
+        key="serenata-de-amor"
+        alignment="right"
+        name="Technology &amp; engagement for social control of congresspeople expenses"
+        heading="Artificial intelligence for social control of public administration"
+        description="I co-founded an open-source project using data science to monitor public spending. Our technology and communication made open data meaningful and accessible, promoting citizen engagement and transparency."
+        url="https://serenata.ai/"
+      %}
+      {% include project.html
+        key="expedicao-liberdade"
+        alignment="left"
+        name="Expedição Liberdade"
+        heading="What makes the most amazing schools in the world amazing?"
+        description="With this question in mind, I joined Daniel Larusso and Mabel Lazzarin. We visited nine out-of-box education initiatives across Europe, and we wrote a free ebook to share what we have learned."
+        url="https://expedicaoliberdade.com.br/"
+      %}
+      {% include project.html
+        key="minha-receita"
+        alignment="right"
+        name="Minha Receita"
+        heading="Making open data about Brazilian companies accessible"
+        description="Brazilian law says open data should be machine-readable, but that is not always the case. Minha Receita makes open data from the Federal Revenue accessible and machine-readable for intensive usage with a low-cost infrastructure."
+        url="https://docs.minhareceita.org/"
+      %}
+    </div>
+  </div>
+</section>
+
+{% include blog_posts.html %}

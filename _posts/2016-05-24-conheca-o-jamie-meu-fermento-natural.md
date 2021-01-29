@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Conheça o Jamie, meu fermento natural"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Chega de sim. É ou hell yeah, ou não.
 ---
 

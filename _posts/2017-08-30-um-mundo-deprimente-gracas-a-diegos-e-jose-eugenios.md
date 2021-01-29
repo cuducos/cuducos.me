@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Um mundo deprimente esse de diegos e josé eugenios"
 ---
 

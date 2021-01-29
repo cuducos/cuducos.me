@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Valsa do Empreendedor"
 ---
 

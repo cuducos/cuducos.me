@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Governo e corporações não funcionam — mas isso não é novidade"
 ---
 

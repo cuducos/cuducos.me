@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Ciências sociais e tecnologia: pergunte-me como!"
 ---
 

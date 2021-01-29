@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Designer ativo ou passivo: qual a diferença?"
 ---
 

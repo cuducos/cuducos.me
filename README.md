@@ -17,7 +17,7 @@ Change the site URL at `_config.yml` if needed.
 To launch the server at [`localhost:4000`](http://localhost:4000):
 
 ```console
-$ docker run -p 4000:4000 -v $(pwd)/_site/:/home/cuducos/_site/ cuducos.me s
+$ docker run -p 4000:4000 -v $(pwd)/:/home/cuducos/ cuducos.me s --host 0.0.0.0
 ```
 
 ## Building
@@ -25,13 +25,13 @@ $ docker run -p 4000:4000 -v $(pwd)/_site/:/home/cuducos/_site/ cuducos.me s
 And finally build the site into `_site/`:
 
 ```console
-$ docker run -v $(pwd)/_site/:/home/cuducos/_site/ cuducos.me b
+$ docker run -v $(pwd)/:/home/cuducos/ cuducos.me b
 ```
 
 Optionally use set `ENV` variable to build the site with the _production_ server settings:
 
 ```console
-$ docker run -e "JEKYLL_ENV=production" -v $(pwd)/_site/:/home/cuducos/_site/ cuducos.me b
+$ docker run -e "JEKYLL_ENV=production" -v $(pwd)/:/home/cuducos/ cuducos.me b
 ```
 
 ## License

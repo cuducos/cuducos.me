@@ -1,0 +1,115 @@
+.allposts-bg {
+    background-color: #f4f4f4;
+    z-index: 1;
+}
+
+.allposts-bg .triangulo {
+    height: 390px;
+}
+
+.allposts-bg .Cuducos {
+    margin: 16px 0;
+}
+
+.allposts-block {
+    background-color: #f4f4f4;
+}
+
+.container-block.allposts-bg {
+    height: 505px;
+}
+
+.allposts-bg .block-title {
+    padding-top: 20px;
+}
+
+.allposts-block form.search-form {
+    margin: 80px 0;
+    padding-bottom: 0;
+}
+
+.allposts-block input#search {
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14.6px;
+    color: #3b3b3b;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+button.pink.all-posts {
+    margin-bottom: 75px;
+}
+
+.allposts-list {
+    text-align: center;
+}
+
+.allposts-list span {
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #7b7b7b;
+    padding-bottom: 8px;
+}
+
+.allposts-list h3 {
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+
+.allposts-list h3 a {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    color: #ff0090;
+    font-weight: 300;
+}
+
+.prev-next {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    margin-bottom: 80px;
+}
+
+#prev, #next {
+    display: inline-block;
+    width: 160px;
+    height: 36px;
+    background: #ff0090;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 14.6px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 2px -2px black;
+    -moz-box-shadow: 0 2px 2px -2px black;
+    box-shadow: 0 2px 2px -2px black;
+}
+
+#prev.deactivate, #next.deactivate {
+    background: #f89ed1;
+    cursor: default;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+a#next, a#prev {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#next svg, #prev svg {
+    fill: #ffffff;
+    margin: 0 2px;
+    width: 1rem;
+    height: 1rem;
+}

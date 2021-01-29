@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Design thinking: designers cada vez menos designers"
 ---
 

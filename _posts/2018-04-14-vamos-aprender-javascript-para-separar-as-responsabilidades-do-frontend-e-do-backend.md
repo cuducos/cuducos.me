@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Vamos aprender JavaScript para separar as responsabilidades do frontend e do backend"
 ---
 

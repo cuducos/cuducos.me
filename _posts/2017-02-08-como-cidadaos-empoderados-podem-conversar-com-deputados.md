@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Como cidadãos empoderados podem conversar com deputados?"
 ---
 
