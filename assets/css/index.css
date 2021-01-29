@@ -537,7 +537,7 @@ footer svg {
     fill: #f4f4f4;
     height: 20px;
     width: 100%;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 footer p, footer a{
