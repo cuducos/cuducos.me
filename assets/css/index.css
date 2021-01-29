@@ -277,6 +277,10 @@ span.titles {
     justify-content: flex-end;
 }
 
+.project-container a {
+    text-decoration: none;
+}
+
 .about-project.left {
     width: 464px;
     height: 448px;
