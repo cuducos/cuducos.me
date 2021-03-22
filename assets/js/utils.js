@@ -1,21 +1,27 @@
 //
-// toggle between hiding and showing the dropdown content
+// Toggle between hiding and showing the dropdown content
 //
 
-document.querySelector("button.dropbtn").addEventListener("click", function () {
-  document.querySelector("#i18n-menu").classList.toggle("show");
-});
+const i18nButton = function (obj) {
+  if (obj === null) return;
+  obj.addEventListener("click", function () {
+    document.querySelector("#i18n-menu").classList.toggle("show");
+  });
 
-window.addEventListener("click", function (e) {
-  if (!e.target.matches(".dropbtn")) {
-    const menus = document.querySelectorAll(".dropdown-content");
-    Array.prototype.slice.call(menus).map(function (menu) {
-      if (menu.classList.contains("show")) {
-        menu.classList.remove("show");
-      }
-    });
-  }
-});
+  window.addEventListener("click", function (e) {
+    if (!e.target.matches(".dropbtn")) {
+      const menus = document.querySelectorAll(".dropdown-content");
+      Array.prototype.slice.call(menus).map(function (menu) {
+        if (menu.classList.contains("show")) {
+          menu.classList.remove("show");
+        }
+      });
+    }
+  });
+};
+
+const i18n = document.querySelector("button.dropbtn");
+i18nButton(i18n);
 
 //
 // Add site boundary to Duck Duck Go search box
