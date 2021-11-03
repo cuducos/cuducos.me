@@ -171,6 +171,7 @@
     .post-content {
         padding: 80px 16px;
         background-color: #f4f4f4;
+        max-width: 100%;
     }
 
     .share {
