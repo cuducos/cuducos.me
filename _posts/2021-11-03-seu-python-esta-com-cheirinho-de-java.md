@@ -122,7 +122,7 @@ elif case_sensitivity.lower() == 'insensitive':
 else:
     matcher = fnmatch.fnmatch
 
-# Bom: a busca pro padr∫o pode ser movida para outro arquivo
+# Bom: a busca pro padrão pode ser movida para outro arquivo
 matchers = {
     'sensitive': fnmatch.fnmatchcase
     'insensitive': lambda fname, pattern: fnmatch.fnmatchcase(fname.lower(), pattern.lower())
