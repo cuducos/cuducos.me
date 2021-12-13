@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container-block.lavender-bg {
     background-image: linear-gradient(to bottom, #ae00bc 20%, #ff0090);
-    /* height: 100vh; */
+    height: 100vh;
     justify-content: center;
 }
 
@@ -122,6 +122,7 @@ span.h4-main-title {
     font-size: 20px;
     font-style: italic;
     font-weight: normal;
+    text-transform: capitalize;
     color: #f4f4f4;
 }
 
@@ -172,7 +173,7 @@ nav.social {
     /* background-image: url(../images/cuducos.jpg);
     background-repeat:no-repeat;
     background-size: cover; */
-    background-position: center bottom;
+    background-position: center center;
 }
 
 .about {
@@ -235,6 +236,7 @@ span.about-title {
     font-family: 'Crimson Text', serif;
     font-size: 32px;
     font-style: italic;
+    text-transform: initial;
     font-weight: normal;
     color: #f4f4f4;
 }
@@ -301,6 +303,7 @@ span.titles {
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
+    text-transform: initial;
     color: #3c3c3c;
     padding-bottom: 32px;
     padding-top: 32px;
