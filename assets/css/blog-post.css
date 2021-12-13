@@ -29,6 +29,7 @@
 .post-content h4,
 .post-content h5 {
     margin-top: 40px;
+    font-weight: 500;
 }
 
 .post-content .line {
@@ -37,6 +38,10 @@
 
 .post-content h6, p, a, strong, em, ul {
     font-family: 'Crimson Text', serif;
+}
+
+.post-content ol, .post-content ul{
+    padding: 16px;
 }
 
 .post-content h6, p{
@@ -56,14 +61,15 @@
 }
 
 .post-content a {
-    font-size: 18px;
+    font-size: inherit;
+    font-family: inherit;
     text-decoration: none;
     line-height: 1.67;
     color: #ff0090;
 }
 
 .post-content strong {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .post-content em {
