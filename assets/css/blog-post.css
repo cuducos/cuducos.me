@@ -63,7 +63,7 @@
 }
 
 .post-content > p {
-    padding-top: 40px;
+    margin-bottom: 40px;
 }
 
 .post-content a {
@@ -85,7 +85,7 @@
 }
 
 .post-content .highlight {
-    margin-top: 40px;
+    margin: 0;
     overflow: auto;
 }
 
@@ -119,6 +119,10 @@ blockquote > p {
 
 .language-plaintext {
     font-size: initial !important;
+}
+
+.language-plaintext.highlighter-rouge {
+    margin: 40px 0;
 }
 
 .share {
