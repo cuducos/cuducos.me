@@ -3,3 +3,39 @@
   to = "https://mastodon.social/@cuducos"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/toot"
+  to = "https://mastodon.social/@cuducos"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/cv"
+  to = "https://linkedin.com/in/cuducos"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/keys"
+  to = "https://github.com/cuducos.keys"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/avatar"
+  to = "https://s.gravatar.com/avatar/35f0a285fbf11a7155bb23695c5a270e?s=1024"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/phd"
+  to = "/crowd-funding"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/aaron-swartz"
+  to = "/hacktivism"
+  status = 302
+  force = true
