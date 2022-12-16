@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/mastodon"
+  to = "https://mastodon.social/@cuducos"
+  status = 302
+  force = true
