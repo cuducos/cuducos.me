@@ -1,12 +1,12 @@
 [[redirects]]
   from = "/mastodon"
-  to = "https://mastodon.social/@cuducos"
+  to = "https://tech.lgbt/@cuducos"
   status = 302
   force = true
 
 [[redirects]]
   from = "/toot"
-  to = "https://mastodon.social/@cuducos"
+  to = "https://tech.lgbt/@cuducos"
   status = 302
   force = true
 
