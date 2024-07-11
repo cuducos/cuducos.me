@@ -15,7 +15,7 @@ E, claro, depois me expliquei. E a resposta que dei no fórum virou esse post! V
 
 ## Lista ocupa mais espaço em memória do que precisa ocupar o conjunto de seus itens
 
-Para termos podermos rapidamente inserir itens em uma lista, sem se preocupar com essa implementação baixo nível, o Python implementa um mecanismo por debaixo dos panos: ao criarmos uma lista, o Python reserva um espaço em memória maior do espaço que seria necessário para aqueles itens dessa lista. Uma lista normalmente ocupa em memória algo próximo do dobro dos seus elementos. Quer ver na prática? Rode esse código aí:
+Para podermos rapidamente inserir itens em uma lista, sem se preocupar com essa implementação baixo nível, o Python implementa um mecanismo por debaixo dos panos: ao criarmos uma lista, o Python reserva um espaço em memória maior do que seria necessário para aqueles itens dessa lista. Uma lista normalmente ocupa em memória algo próximo do dobro dos seus elementos. Quer ver na prática? Rode esse código aí:
 
 ```python
 from sys import getsizeof
