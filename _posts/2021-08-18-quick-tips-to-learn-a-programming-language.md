@@ -19,7 +19,7 @@ When following the book or course starts to get boring (this always happens in m
 
 ## 3. Tutorials
 
-Então, com um _projetinho_ em mente, eu mudo a referência, ao invés de livros e cursos, procuro tutoriais (mais mão na massa normalmente) que me ajudem com coisas práticas no nesse projetinho. Podem ser tutoriais mais curtos (como palestras bem práticas, ou posts em blogs), ou tutoriais mais completos (como séries de vídeos, ou de posts em blog).
+So, with a _little project idea_ in mind, I change my approach. Instead of books and courses, I look for tutorials (which are usually more hands-on) to help me with practical things in this project. These can be shorter tutorials (like practical lectures or blog posts) or more comprehensive ones (like video series or blog post series).
 
 ## 4. Hands-on
 
