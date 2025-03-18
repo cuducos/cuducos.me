@@ -166,30 +166,4 @@
         width: 120px;
     }
 
-    /* BLOG POST PAGE  */
-
-    .post-content {
-        padding: 80px 16px;
-        background-color: #f4f4f4;
-        max-width: 100%;
-    }
-
-    .share {
-        padding: 0 50px 80px 50px;
-        flex-wrap: wrap;
-        background: #f4f4f4;
-    }
-
-    a.share-btn {
-        margin: 2px;
-    }
-
-    a.share-btn.twitter, a.share-btn.facebook {
-        width: 96px;
-    }
-
-    a.share-btn.linkedin, a.share-btn.reddit {
-        width: 88px;
-    }
-
 }
