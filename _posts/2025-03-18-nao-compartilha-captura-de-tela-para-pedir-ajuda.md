@@ -3,7 +3,7 @@ layout: post
 title: Não compartilhe captura de tela do terminal para pedir ajuda
 ---
 
-Eu tenho alguns projetos de código aberto que são <abbr title="Command-line interface">CLI</abbr>, programas de linha de comando — o mais conhecido é o [Minha Receita](https://github.com/cuducos/minha-receita). E também participo (menos do que antes, mas ainda assim participo) de algumas comunidades de suporte a pessoas iniciando em programação, em alguma linguagem específicas, ou na área de dados abertos. Ambos são ocasioões onde é corriqueiro eu encontrar com pessoas pedindo ajuda.
+Eu tenho alguns projetos de código aberto que são <abbr title="Command-line interface">CLI</abbr>, programas de linha de comando — o mais conhecido é o [Minha Receita](https://github.com/cuducos/minha-receita). E também participo (menos do que antes, mas ainda assim participo) de algumas comunidades de suporte a pessoas iniciando em programação, em alguma linguagem específicas, ou na área de dados abertos. Ambas são ocasiões onde é corriqueiro eu encontrar com pessoas pedindo ajuda.
 
 E, o que eu quero dizer é: compartilhar captura de tela do terminal para pedir ajuda _não ajuda a gente a te ajudar_.
 
