@@ -9,7 +9,7 @@ E, o que eu quero dizer é: compartilhar captura de tela do terminal para pedir 
 
 ## Por que não compartilhar uma captura de tela do terminal?
 
-Existem vários motivos, mas vou separar em dois grupos: completude e reprodutibilidade.
+Existem vários motivos, mas vou separar em dois grupos: completude, reprodutibilidade e buscabilidade.
 
 ### Completude
 
@@ -26,6 +26,10 @@ Muitas vezes as informações da sua tela me ajudam a reproduzir o seu cenário:
 Um erro que eu nunca vi, eu posso querer copiar e colar para procurar na internet ou no código fonte, por exemplo. Uma parte do erro com um caminho longo de um arquivo, mais o número de linha, pode me ajudar a abrir o editor de código exatamente naquele arquivo e naquela linha. Uma URL longa, com chaves e identificadores alfanuméricos pode ser importante para eu tentar acessar e ver se obtenho o mesmo erro.
 
 E, copiar tudo isso manualmente é muito propenso a erros. Se a pessoa que tenta te ajudar errar um caracter, pode ter outro erro, ou erro nenhum. Permitir que as pessoas copiem e colem ajuda elas a te ajudar!
+
+### Buscabilidade
+
+A tua dúvida pode ser a dúvida de mais pessoas: no presente, no passado ou mesmo no futuro. E nossos mecanismos de buscas (ainda) são muito melhores para texto do que para imagem. Então, compartilhar a como texto ajuda muito a a ajudar outras pessoas! Se alguém tiver, por exemplo, o mesmo erro que você, pode (mais) facilmente encontrar tua postagem num fórum, no GitHub, num chat se ela for em formato texto ao invés de imagem.
 
 ## Resumindo
 

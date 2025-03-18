@@ -9,7 +9,7 @@ And what I want to say is: sharing a terminal screenshot when asking for help _d
 
 ## Why Not Share a Terminal Screenshot?
 
-There are several reasons, but I'll group them into two categories: completeness and reproducibility.
+There are several reasons, but I'll group them into two categories: completeness, reproducibility and searchability.
 
 ### Completeness
 
@@ -26,6 +26,10 @@ Often, the information on your screen helps me reproduce your scenario: a specif
 An error I've never seen before might prompt me to copy and paste it to search online or in the source code, for example. A part of the error with a long file path and a line number might help me open the code editor exactly at that file and line. A long URL with keys and alphanumeric identifiers might be important for me to access and see if I get the same error.
 
 And manually copying all of this is very error-prone. If the person trying to help you makes a mistake with a single character, they might encounter a different error or no error at all. Allowing people to copy & paste helps them help you!
+
+### Searchability
+
+Your question might be the same as many others: now, in the past, or even in the future. And our search engines (still) work much better with text than with images. So, sharing your issue as text helps a lot in helping others! If someone has, for example, the same error as you, they can (more) easily find your post on a forum, GitHub, or chat if it's in text format instead of an image.
 
 ## <abbr title="Too Long, Don't Read">TLDR</abbr>
 
