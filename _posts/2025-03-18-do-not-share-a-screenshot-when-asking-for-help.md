@@ -9,7 +9,7 @@ And what I want to say is: sharing a terminal screenshot when asking for help _d
 
 ## Why Not Share a Terminal Screenshot?
 
-There are several reasons, but I'll group them into two categories: completeness, reproducibility and searchability.
+There are several reasons, but I'll group them into three categories: completeness, reproducibility and searchability.
 
 ### Completeness
 

@@ -9,7 +9,7 @@ E, o que eu quero dizer é: compartilhar captura de tela do terminal para pedir 
 
 ## Por que não compartilhar uma captura de tela do terminal?
 
-Existem vários motivos, mas vou separar em dois grupos: completude, reprodutibilidade e buscabilidade.
+Existem vários motivos, mas vou separar em três grupos: completude, reprodutibilidade e buscabilidade.
 
 ### Completude
 
