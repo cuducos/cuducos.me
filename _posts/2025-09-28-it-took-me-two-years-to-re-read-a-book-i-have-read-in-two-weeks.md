@@ -3,6 +3,8 @@ layout: post
 title: "It took me over two years to re-read the book I read in two weeks ten years ago "
 ---
 
+_Originally published as [a review for Judith Butler’s ‘Gender Trouble’ on my Bookwrym](https://bookwyrm.social/user/cuducos/comment/8578966#anchor-8578966)._
+
 It was the second time I read this book. As an avid sociologist reader pursuing my Master’s degree, I devoured it in a week or two. For the course, I probably had to read only the third (and last) part of the book, but I became mesmerized by the radical critique and ended up reading the entire book. It felt like a punch in the face, like What the heck is going on with all my beliefs? I remember I couldn’t shake off the discomfort of losing some ground, and at the same time, it was appealing and substantive; I couldn’t just let it go.
 
 That book changed my life; I was pretty sure about it. But I would realize the impact was even greater than I imagined around six years later when I started to question my own gender and ended up coming out as non-binary. Ten years after my first read, I decided to re-read it. It was probably January 2023, or sometime around that winter.
@@ -20,7 +22,3 @@ If sex is usually oversimplified as a binary (as in penis or vagina), gender as 
 > If identities were no longer fixed as the premises of a political syllogism, and politics no longer understood as a set of practices derived from the alleged interests that belong to a set of ready-made subjects, a new configuration of politics would surely emerge from the ruins of the old. Cultural configurations of sex and gender might then proliferate or, rather, their present proliferation might then become articulable within the discourses that establish intelligible cultural life, confounding the very binarism of sex, and exposing its fundamental unnaturalness.
 
 There are no words to describe the impact that it has on me, and I say that in the most intimate way. Thank you, Judith Butler. When I was an 8-year-old, you were already paving the way for me to become who I am.
-
----
-
-_Originally published as [a review on my Bookwrym](https://bookwyrm.social/user/cuducos/comment/8578966#anchor-8578966)._
