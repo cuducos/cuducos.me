@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Como organizar um projeto em Django
 ---
 

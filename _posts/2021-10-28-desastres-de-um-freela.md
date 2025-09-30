@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Desastres de um freela
 ---
 

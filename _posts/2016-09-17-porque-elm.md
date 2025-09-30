@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Porquê Elm: chega de dor de cabeça com front-end, chega de JavaScript"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Designer ativo ou passivo: qual a diferença?"
 ---
 

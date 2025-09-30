@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Autonomia: meus últimos 10 anos"
 ---
 

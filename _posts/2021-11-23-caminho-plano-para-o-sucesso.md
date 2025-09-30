@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Caminho plano para o sucesso
 ---
 

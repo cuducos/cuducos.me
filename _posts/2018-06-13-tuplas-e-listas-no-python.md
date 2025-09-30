@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Tuplas e listas no Python"
 ---
 

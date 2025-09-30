@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "It took me over two years to re-read the book I read in two weeks ten years ago "
 ---
 

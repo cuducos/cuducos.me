@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Vamos aprender JavaScript para separar as responsabilidades do frontend e do backend"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Upload de arquivos no Django: entendendo os modos de leitura"
 ---
 

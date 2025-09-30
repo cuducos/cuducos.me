@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Government as a Platform: from Social Accountability to Institutional Reform"
 ---
 

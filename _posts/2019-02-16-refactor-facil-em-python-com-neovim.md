@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Refactor fácil em Python com NeoVim (ou Vim)"
 ---
 

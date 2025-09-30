@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Quick tips to learn a programming language"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Como se comunicar melhor?"
 ---
 

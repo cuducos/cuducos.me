@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Rosie the Robot: Social accountability one tweet at a time"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Ciências sociais e tecnologia: pergunte-me como!"
 ---
 

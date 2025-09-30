@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Mais mão na massa, menos discussão"
 ---
 

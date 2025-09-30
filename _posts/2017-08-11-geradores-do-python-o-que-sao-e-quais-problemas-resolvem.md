@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Geradores do Python: o que são e quais problemas resolvem"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Quem que saber o que é design?"
 ---
 

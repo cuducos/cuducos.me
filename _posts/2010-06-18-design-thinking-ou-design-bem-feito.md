@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Design thinking ou design bem feito?"
 ---
 

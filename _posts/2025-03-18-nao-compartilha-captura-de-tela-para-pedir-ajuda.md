@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Não compartilhe captura de tela do terminal para pedir ajuda
 ---
 

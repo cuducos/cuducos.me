@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Chega de sim. É ou hell yeah, ou não.
 ---
 

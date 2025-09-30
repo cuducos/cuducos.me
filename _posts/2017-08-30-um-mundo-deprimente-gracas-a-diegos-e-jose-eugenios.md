@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Um mundo deprimente esse de diegos e josé eugenios"
 ---
 

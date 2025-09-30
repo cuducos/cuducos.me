@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Hoje começamos a aprender Elm"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Seu Python está com cheirinho de Java"
 ---
 

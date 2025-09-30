@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Cartilha de Lua para Neovim"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: O que importa são as perguntas
 ---
 

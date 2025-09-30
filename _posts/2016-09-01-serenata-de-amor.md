@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Serenata de Amor"
 ---
 

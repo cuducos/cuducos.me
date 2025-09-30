@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Design thinking: designers cada vez menos designers"
 ---
 

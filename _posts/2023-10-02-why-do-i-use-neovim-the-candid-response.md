@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Why do I use Neovim? The candid response
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Tuples and Lists in Python"
 ---
 

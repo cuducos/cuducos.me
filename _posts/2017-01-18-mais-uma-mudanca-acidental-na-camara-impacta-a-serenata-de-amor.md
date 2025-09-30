@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Mais uma mudança (acidental?) na Câmara impacta a Serenata de Amor
 ---
 

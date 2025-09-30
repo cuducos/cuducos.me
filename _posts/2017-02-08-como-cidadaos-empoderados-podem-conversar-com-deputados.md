@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Como cidadãos empoderados podem conversar com deputados?"
 ---
 

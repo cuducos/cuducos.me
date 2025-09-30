@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Dicas super simples e diretas para aprender uma linguagem de programação"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Um rápido tour sobre as classes de dados do Python 3.7
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Do not share a terminal screenshot when asking for help
 ---
 

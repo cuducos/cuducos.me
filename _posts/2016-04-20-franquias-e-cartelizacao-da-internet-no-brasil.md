@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: Franquias e cartelização da internet no Brasil
 ---
 

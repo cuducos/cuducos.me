@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Governo e corporações não funcionam — mas isso não é novidade"
 ---
 

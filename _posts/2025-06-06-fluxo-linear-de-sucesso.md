@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt
 title: "Fluxo linear de sucesso: escrevendo código limpo em Python"
 ---
 
