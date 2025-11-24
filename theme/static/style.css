@@ -652,6 +652,21 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.social-links a svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+
+.social-links a:hover {
+  text-decoration: none;
+}
+
+.social-links a:hover svg path {
+  fill: var(--link-hover-color);
+}
+
 /* alerts */
 .markdown-alert {
   padding: 1rem;
