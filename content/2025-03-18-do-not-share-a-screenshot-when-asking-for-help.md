@@ -1,6 +1,6 @@
 ---
 slug: do-not-share-a-screenshot-when-asking-for-help
-tags: [en]
+tags: [en, Dev, Communication]
 title: Do not share a terminal screenshot when asking for help
 ---
 

@@ -1,6 +1,6 @@
 ---
 slug: mais-mao-na-massa-menos-discussao
-tags: [pt]
+tags: [pt, Carreira, Freelancer, Tecnologia Cívica, Ativismo Hacker, Dev, Sociologia]
 title: "Mais mão na massa, menos discussão"
 ---
 

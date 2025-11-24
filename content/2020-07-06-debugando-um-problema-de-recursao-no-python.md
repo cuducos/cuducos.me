@@ -1,6 +1,6 @@
 ---
 slug: debugando-um-problema-de-recursao-no-python
-tags: [pt]
+tags: [pt, Python, Dev]
 title: "Debugando um problema de recursão no Python"
 ---
 

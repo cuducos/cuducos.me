@@ -1,6 +1,6 @@
 ---
 slug: seu-python-esta-com-cheirinho-de-java
-tags: [pt]
+tags: [pt, Python, Dev]
 title: "Seu Python está com cheirinho de Java"
 ---
 

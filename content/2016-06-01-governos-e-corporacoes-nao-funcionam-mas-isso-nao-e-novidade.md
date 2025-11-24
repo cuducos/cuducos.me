@@ -1,6 +1,6 @@
 ---
 slug: governos-e-corporacoes-nao-funcionam-mas-isso-nao-e-novidade
-tags: [pt]
+tags: [pt, Tecnologia Cívica, Sociologia]
 title: "Governo e corporações não funcionam — mas isso não é novidade"
 ---
 

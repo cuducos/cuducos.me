@@ -1,6 +1,6 @@
 ---
 slug: um-mundo-deprimente-gracas-a-diegos-e-jose-eugenios
-tags: [pt]
+tags: [pt, Ciências Socias, Machismo]
 title: "Um mundo deprimente esse de diegos e josé eugenios"
 ---
 

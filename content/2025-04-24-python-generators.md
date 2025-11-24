@@ -1,6 +1,6 @@
 ---
 slug: python-generators
-tags: [en]
+tags: [en, Python, Dev]
 title: "Python Generators: What They Are and What Problems They Solve"
 ---
 

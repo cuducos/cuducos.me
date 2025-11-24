@@ -1,6 +1,6 @@
 ---
 slug: quick-tips-to-learn-a-programming-language
-tags: [en]
+tags: [en, Dev, Career]
 title: "Quick tips to learn a programming language"
 ---
 

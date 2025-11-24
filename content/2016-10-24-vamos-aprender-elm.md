@@ -1,6 +1,6 @@
 ---
 slug: vamos-aprender-elm
-tags: [pt]
+tags: [pt, Elm, Dev, Frontend]
 title: "Vamos aprender Elm!"
 ---
 

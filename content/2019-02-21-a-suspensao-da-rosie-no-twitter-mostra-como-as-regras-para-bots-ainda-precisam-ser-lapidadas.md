@@ -1,6 +1,6 @@
 ---
 slug: a-suspensao-da-rosie-no-twitter-mostra-como-as-regras-para-bots-ainda-precisam-ser-lapidadas
-tags: [pt]
+tags: [pt, Serenata de Amor, Tecnologia Cívica, Twitter, Redes Sociais]
 title: A suspensão da Rosie no Twitter mostra como as regras para bots ainda precisam ser lapidadas
 ---
 

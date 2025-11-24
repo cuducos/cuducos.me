@@ -1,6 +1,6 @@
 ---
 slug: quem-quer-saber-o-que-e-design
-tags: [pt]
+tags: [pt, Design]
 title: "Quem que saber o que é design?"
 ---
 

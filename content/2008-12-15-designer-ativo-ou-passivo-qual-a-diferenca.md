@@ -1,6 +1,6 @@
 ---
 slug: designer-ativo-ou-passivo-qual-a-diferenca
-tags: [pt]
+tags: [pt, Design, Design Thinking]
 title: "Designer ativo ou passivo: qual a diferença?"
 ---
 

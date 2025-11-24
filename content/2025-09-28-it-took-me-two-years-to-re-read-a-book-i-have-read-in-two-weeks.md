@@ -1,6 +1,6 @@
 ---
 slug: it-took-me-two-years-to-re-read-a-book-i-have-read-in-two-weeks
-tags: [en]
+tags: [en, Gender, Queer]
 title: "It took me over two years to re-read the book I read in two weeks ten years ago "
 ---
 

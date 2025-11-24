@@ -1,6 +1,6 @@
 ---
 slug: nao-compartilha-captura-de-tela-para-pedir-ajuda
-tags: [pt]
+tags: [pt, Dev, Comunicação]
 title: Não compartilhe captura de tela do terminal para pedir ajuda
 ---
 

@@ -1,6 +1,6 @@
 ---
 slug: tuples-and-lists-in-python
-tags: [en]
+tags: [en, Python, Dev]
 title: "Tuples and Lists in Python"
 ---
 

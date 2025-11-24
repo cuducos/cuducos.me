@@ -1,6 +1,6 @@
 ---
 slug: design-thinking-designers-cada-vez-menos-designers
-tags: [pt]
+tags: [pt, Design, Sociologia, Design Thinking]
 title: "Design thinking: designers cada vez menos designers"
 ---
 

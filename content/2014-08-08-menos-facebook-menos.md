@@ -1,6 +1,6 @@
 ---
 slug: menos-facebook-menos
-tags: [pt]
+tags: [pt, Redes Sociais, Facebook]
 title: Menos, Facebook, menos…
 ---
 

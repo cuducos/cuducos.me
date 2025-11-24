@@ -1,6 +1,6 @@
 ---
 slug: design-thinking-ou-design-bem-feito
-tags: [pt]
+tags: [pt, Design Thinking, Design]
 title: "Design thinking ou design bem feito?"
 ---
 

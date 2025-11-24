@@ -1,6 +1,6 @@
 ---
 slug: serenata-de-amor-e-transparencia-nos-gastos-publicos
-tags: [pt]
+tags: [pt, Serenata de Amor, Tecnologia Cívica]
 title: "Serenata de Amor e transparência nos gastos públicos"
 ---
 

@@ -1,6 +1,6 @@
 ---
 slug: upload-de-arquivos-no-django-entendendo-os-modos-de-leitura
-tags: [pt]
+tags: [pt, Python, Django, Backend]
 title: "Upload de arquivos no Django: entendendo os modos de leitura"
 ---
 

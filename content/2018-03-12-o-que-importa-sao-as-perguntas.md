@@ -1,6 +1,6 @@
 ---
 slug: o-que-importa-sao-as-perguntas
-tags: [pt]
+tags: [pt, Tecnologia Cívica, Serenata de Amor]
 title: O que importa são as perguntas
 ---
 

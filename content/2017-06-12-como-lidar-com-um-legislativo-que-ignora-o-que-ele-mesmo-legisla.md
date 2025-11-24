@@ -1,6 +1,6 @@
 ---
 slug: como-lidar-com-um-legislativo-que-ignora-o-que-ele-mesmo-legisla
-tags: [pt]
+tags: [pt, Tecnologia Cívica, Serenata de Amor]
 title: "Como lidar com um legislativo que ignora o que ele mesmo legisla?"
 ---
 

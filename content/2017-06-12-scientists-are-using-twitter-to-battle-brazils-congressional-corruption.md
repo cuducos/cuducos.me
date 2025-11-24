@@ -1,6 +1,6 @@
 ---
 slug: scientists-are-using-twitter-to-battle-brazils-congressional-corruption
-tags: [en]
+tags: [en, Serenata de Amor, Civic Tech]
 title: Scientists Are Using Twitter to Battle Brazil’s Congressional Corruption
 ---
 

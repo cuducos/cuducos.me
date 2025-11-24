@@ -1,6 +1,6 @@
 ---
 slug: tdd-com-python-e-flask
-tags: [pt]
+tags: [pt, Python, Flask, Backend]
 title: "TDD com Python e Flask"
 ---
 

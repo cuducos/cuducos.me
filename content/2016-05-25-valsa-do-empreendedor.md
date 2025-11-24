@@ -1,6 +1,6 @@
 ---
 slug: valsa-do-empreendedor
-tags: [pt]
+tags: [pt, Carreira]
 title: "Valsa do Empreendedor"
 ---
 

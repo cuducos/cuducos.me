@@ -1,6 +1,6 @@
 ---
 slug: franquias-e-cartelizacao-da-internet-no-brasil
-tags: [pt]
+tags: [pt, Tecnologia Cívica, Sociologia Econômica]
 title: Franquias e cartelização da internet no Brasil
 ---
 

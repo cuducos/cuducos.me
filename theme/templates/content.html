@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block lang %}{% if content.tags %}{{ content.tags[0] }}{% else %}{{ language }}{% endif %}{% endblock %}
+
 {% block seo %}
 <meta property="og:title" content="{{content.title}}">
 {% if content.description %}
@@ -96,7 +98,7 @@
                 {% for tag in content.tags %}
                 {% set slug = "tag-" ~ tag | trim | slugify %}
                 {% set link = slug ~ ".html"%}
-                <a href="{{url_for(path=link)}}" class="tag-link p-category">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                <a href="{{url_for(path=link)}}" class="tag-link p-category">{{ tag }}</a>
                 {% endfor %}
             </div>
             {% endif %}
@@ -215,7 +217,6 @@
 </div>
 </article>
 {% endif %}
-
 
 {% endblock %}
 

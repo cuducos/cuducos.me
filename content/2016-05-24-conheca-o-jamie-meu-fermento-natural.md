@@ -1,6 +1,6 @@
 ---
 slug: conheca-o-jamie-meu-fermento-natural
-tags: [pt]
+tags: [pt, Fermentação Natural, Panificação]
 title: "Conheça o Jamie, meu fermento natural"
 ---
 

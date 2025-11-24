@@ -1,6 +1,6 @@
 ---
 slug: chega-de-sim-e-ou-hell-yeah-ou-nao
-tags: [pt]
+tags: [pt, Carreira]
 title: Chega de sim. É ou hell yeah, ou não.
 ---
 

@@ -1,6 +1,6 @@
 ---
 slug: python-webassets-elm
-tags: [pt]
+tags: [pt, Python, Elm, Dev, Backend]
 title: "Python, webassets & Elm"
 ---
 

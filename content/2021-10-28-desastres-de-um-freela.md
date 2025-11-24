@@ -1,6 +1,6 @@
 ---
 slug: desastres-de-um-freela
-tags: [pt]
+tags: [pt, Freelancer, Carreira, Dev]
 title: Desastres de um freela
 ---
 

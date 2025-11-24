@@ -1,6 +1,6 @@
 ---
 slug: government-as-a-platform-from-social-accountability-to-institutional-reform
-tags: [en]
+tags: [en, Serenata de Amor, Civic Tech]
 title: "Government as a Platform: from Social Accountability to Institutional Reform"
 ---
 

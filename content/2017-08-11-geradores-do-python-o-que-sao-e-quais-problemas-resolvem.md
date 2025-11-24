@@ -1,6 +1,6 @@
 ---
 slug: geradores-do-python-o-que-sao-e-quais-problemas-resolvem
-tags: [pt]
+tags: [pt, Python, Dev]
 title: "Geradores do Python: o que são e quais problemas resolvem"
 ---
 

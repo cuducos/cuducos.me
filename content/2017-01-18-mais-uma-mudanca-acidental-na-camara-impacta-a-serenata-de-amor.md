@@ -1,6 +1,6 @@
 ---
 slug: mais-uma-mudanca-acidental-na-camara-impacta-a-serenata-de-amor
-tags: [pt]
+tags: [pt, Serenata de Amor, Tecnologia Cívica]
 title: Mais uma mudança (acidental?) na Câmara impacta a Serenata de Amor
 ---
 

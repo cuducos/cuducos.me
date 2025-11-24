@@ -1,6 +1,6 @@
 ---
 slug: como-se-comunicar-melhor
-tags: [pt]
+tags: [pt, Carreira, Dev, Comunicação]
 title: "Como se comunicar melhor?"
 ---
 

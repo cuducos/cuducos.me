@@ -1,6 +1,6 @@
 ---
 slug: como-cidadaos-empoderados-podem-conversar-com-deputados
-tags: [pt]
+tags: [pt, Tecnologia Cívica, Serenata de Amor]
 title: "Como cidadãos empoderados podem conversar com deputados?"
 ---
 

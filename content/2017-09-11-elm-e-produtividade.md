@@ -1,6 +1,6 @@
 ---
 slug: elm-e-produtividade
-tags: [pt]
+tags: [pt, Elm, Dev, Frontend]
 title: Elm e produtividade
 ---
 

@@ -1,6 +1,6 @@
 ---
 slug: caminho-plano-para-o-sucesso
-tags: [pt]
+tags: [pt, Dev]
 title: Caminho plano para o sucesso
 ---
 

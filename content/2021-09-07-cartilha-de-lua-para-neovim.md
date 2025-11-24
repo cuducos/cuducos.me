@@ -1,6 +1,6 @@
 ---
 slug: cartilha-de-lua-para-neovim
-tags: [pt]
+tags: [pt, Lua, Neovim, Dev]
 title: "Cartilha de Lua para Neovim"
 ---
 

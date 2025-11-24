@@ -1,6 +1,6 @@
 ---
 slug: porque-elm
-tags: [pt]
+tags: [pt, Elm, Dev, Frontend]
 title: "Porquê Elm: chega de dor de cabeça com front-end, chega de JavaScript"
 ---
 

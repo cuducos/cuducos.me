@@ -1,6 +1,6 @@
 ---
 slug: dicas-super-simples-e-diretas-para-aprender-uma-linguagem-de-programacao
-tags: [pt]
+tags: [pt, Carreira, Dev]
 title: "Dicas super simples e diretas para aprender uma linguagem de programação"
 ---
 

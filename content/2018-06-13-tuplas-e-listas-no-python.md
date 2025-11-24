@@ -1,6 +1,6 @@
 ---
 slug: tuplas-e-listas-no-python
-tags: [pt]
+tags: [pt, Python, Dev]
 title: "Tuplas e listas no Python"
 ---
 

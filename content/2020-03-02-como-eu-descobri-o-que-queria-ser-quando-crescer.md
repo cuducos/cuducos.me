@@ -1,6 +1,6 @@
 ---
 slug: como-eu-descobri-o-que-queria-ser-quando-crescer
-tags: [pt]
+tags: [pt, Carreira]
 title: "Como eu descobri o que eu queria ser quando crescer: meus últimos 20 anos"
 ---
 

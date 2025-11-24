@@ -1,7 +1,3 @@
----
-tags: [en]
----
-
 Hi, I am Cuducos!
 
 I'm a geek interested in technology, culture and politics.

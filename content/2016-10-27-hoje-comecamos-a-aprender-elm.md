@@ -1,6 +1,6 @@
 ---
 slug: hoje-comecamos-a-aprender-elm
-tags: [pt]
+tags: [pt, Elm, Dev, Frontend]
 title: "Hoje começamos a aprender Elm"
 ---
 

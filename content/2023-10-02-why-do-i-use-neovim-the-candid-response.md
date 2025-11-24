@@ -1,6 +1,6 @@
 ---
 slug: why-do-i-use-neovim-the-candid-response
-tags: [en]
+tags: [en, Neovim, Dev]
 title: Why do I use Neovim? The candid response
 ---
 

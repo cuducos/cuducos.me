@@ -1,6 +1,6 @@
 ---
 slug: como-organizar-um-projeto-em-django
-tags: [pt]
+tags: [pt, Python, Dev, Django, Backend]
 title: Como organizar um projeto em Django
 ---
 

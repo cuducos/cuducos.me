@@ -1,6 +1,6 @@
 ---
 slug: autonomia-meus-ultimos-10-anos
-tags: [pt]
+tags: [pt, Carreira, Tecnologia Cívica, Ativismo Hacker, Dev, Sociologia]
 title: "Autonomia: meus últimos 10 anos"
 ---
 

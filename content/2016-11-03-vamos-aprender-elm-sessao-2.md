@@ -1,6 +1,6 @@
 ---
 slug: vamos-aprender-elm-sessao-2
-tags: [pt]
+tags: [pt, Elm, Dev, Frontend, Live Coding]
 title: "Vamos aprender Elm! - Sessão 2"
 ---
 

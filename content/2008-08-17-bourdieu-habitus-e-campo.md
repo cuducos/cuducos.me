@@ -1,6 +1,6 @@
 ---
 slug: bourdieu-habitus-e-campo
-tags: [pt]
+tags: [pt, Sociologia, Sociologia Econômica]
 title: "Bourdieu, habitus e campo"
 ---
 

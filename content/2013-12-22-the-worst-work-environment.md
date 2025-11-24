@@ -1,7 +1,7 @@
 ---
 title: The worst work environment?
 slug: the-worst-work-environment
-tags: [en]
+tags: [en, Career]
 ---
 
 #### Calling some heritage into questioning

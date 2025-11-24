@@ -1,6 +1,6 @@
 ---
 slug: fluxo-linear-de-sucesso
-tags: [pt]
+tags: [pt, Dev]
 title: "Fluxo linear de sucesso: escrevendo código limpo em Python"
 ---
 

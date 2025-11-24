@@ -1,6 +1,6 @@
 ---
 slug: vamos-aprender-javascript-para-separar-as-responsabilidades-do-frontend-e-do-backend
-tags: [pt]
+tags: [pt, JavaScript, Frontend, Backend, Dev, Live Coding]
 title: "Vamos aprender JavaScript para separar as responsabilidades do frontend e do backend"
 ---
 

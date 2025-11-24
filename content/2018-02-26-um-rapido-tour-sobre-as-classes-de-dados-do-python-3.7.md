@@ -1,6 +1,6 @@
 ---
 slug: um-rapido-tour-sobre-as-classes-de-dados-do-python-3.7
-tags: [pt]
+tags: [pt, Python, Dev]
 title: Um rápido tour sobre as classes de dados do Python 3.7
 ---
 

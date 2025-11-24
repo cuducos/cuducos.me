@@ -1,6 +1,6 @@
 ---
 slug: ciencias-sociais-e-tecnologia-pergunte-me-como
-tags: [pt]
+tags: [pt, Carreira, Sociologia, Ciências Sociais, Tecnologia Cívica]
 title: "Ciências sociais e tecnologia: pergunte-me como!"
 ---
 

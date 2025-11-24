@@ -1,6 +1,6 @@
 ---
 slug: tecnologia-transparencia-e-politica
-tags: [pt]
+tags: [pt, Tecnologia Cívica, Ciências Sociais]
 title: Tecnologia, transparência e política
 ---
 

@@ -1,6 +1,6 @@
 ---
 slug: como-fazer-seu-primeiro-projeto-de-codigo-aberto-a-historia-do-alchemydumps
-tags: [pt]
+tags: [pt, Python, Flask, Dev, Backend]
 title: "Como fazer seu primeiro projeto de código aberto: a história do AlchemyDumps"
 ---
 

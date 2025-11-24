@@ -1,6 +1,6 @@
 ---
 slug: privacidade-e-nhenhenhes
-tags: [pt]
+tags: [pt, Ciências Sociais]
 title: "Privacidade e nhenhenhés"
 ---
 

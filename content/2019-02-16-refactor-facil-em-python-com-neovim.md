@@ -1,6 +1,6 @@
 ---
 slug: refactor-facil-em-python-com-neovim
-tags: [pt]
+tags: [pt, Python, Neovim]
 title: "Refactor fácil em Python com NeoVim (ou Vim)"
 ---
 

@@ -1,6 +1,6 @@
 ---
 slug: rosie-robot-social-accountability-one-tweet-time-part-2
-tags: [en]
+tags: [en, Serenata de Amor, Civic Tech, Twitter, Social Media]
 title: "Rosie the Robot: Social accountability one tweet at a time – Part 2"
 ---
 

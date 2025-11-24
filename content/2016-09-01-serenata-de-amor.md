@@ -1,6 +1,6 @@
 ---
 slug: serenata-de-amor
-tags: [pt]
+tags: [pt, Serenata de Amor, Tecnologia Cívica]
 title: "Serenata de Amor"
 ---
 

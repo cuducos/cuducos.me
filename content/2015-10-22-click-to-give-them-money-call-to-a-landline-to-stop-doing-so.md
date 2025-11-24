@@ -1,12 +1,12 @@
 ---
 title: Click to give them money, call to a landline to stop doing so
 slug: click-to-give-them-money-call-to-a-landline-to-stop-doing-so
-tags: [en]
+tags: [en, Dark Pattern]
 ---
 
 #### A not-so-online universe, a not-so-digital subscription
 
-Yes, I am just some _gen-whatever_ mumbling about meaningless stuff, and this is just a passive-agressive rant. But I still can smell bits of unfairness, terrible user experience, or unmeasured douchbagness in these two cases you’re about to read. Anyway, here we go.
+Yes, I am just some _gen-whatever_ mumbling about meaningless stuff, and this is just a passive-aggressive rant. But I still can smell bits of unfairness, terrible user experience, or unmeasured douchbagness in these two cases you’re about to read. Anyway, here we go.
 
 <p class="center"><a data-flickr-embed="true"  href="https://www.flickr.com/photos/rachelpasch/2876964774/" title="365/257  Telephone cord"><img src="https://farm4.staticflickr.com/3077/2876964774_dd7cf31dd0.jpg" width="500" height="500" alt="365/257  Telephone cord"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
