@@ -5,8 +5,8 @@
   force = true
 
 [[redirects]]
-  from = "/toot"
-  to = "https://tech.lgbt/@cuducos"
+  from = "/bluesky"
+  to = "https://bsky.app/profile/cuducos.me"
   status = 302
   force = true
 
@@ -38,4 +38,408 @@
   from = "/aaron-swartz"
   to = "/hacktivism"
   status = 302
+  force = true
+
+# old blog backward compatibility
+
+[[redirects]]
+  from = "/2008/06/26/quem-quer-saber-o-que-e-design.html"
+  to = "/quem-quer-saber-o-que-e-design.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2008/08/17/bourdieu-habitus-e-campo.html"
+  to = "/bourdieu-habitus-e-campo.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2008/10/12/apresentando-viviana-zelizer.html"
+  to = "/apresentando-viviana-zelizer.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2008/12/15/designer-ativo-ou-passivo-qual-a-diferenca.html"
+  to = "/designer-ativo-ou-passivo-qual-a-diferenca.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2010/06/18/design-thinking-ou-design-bem-feito.html"
+  to = "/design-thinking-ou-design-bem-feito.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2012/02/28/privacidade-e-nhenhenhes.html"
+  to = "/privacidade-e-nhenhenhes.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2013/12/22/the-worst-work-environment.html"
+  to = "/the-worst-work-environment.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2014/08/08/menos-facebook-menos.html"
+  to = "/menos-facebook-menos.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2015/10/22/click-to-give-them-money-call-to-a-landline-to-stop-doing-so.html"
+  to = "/click-to-give-them-money-call-to-a-landline-to-stop-doing-so.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/02/26/upload-de-arquivos-no-django-entendendo-os-modos-de-leitura.html"
+  to = "/upload-de-arquivos-no-django-entendendo-os-modos-de-leitura.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/03/14/tdd-com-python-e-flask.html"
+  to = "/tdd-com-python-e-flask.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/04/20/franquias-e-cartelizacao-da-internet-no-brasil.html"
+  to = "/franquias-e-cartelizacao-da-internet-no-brasil.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/05/13/autonomia-meus-ultimos-10-anos.html"
+  to = "/autonomia-meus-ultimos-10-anos.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/05/17/mais-mao-na-massa-menos-discussao.html"
+  to = "/mais-mao-na-massa-menos-discussao.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/05/19/chega-de-sim-e-ou-hell-yeah-ou-nao.html"
+  to = "/chega-de-sim-e-ou-hell-yeah-ou-nao.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/05/24/conheca-o-jamie-meu-fermento-natural.html"
+  to = "/conheca-o-jamie-meu-fermento-natural.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/05/25/valsa-do-empreendedor.html"
+  to = "/valsa-do-empreendedor.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/06/01/governos-e-corporacoes-nao-funcionam-mas-isso-nao-e-novidade.html"
+  to = "/governos-e-corporacoes-nao-funcionam-mas-isso-nao-e-novidade.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/06/14/python-webassets-elm.html"
+  to = "/python-webassets-elm.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/06/21/como-fazer-seu-primeiro-projeto-de-codigo-aberto-a-historia-do-alchemydumps.html"
+  to = "/como-fazer-seu-primeiro-projeto-de-codigo-aberto-a-historia-do-alchemydumps.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/06/23/design-thinking-designers-cada-vez-menos-designers.html"
+  to = "/design-thinking-designers-cada-vez-menos-designers.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/09/01/serenata-de-amor.html"
+  to = "/serenata-de-amor.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/09/17/porque-elm.html"
+  to = "/porque-elm.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/10/01/tecnologia-transparencia-e-politica.html"
+  to = "/tecnologia-transparencia-e-politica.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/10/24/vamos-aprender-elm.html"
+  to = "/vamos-aprender-elm.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/10/27/hoje-comecamos-a-aprender-elm.html"
+  to = "/hoje-comecamos-a-aprender-elm.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/10/27/vamos-aprender-elm-sessao-1.html"
+  to = "/vamos-aprender-elm-sessao-1.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/11/03/vamos-aprender-elm-sessao-2.html"
+  to = "/vamos-aprender-elm-sessao-2.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/11/10/vamos-aprender-elm-sessao-3.html"
+  to = "/vamos-aprender-elm-sessao-3.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/11/17/vamos-aprender-elm-sessao-4.html"
+  to = "/vamos-aprender-elm-sessao-4.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/11/24/vamos-aprender-elm-sessao-5.html"
+  to = "/vamos-aprender-elm-sessao-5.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/01/08/pao.html"
+  to = "/pao.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/01/18/mais-uma-mudanca-acidental-na-camara-impacta-a-serenata-de-amor.html"
+  to = "/mais-uma-mudanca-acidental-na-camara-impacta-a-serenata-de-amor.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/01/30/serenata-de-amor-e-transparencia-nos-gastos-publicos.html"
+  to = "/serenata-de-amor-e-transparencia-nos-gastos-publicos.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/02/08/como-cidadaos-empoderados-podem-conversar-com-deputados.html"
+  to = "/como-cidadaos-empoderados-podem-conversar-com-deputados.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/06/12/como-lidar-com-um-legislativo-que-ignora-o-que-ele-mesmo-legisla.html"
+  to = "/como-lidar-com-um-legislativo-que-ignora-o-que-ele-mesmo-legisla.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/06/12/scientists-are-using-twitter-to-battle-brazils-congressional-corruption.html"
+  to = "/scientists-are-using-twitter-to-battle-brazils-congressional-corruption.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/08/11/geradores-do-python-o-que-sao-e-quais-problemas-resolvem.html"
+  to = "/geradores-do-python-o-que-sao-e-quais-problemas-resolvem.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/08/17/ciencias-sociais-e-tecnologia-pergunte-me-como.html"
+  to = "/ciencias-sociais-e-tecnologia-pergunte-me-como.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/08/30/um-mundo-deprimente-gracas-a-diegos-e-jose-eugenios.html"
+  to = "/um-mundo-deprimente-gracas-a-diegos-e-jose-eugenios.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/09/11/elm-e-produtividade.html"
+  to = "/elm-e-produtividade.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/02/26/um-rapido-tour-sobre-as-classes-de-dados-do-python-3.7.html"
+  to = "/um-rapido-tour-sobre-as-classes-de-dados-do-python-3.7.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/03/12/o-que-importa-sao-as-perguntas.html"
+  to = "/o-que-importa-sao-as-perguntas.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/03/22/como-se-comunicar-melhor.html"
+  to = "/como-se-comunicar-melhor.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/04/14/vamos-aprender-javascript-para-separar-as-responsabilidades-do-frontend-e-do-backend.html"
+  to = "/vamos-aprender-javascript-para-separar-as-responsabilidades-do-frontend-e-do-backend.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/06/13/tuplas-e-listas-no-python.html"
+  to = "/tuplas-e-listas-no-python.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/02/16/refactor-facil-em-python-com-neovim.html"
+  to = "/refactor-facil-em-python-com-neovim.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/02/21/a-suspensao-da-rosie-no-twitter-mostra-como-as-regras-para-bots-ainda-precisam-ser-lapidadas.html"
+  to = "/a-suspensao-da-rosie-no-twitter-mostra-como-as-regras-para-bots-ainda-precisam-ser-lapidadas.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/10/29/rosie-robot-social-accountability-one-tweet-time.html"
+  to = "/rosie-robot-social-accountability-one-tweet-time.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/11/05/rosie-robot-social-accountability-one-tweet-time-part-2.html"
+  to = "/rosie-robot-social-accountability-one-tweet-time-part-2.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/11/19/government-as-a-platform-from-social-accountability-to-institutional-reform.html"
+  to = "/government-as-a-platform-from-social-accountability-to-institutional-reform.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2020/03/02/como-eu-descobri-o-que-queria-ser-quando-crescer.html"
+  to = "/como-eu-descobri-o-que-queria-ser-quando-crescer.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2020/07/06/debugando-um-problema-de-recursao-no-python.html"
+  to = "/debugando-um-problema-de-recursao-no-python.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/08/18/dicas-super-simples-e-diretas-para-aprender-uma-linguagem-de-programacao.html"
+  to = "/dicas-super-simples-e-diretas-para-aprender-uma-linguagem-de-programacao.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/08/18/quick-tips-to-learn-a-programming-language.html"
+  to = "/quick-tips-to-learn-a-programming-language.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/09/07/cartilha-de-lua-para-neovim.html"
+  to = "/cartilha-de-lua-para-neovim.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/10/28/desastres-de-um-freela.html"
+  to = "/desastres-de-um-freela.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/11/03/seu-python-esta-com-cheirinho-de-java.html"
+  to = "/seu-python-esta-com-cheirinho-de-java.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/11/23/caminho-plano-para-o-sucesso.html"
+  to = "/caminho-plano-para-o-sucesso.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/11/24/como-organizar-um-projeto-em-django.html"
+  to = "/como-organizar-um-projeto-em-django.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2023/10/02/why-do-i-use-neovim-the-candid-response.html"
+  to = "/why-do-i-use-neovim-the-candid-response.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2025/03/18/do-not-share-a-screenshot-when-asking-for-help.html"
+  to = "/do-not-share-a-screenshot-when-asking-for-help.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2025/03/18/nao-compartilha-captura-de-tela-para-pedir-ajuda.html"
+  to = "/nao-compartilha-captura-de-tela-para-pedir-ajuda.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2025/04/24/python-generators.html"
+  to = "/python-generators.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2025/04/24/tuples-and-lists-in-python.html"
+  to = "/tuples-and-lists-in-python.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2025/06/06/fluxo-linear-de-sucesso.html"
+  to = "/fluxo-linear-de-sucesso.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2025/09/28/it-took-me-two-years-to-re-read-a-book-i-have-read-in-two-weeks.html"
+  to = "/it-took-me-two-years-to-re-read-a-book-i-have-read-in-two-weeks.html"
+  status = 301
   force = true

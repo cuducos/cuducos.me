@@ -1,0 +1,23 @@
+name: Cuducos
+url: https://cuducos.me/
+pagination: 7
+theme: theme
+menu:
+  - ["Blog", "archive.html"]
+
+enable_search: true
+enable_related_content: false
+show_next_prev_links: false
+default_date_format: "%d/%m/%Y"
+publish_urls_json: true
+archives_title: "Blog"
+
+file_mapping:
+  - source: hacktivism
+    dest: ./
+  - source: crowd-funding
+    dest: ./
+  - source: theme/static/favicon.ico
+    dest: favicon.ico
+  - source: theme/static/robots.txt
+    dest: robots.txt

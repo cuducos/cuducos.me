@@ -1,0 +1,6 @@
+{
+  "name": "Cuducos on Marmite Theme",
+  "version": "0.0.1",
+  "author": "Eduardo Cuducos",
+  "marmite_version": ">=0.2.6"
+}

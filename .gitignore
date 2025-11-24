@@ -1,8 +1,1 @@
-.jekyll-cache
-.jekyll-metadata
-.ruby-version
-.sass-cache
-_sass/base
-_sass/bourbon
-_sass/neat
-_site/
+dist/
