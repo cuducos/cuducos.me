@@ -604,7 +604,7 @@ a:hover {
   }
 
   .site-nav ul {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: var(--spacing-sm);
   }
 

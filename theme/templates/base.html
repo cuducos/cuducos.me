@@ -85,7 +85,11 @@
                     <!-- Enable search in marmite.yaml with enable_search: true -->
                     {% if site.enable_search %}
                     <li class="search-toggle">
-                        <i id="search-toggle" class="fa-solid fa-magnifying-glass"></i>
+                        <span class="nav-item">
+                            <a title="Search">
+                              <i id="search-toggle" class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </span>
                     </li>
                     {% endif %}
                 </ul>
