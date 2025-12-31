@@ -1,1 +1,1 @@
-Moved to [`codeberg.org/cuducos/cuducos`](https://codeberg.org/cuducos/cuducos.me).
+Moved to [`tangled.org/cuducos.me/cuducos.me`](https://tangled.org/cuducos.me/cuducos.me).
